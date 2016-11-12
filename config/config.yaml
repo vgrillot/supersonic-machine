@@ -1,0 +1,15 @@
+#config_version=4
+
+window:
+    width: 1280
+    height: 800
+    title: Supersonic pinball prototype
+    resizable: false
+    fullscreen: auto
+    borderless: false
+    exit_on_escape: true
+
+kivy_config:
+    graphics:
+        fbo: force-hardware
+
