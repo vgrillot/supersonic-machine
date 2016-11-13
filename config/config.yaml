@@ -1,5 +1,12 @@
 #config_version=4
 
+config:
+- switchs.yaml
+#- leds.yaml
+- coils.yaml
+- hardware.yaml
+
+
 window:
     width: 1280
     height: 800

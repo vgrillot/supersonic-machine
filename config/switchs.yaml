@@ -1,0 +1,129 @@
+#config_version=4
+
+switches:
+    #   drop target, e=bottom, a=top
+    sw_drop_target_e:
+        number: 1
+    sw_drop_target_d:
+        number: 2
+    sw_drop_target_c:
+        number: 3
+    sw_drop_target_b:
+        number: 4
+    sw_drop_target_a:
+        number: 5
+
+    sw_credit_button:
+        number: 6
+        tags: start
+
+    sw_tilt:
+        number: 7
+        tags: tilt_warning
+    sw_slam_2:
+        number: 16
+
+    sw_outhole:
+        number: 8
+
+    sw_coin_3_right:
+        number: 9
+    sw_coin_1_left:
+        number: 10
+    sw_coin_2_middle:
+        number: 11
+        
+    sw_top_ro_button:
+        number: 12
+
+    sw_drop_target_rebound:
+        number: 13
+
+    sw_right_outlane:
+        number: 14
+    sw_left_outlane:
+        number: 15
+
+    sw_spinner:
+        number: 17
+
+    # top corridors, order is |22|19|21|18|20|
+    sw_top_ro_5:
+        number: 18
+    sw_top_ro_4:
+        number: 19
+    sw_top_ro_3:
+        number: 20
+    sw_top_ro_2:
+        number: 21
+    sw_top_ro_1:
+        number: 22
+
+    sw_fix_target_right_1:
+        number: 202
+    sw_fix_target_right_2:
+        number: 192
+    sw_fix_target_right_3:
+        number: 182
+
+    sw_fix_target_center:
+        number: 222
+
+    # don't understand "L&R flip / Feed lane, Top rt.reb."
+    sw_feed_lane:
+        number: 23
+
+    # ball capture
+    sw_saucer:
+        number: 24
+
+    # there is no number 25
+
+    # 5 STARS ROLL OVER
+    sw_star_5:
+        number: 26
+    sw_star_4:
+        number: 27
+    sw_star_3:
+        number: 28
+    sw_star_2:
+        number: 29
+    sw_star_1:
+        number: 30
+       
+    # SLING SHOTS
+    sw_slingshot_right:
+        number: 31
+    sw_slingshot_left:
+        number: 32
+
+    # BUMPERS
+    sw_bottom_bumper:
+        number: 33
+    sw_right_bumper:
+        number: 39
+    sw_left_bumper:
+        number: 40
+    
+    ### LEFT LANE, 5 is bottom, 1 is top
+    sw_left_lane_ro_button_5:
+        number: 34
+    sw_left_lane_ro_button_4:
+        number: 35
+    sw_left_lane_ro_button_3:
+        number: 36
+    sw_left_lane_ro_button_2:
+        number: 37
+    sw_left_lane_ro_button_1:
+        number: 38
+
+
+    bt_right_flipper:
+        number: 50
+        tags: right_flipper
+    bt_left_flipper:
+        number: 51
+        tags: left_flipper
+
+
+
