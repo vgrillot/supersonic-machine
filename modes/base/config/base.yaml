@@ -1,0 +1,50 @@
+#config_version=4
+
+mode:
+    start_events: ball_starting
+    priority: 100
+
+slide_player:
+    mode_base_started:
+        widgets:
+          - type: text
+            text: (score)
+            number_grouping: true
+            min_digits: 2
+            font_size: 100
+          - type: text
+            text: PLAYER (number)
+            y: 10
+            x: 10
+            font_size: 50
+            anchor_x: left
+            anchor_y: bottom
+          - type: text
+            text: BALL (ball)
+            y: 10
+            x: right - 10
+            anchor_x: right
+            anchor_y: bottom
+            font_size: 50
+          - type: text
+            text: "Pos: (flip)"
+            y: 40%
+
+
+scoring:
+    sw_top_ro_1_active:
+      score: 100
+    sw_top_ro_2_active:
+      score: 100
+    sw_top_ro_3_active:
+      score: 100
+    sw_top_ro_4_active:
+      score: 100
+    sw_top_ro_5_active:
+      score: 100
+
+    sw_left_flipper:
+      flip: -1
+    sw_right_flipper:
+      flip: 1
+

@@ -1,0 +1,86 @@
+#config_version=4
+
+#  KEYBOARD
+
+keyboard:
+    w:
+        switch: bt_left_flipper
+    x:
+        switch: bt_right_flipper
+    h: #hole
+        switch: sw_outhole
+        toggle: true
+    s: #start
+        switch: sw_credit_button
+
+    a:
+        switch: sw_drop_target_e
+        toggle: true
+    b:
+        switch: sw_drop_target_d
+        toggle: true
+    #sw_drop_target_c:
+    #sw_drop_target_b:
+    #sw_drop_target_a:
+    #sw_drop_target_rebound:
+
+    t:
+        switch: sw_tilt
+    #sw_slam_2:
+
+    #sw_top_ro_button:
+    #sw_right_outlane:
+    #sw_left_outlane:
+    #sw_spinner:
+
+    #sw_top_ro_5:
+    #sw_top_ro_4:
+    9:
+        switch: sw_top_ro_3
+    8:
+        switch: sw_top_ro_2
+    7:
+        switch: sw_top_ro_1
+
+    6:
+        switch: sw_fix_target_right_1
+    3:
+        switch: sw_fix_target_right_2
+    #sw_fix_target_right_3
+
+    5:
+        switch: sw_fix_target_center
+
+    #sw_feed_lane:
+
+    u:
+        switch: sw_saucer
+        toggle: true
+
+    #sw_star_5:
+    #sw_star_4:
+    #sw_star_3:
+    #sw_star_2:
+    #sw_star_1:
+
+    l:
+        switch: sw_right_slingshot
+    k:
+        switch: sw_left_slingshot
+
+    # BUMPERS
+    #sw_bottom_bumper
+    1:
+        switch: sw_right_bumper
+    #sw_left_bumper:
+
+    ### LEFT LANE, 5 is bottom, 1 is top
+    v:
+        switch: sw_left_lane_ro_button_5
+    g:
+        switch: sw_left_lane_ro_button_4
+    y:
+        switch: sw_left_lane_ro_button_3
+    #sw_left_lane_ro_button_2
+    #sw_left_lane_ro_button_1
+
