@@ -12,6 +12,9 @@ switches:
         number: 4
     sw_drop_target_a:
         number: 5
+    sw_drop_target_rebound:
+        number: 13
+        tags: playfield_active
 
     sw_credit_button:
         number: 6
@@ -35,9 +38,8 @@ switches:
         
     sw_top_ro_button:
         number: 12
+        tags: playfield_active
 
-    sw_drop_target_rebound:
-        number: 13
 
     sw_right_outlane:
         number: 14
@@ -46,76 +48,103 @@ switches:
 
     sw_spinner:
         number: 17
+        tags: playfield_active
 
     # top corridors, order is |22|19|21|18|20|
     sw_top_ro_5:
         number: 18
+        tags: playfield_active
     sw_top_ro_4:
         number: 19
+        tags: playfield_active
     sw_top_ro_3:
         number: 20
+        tags: playfield_active
     sw_top_ro_2:
         number: 21
+        tags: playfield_active
     sw_top_ro_1:
         number: 22
+        tags: playfield_active
 
     sw_fix_target_right_1:
         number: 202
+        tags: playfield_active
     sw_fix_target_right_2:
         number: 192
+        tags: playfield_active
     sw_fix_target_right_3:
         number: 182
+        tags: playfield_active
 
     sw_fix_target_center:
         number: 222
+        tags: playfield_active
 
     # don't understand "L&R flip / Feed lane, Top rt.reb."
     sw_feed_lane:
         number: 23
+        tags: playfield_active
 
     # ball capture
     sw_saucer:
         number: 24
+        # not playfield active car ca sera un ball device
 
     # there is no number 25
 
     # 5 STARS ROLL OVER
     sw_star_5:
         number: 26
+        tags: playfield_active
     sw_star_4:
         number: 27
+        tags: playfield_active
     sw_star_3:
         number: 28
+        tags: playfield_active
     sw_star_2:
         number: 29
+        tags: playfield_active
     sw_star_1:
         number: 30
-       
+        tags: playfield_active
+
     # SLING SHOTS
-    sw_slingshot_right:
+    sw_right_slingshot:
         number: 31
-    sw_slingshot_left:
+        tags: playfield_active
+    sw_left_slingshot:
         number: 32
+        tags: playfield_active
 
     # BUMPERS
     sw_bottom_bumper:
         number: 33
+        tags: playfield_active
     sw_right_bumper:
         number: 39
+        tags: playfield_active
     sw_left_bumper:
         number: 40
-    
+        tags: playfield_active
+
     ### LEFT LANE, 5 is bottom, 1 is top
     sw_left_lane_ro_button_5:
         number: 34
+        tags: playfield_active
     sw_left_lane_ro_button_4:
         number: 35
+        tags: playfield_active
     sw_left_lane_ro_button_3:
         number: 36
+        tags: playfield_active
     sw_left_lane_ro_button_2:
         number: 37
+        tags: playfield_active
     sw_left_lane_ro_button_1:
         number: 38
+        tags: playfield_active
 
 
     bt_right_flipper:

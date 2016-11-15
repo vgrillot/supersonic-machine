@@ -1,22 +1,59 @@
 #config_version=4
 
 config:
-- switchs.yaml
-#- leds.yaml
-- coils.yaml
-- hardware.yaml
+    - switchs.yaml
+    #- leds.yaml
+    - coils.yaml
+    - hardware.yaml
+    - keyboard.yaml
 
+displays:
+    window:
+        #width: 1280
+        #height: 800
+        width: 640
+        height: 400
 
 window:
-    width: 1280
-    height: 800
+    #width: 1280
+    #height: 800
+    width: 640
+    height: 400
     title: Supersonic pinball prototype
     resizable: false
-    fullscreen: auto
-    borderless: false
+    #fullscreen: auto
+    #borderless: false
     exit_on_escape: true
 
-kivy_config:
-    graphics:
-        fbo: force-hardware
+#kivy_config:
+#    graphics:
+#        fbo: force-hardware
 
+
+slides:
+    welcome_slide:
+        widgets:
+          - type: text
+            text: Super SONIC !
+            font_size: 50
+            color: orange
+          - type: rectangle
+            width: 320
+            height: 60
+    #attract_started:
+    #    widgets:
+    #      - text: ATTRACT MODE
+    #        type: text
+    ball_started:
+        widgets:
+          - type: text
+            text: PLAYER (number) BALL (ball)
+
+slide_player:
+    init_done: welcome_slide
+    #mode_attract_started: attract_started
+    #ball_started: ball_started
+
+
+modes:
+  - base

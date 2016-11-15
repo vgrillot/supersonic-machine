@@ -12,7 +12,7 @@ coils:
 
     co_left_bumper:
         number: 4
-    co_left_bumper:
+    co_right_bumper:
         number: 5
     co_bottom_bumper:
         number: 6
