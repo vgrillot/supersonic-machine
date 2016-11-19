@@ -4,90 +4,118 @@ switches:
     #   drop target, e=bottom, a=top
     sw_drop_target_e:
         number: 1
+        label: sw_drop_target_e
     sw_drop_target_d:
         number: 2
+        label: sw_drop_target_d
     sw_drop_target_c:
         number: 3
+        label: sw_drop_target_c
     sw_drop_target_b:
         number: 4
+        label: sw_drop_target_b
     sw_drop_target_a:
         number: 5
+        label: sw_drop_target_a
     sw_drop_target_rebound:
         number: 13
         tags: playfield_active
+        label: sw_drop_target_rebound
 
     sw_credit_button:
         number: A #6
         tags: start
+        label: sw_credit_button
 
     sw_tilt:
+        label: sw_tilt
         number: 7
         tags: tilt_warning
     sw_slam_2:
+        label: sw_slam_2
         number: 16
 
     sw_outhole:
-        number: 8
+        label: sw_outhole
+        number: H
 
     sw_coin_3_right:
+        label: sw_coin_3_right
         number: 9
     sw_coin_1_left:
+        label: sw_coin_1_left
         number: 10
     sw_coin_2_middle:
+        label: sw_coin_2_middle
         number: 11
         
     sw_top_ro_button:
+        label: sw_top_ro_button
         number: 12
         tags: playfield_active
 
 
     sw_right_outlane:
+        label: sw_right_outlane
         number: 14
     sw_left_outlane:
+        label: sw_left_outlane
         number: 15
 
     sw_spinner:
+        label: sw_spinner
         number: 17
         tags: playfield_active
 
     # top corridors, order is |22|19|21|18|20|
     sw_top_ro_5:
+        label: sw_top_ro_5
         number: 18
         tags: playfield_active
     sw_top_ro_4:
+        label: sw_top_ro_4
         number: 19
         tags: playfield_active
     sw_top_ro_3:
+        label: sw_top_ro_3
         number: 20
         tags: playfield_active
     sw_top_ro_2:
+        label: sw_top_ro_2
         number: M #21
         tags: playfield_active
     sw_top_ro_1:
+        label: sw_top_ro_1
         number: N #22
         tags: playfield_active
 
     sw_fix_target_right_1:
+        label: sw_fix_target_right_1
         number: 202
         tags: playfield_active
     sw_fix_target_right_2:
+        label: sw_fix_target_right_2
         number: 192
         tags: playfield_active
     sw_fix_target_right_3:
+        label: sw_fix_target_right_3
         number: 182
         tags: playfield_active
 
     sw_fix_target_center:
+        label: sw_fix_target_center
         number: 222
         tags: playfield_active
 
     # don't understand "L&R flip / Feed lane, Top rt.reb."
     sw_feed_lane:
+        label: sw_feed_lane
         number: 23
         tags: playfield_active
 
     # ball capture
     sw_saucer:
+        label: sw_saucer
         number: 24
         # not playfield active car ca sera un ball device
 
@@ -95,62 +123,79 @@ switches:
 
     # 5 STARS ROLL OVER
     sw_star_5:
+        label: sw_star_5
         number: 26
         tags: playfield_active
     sw_star_4:
+        label: sw_star_4
         number: 27
         tags: playfield_active
     sw_star_3:
+        label: sw_star_3
         number: 28
         tags: playfield_active
     sw_star_2:
+        label: sw_star_2
         number: 29
         tags: playfield_active
     sw_star_1:
+        label: sw_star_1
         number: 30
         tags: playfield_active
 
     # SLING SHOTS
     sw_right_slingshot:
+        label: sw_right_slingshot
         number: E #31
         tags: playfield_active
     sw_left_slingshot:
+        label: sw_left_slingshot
         number: F #32
         tags: playfield_active
 
     # BUMPERS
     sw_bottom_bumper:
+        label: sw_bottom_bumper
         number: I #33
         tags: playfield_active
     sw_right_bumper:
+        label: sw_right_bumper
         number: J #39
         tags: playfield_active
     sw_left_bumper:
+        label: sw_left_bumper
         number: K #40
         tags: playfield_active
 
     ### LEFT LANE, 5 is bottom, 1 is top
     sw_left_lane_ro_button_5:
+        label: sw_left_lane_ro_button_5
         number: 34
         tags: playfield_active
     sw_left_lane_ro_button_4:
+        label: sw_left_lane_ro_button_4
         number: 35
         tags: playfield_active
     sw_left_lane_ro_button_3:
+        label: sw_left_lane_ro_button_3
         number: 36
         tags: playfield_active
     sw_left_lane_ro_button_2:
+        label: sw_left_lane_ro_button_2
         number: 37
         tags: playfield_active
     sw_left_lane_ro_button_1:
+        label: sw_left_lane_ro_button_1
         number: 38
         tags: playfield_active
 
 
     bt_right_flipper:
+        label: bt_right_flipper
         number: 50
         tags: right_flipper
     bt_left_flipper:
+        label: bt_left_flipper
         number: 51
         tags: left_flipper
 
