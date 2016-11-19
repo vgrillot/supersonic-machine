@@ -3,10 +3,10 @@
 switches:
     #   drop target, e=bottom, a=top
     sw_drop_target_e:
-        number: 1
+        number: O #1
         label: sw_drop_target_e
     sw_drop_target_d:
-        number: 2
+        number: P #2
         label: sw_drop_target_d
     sw_drop_target_c:
         number: 3
@@ -104,7 +104,7 @@ switches:
 
     sw_fix_target_center:
         label: sw_fix_target_center
-        number: 222
+        number: G #222
         tags: playfield_active
 
     # don't understand "L&R flip / Feed lane, Top rt.reb."
@@ -116,7 +116,7 @@ switches:
     # ball capture
     sw_saucer:
         label: sw_saucer
-        number: 24
+        number: D #24
         # not playfield active car ca sera un ball device
 
     # there is no number 25
@@ -140,7 +140,7 @@ switches:
         tags: playfield_active
     sw_star_1:
         label: sw_star_1
-        number: 30
+        number: L #30
         tags: playfield_active
 
     # SLING SHOTS
@@ -192,11 +192,11 @@ switches:
 
     bt_right_flipper:
         label: bt_right_flipper
-        number: 50
+        number: C #50
         tags: right_flipper
     bt_left_flipper:
         label: bt_left_flipper
-        number: 51
+        number: B #51
         tags: left_flipper
 
 
