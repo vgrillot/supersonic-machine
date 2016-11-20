@@ -3,5 +3,120 @@
 led_settings:
     default_led_fade_ms: 100
 
-#leds:
+leds:
+    ld_bonus_1k:
+        number: 1-18
+    ld_bonus_2k:
+        number: 1-1
+    ld_bonus_3k:
+        number: 2-26
+    ld_bonus_4k:
+        number: 2-1
+    ld_bonus_5k:
+        number: 1-19
+    ld_bonus_6k:
+        number: 1-9
+    ld_bonus_7k:
+        number: 2-25
+    ld_bonus_8k:
+        number: 2-12
+    ld_bonus_9k:
+        number: 1-17
+    ld_bonus_10k:
+        number: 1-8
+    ld_bonus_20k:
+        number: 2-19
 
+    ld_top_lane_1:
+        number: 1-23
+    ld_top_lane_2:
+        number: 1-14
+    ld_top_lane_3:
+        number: 1-3
+    ld_top_lane_4:
+        number: 2-17
+    ld_top_lane_5:
+        number: 2-11
+    ld_top_lane_3k_wl:
+        number: 2-9
+
+    ld_jet_stream_star_1k:
+        number: 1-15
+
+    ld_star_1:
+        number: 1-16
+    ld_star_2:
+        number: 1-2
+    ld_star_3:
+        number: 1-7
+    ld_star_4:
+        number: 2-27
+    ld_star_5:
+        number: 2-4
+
+    ld_left_lane_1:
+        number: 1-28
+    ld_left_lane_2:
+        number: 2-16
+    ld_left_lane_3:
+        number: 1-6
+    ld_left_lane_4:
+        number: 1-13
+    ld_left_lane_5:
+        number: 2-2
+
+    ld_bonus_5x:
+        number: 1-24
+
+    ld_left_right_bumper: #?? pq mm lampes ?
+        number: 1-25
+    ld_bottom_bumper:
+        number: 1-11
+
+    ld_not_used_1: #??
+        number: 1-26
+    ld_not_used_2:
+        number: 1-4
+    ld_not_used_3:
+        number: 2-15
+
+    ld_side_target_3k:
+        number: 1-27
+        
+    ld_center_target_3k:
+        number: 1-12
+
+    ld_spinner_1k:
+        number: 1-10
+
+    ld_saucer_5x_bonus_3x:  # 2 lamps on same output ?
+        number: 1-5
+    ld_saucer_3x_bonus_2x:  # 2 lamps on same output ?
+        number: 2-21
+    ld_saucer_2x:
+        number: 2-10
+
+    ld_gate_open:
+        number: 2-23
+
+    ld_right_outlane:
+        number: 2-20
+    ld_left_outlane:
+        number: 2-18
+
+    ld_s_p_s_a: # ???
+        number: 22
+
+    ld_drop_target_x_ball: #??x ?
+        number: 2-24
+    ld_drop_target_special:
+        number: 2-14
+
+    ld_credit_indicator:
+        number: 2-13
+
+    ld_opens_gate_wl:
+        number: 2-3
+
+    ld_feature_lamps_bus: # GI Global Illumination ?
+        number: 2-7
