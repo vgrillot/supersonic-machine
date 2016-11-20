@@ -1,0 +1,42 @@
+#show_version=4
+
+- duration: 1
+  lights:
+      ld_star_1: 'FF0000'
+      ld_star_2: 0
+      ld_star_3: 0
+      ld_star_4: 0
+      ld_star_5: 0
+
+- duration: 1
+  lights:
+      ld_star_1: 0
+      ld_star_2: 00FF00
+      ld_star_3: 0
+      ld_star_4: 0
+      ld_star_5: 0
+
+- duration: 1
+  lights:
+      ld_star_1: 0
+      ld_star_2: 0
+      ld_star_3: 0000FF
+      ld_star_4: 0
+      ld_star_5: 0
+
+- duration: 1
+  lights:
+      ld_star_1: 0
+      ld_star_2: 0
+      ld_star_3: 0
+      ld_star_4: FFFFFF
+      ld_star_5: 0
+
+- duration: 1
+  lights:
+      ld_star_1: 0
+      ld_star_2: 0
+      ld_star_3: 0
+      ld_star_4: 0
+      ld_star_5: FFFFFF
+

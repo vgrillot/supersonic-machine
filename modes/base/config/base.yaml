@@ -42,15 +42,13 @@ scoring:
         score: 100
     sw_top_ro_5_active:
         score: 100
-
     sw_spinner:
         score: 1
-
     sw_drop_target_e:
         score: 100
     sw_drop_target_d:
         score: 100
-    sw_drop_target_c:
+    sw_drwwxxcop_target_c:
         score: 100
     sw_drop_target_b:
         score: 100
@@ -58,21 +56,16 @@ scoring:
         score: 100
     sw_drop_target_rebound:
         score: 10
-
-
     sw_fix_target_right_1:
         score: 50
     sw_fix_target_right_2:
         score: 50
     sw_fix_target_right_3:
         score: 50
-
     sw_top_ro_button:
         score: 1000
-
     sw_fix_target_center:
         score: 500
-
     sw_star_5:
         score: 25
     sw_star_4:
@@ -83,12 +76,10 @@ scoring:
         score: 25
     sw_star_1:
         score: 25
-
     sw_right_slingshot:
         score: 25
     sw_left_slingshot:
         score: 25
-
     sw_bottom_bumper:
         score: 50
     sw_right_bumper:

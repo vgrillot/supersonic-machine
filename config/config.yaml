@@ -2,7 +2,7 @@
 
 config:
     - switchs.yaml
-    #- leds.yaml
+    - leds.yaml
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
@@ -57,3 +57,4 @@ slide_player:
 
 modes:
   - base
+  - attract

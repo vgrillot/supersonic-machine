@@ -65,8 +65,6 @@ leds:
     ld_left_lane_5:
         number: 2-2
 
-    ld_bonus_5x:
-        number: 1-24
 
     ld_left_right_bumper: #?? pq mm lampes ?
         number: 1-25
@@ -80,21 +78,35 @@ leds:
     ld_not_used_3:
         number: 2-15
 
-    ld_side_target_3k:
-        number: 1-27
-        
     ld_center_target_3k:
         number: 1-12
 
     ld_spinner_1k:
         number: 1-10
 
-    ld_saucer_5x_bonus_3x:  # 2 lamps on same output ?
-        number: 1-5
-    ld_saucer_3x_bonus_2x:  # 2 lamps on same output ?
-        number: 2-21
+#    originally got 1 output for 2 leds because:
+#     saucer display next available bonus, then next is 5x when you already lit the 3x
+#    ld_saucer_5x_bonus_3x:  # 2 lamps on same output ?
+#        number: 1-5
+#    ld_saucer_3x_bonus_2x:  # same output because
+#        number: 2-21
+#    ld_saucer_2x:
+#        number: 2-10
+
+    ld_saucer_5x:
+        number: 1-5-a
+    ld_saucer_3x:
+        number: 2-21-a
     ld_saucer_2x:
         number: 2-10
+
+    ld_bonus_5x:
+        number: 1-24
+    ld_bonus_3x:
+        number: 1-5-b
+    ld_bonus_2x:  # same output because
+        number: 2-21-b
+
 
     ld_gate_open:
         number: 2-23
@@ -107,10 +119,12 @@ leds:
     ld_s_p_s_a: # ???
         number: 22
 
-    ld_drop_target_x_ball: #??x ?
+    ld_drop_target_x_ball:  # extral ball
         number: 2-24
     ld_drop_target_special:
         number: 2-14
+    ld_side_target_3k: # should be named ld_drop_target_3k?
+        number: 1-27
 
     ld_credit_indicator:
         number: 2-13
