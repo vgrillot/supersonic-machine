@@ -31,61 +31,64 @@ slide_player:
             y: 40%
 
 
+show_player:
+    mode_base_started: stars_circle
+
 scoring:
-    sw_top_ro_1_active:
-        score: 100
-    sw_top_ro_2_active:
-        score: 100
-    sw_top_ro_3_active:
-        score: 100
-    sw_top_ro_4_active:
-        score: 100
-    sw_top_ro_5_active:
-        score: 100
-    sw_spinner:
+    sw_spinner_active:
         score: 1
-    sw_drop_target_e:
+    sw_drop_target_e_active:
         score: 100
-    sw_drop_target_d:
+    sw_drop_target_d_active:
         score: 100
-    sw_drwwxxcop_target_c:
+    sw_drwwxxcop_target_c_active:
         score: 100
-    sw_drop_target_b:
+    sw_drop_target_b_active:
         score: 100
-    sw_drop_target_a:
+    sw_drop_target_a_active:
         score: 100
-    sw_drop_target_rebound:
+    sw_drop_target_rebound_active:
         score: 10
-    sw_fix_target_right_1:
+    sw_fix_target_right_1_active:
         score: 50
-    sw_fix_target_right_2:
+    sw_fix_target_right_2_active:
         score: 50
-    sw_fix_target_right_3:
+    sw_fix_target_right_3_active:
         score: 50
-    sw_top_ro_button:
+    sw_top_ro_button_active:
         score: 1000
-    sw_fix_target_center:
+    sw_fix_target_center_active:
         score: 500
-    sw_star_5:
+    sw_star_5_active:
         score: 25
-    sw_star_4:
+    sw_star_4_active:
         score: 25
-    sw_star_3:
+    sw_star_3_active:
         score: 25
-    sw_star_2:
+    sw_star_2_active:
         score: 25
-    sw_star_1:
+    sw_star_1_active:
         score: 25
-    sw_right_slingshot:
+    sw_right_slingshot_active:
         score: 25
-    sw_left_slingshot:
+    sw_left_slingshot_active:
         score: 25
-    sw_bottom_bumper:
+    sw_bottom_bumper_active:
         score: 50
-    sw_right_bumper:
+    sw_right_bumper_active:
         score: 50
-    sw_left_bumper:
+    sw_left_bumper_active:
         score: 50
+    sw_top_ro_1_active_active:
+        score: 100
+    sw_top_ro_2_active_active:
+        score: 100
+    sw_top_ro_3_active_active:
+        score: 100
+    sw_top_ro_4_active_active:
+        score: 100
+    sw_top_ro_5_active_active:
+        score: 100
 
 
 

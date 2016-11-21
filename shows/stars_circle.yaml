@@ -1,42 +1,42 @@
 #show_version=4
 
-- duration: 1
+- time: 0
   leds:
-      ld_star_1: blue
+      ld_star_1: yellow
       ld_star_2: off
       ld_star_3: off
       ld_star_4: off
       ld_star_5: off
 
-- duration: 1
+- time: +1
   leds:
       ld_star_1: off
-      ld_star_2: blue
+      ld_star_2: yellow
       ld_star_3: off
       ld_star_4: off
       ld_star_5: off
 
-- duration: 1
+- time: +1
   leds:
       ld_star_1: off
       ld_star_2: off
-      ld_star_3: blue
+      ld_star_3: yellow
       ld_star_4: off
       ld_star_5: off
 
-- duration: 1
+- time: +1
   leds:
       ld_star_1: off
       ld_star_2: off
       ld_star_3: off
       ld_star_4: off
-      ld_star_5: blue
+      ld_star_5: yellow
 
-- duration: 1
+- time: +1
   leds:
       ld_star_1: off
       ld_star_2: off
       ld_star_3: off
-      ld_star_4: blue
+      ld_star_4: yellow
       ld_star_5: off
 

@@ -2,8 +2,8 @@
 
 - duration: 1
   leds:
-      ld_star_1: blue
-      ld_star_2: off
+      ld_star_1: FFFFFF
+      ld_star_2: FF0000
       ld_star_3: off
       ld_star_4: off
       ld_star_5: off
@@ -11,8 +11,8 @@
 - duration: 1
   leds:
       ld_star_1: off
-      ld_star_2: blue
-      ld_star_3: off
+      ld_star_2: FFFFFF
+      ld_star_3: FF0000
       ld_star_4: off
       ld_star_5: off
 
@@ -20,8 +20,8 @@
   leds:
       ld_star_1: off
       ld_star_2: off
-      ld_star_3: blue
-      ld_star_4: off
+      ld_star_3: FFFFFF
+      ld_star_4: FF0000
       ld_star_5: off
 
 - duration: 1
@@ -29,14 +29,14 @@
       ld_star_1: off
       ld_star_2: off
       ld_star_3: off
-      ld_star_4: off
-      ld_star_5: blue
+      ld_star_4: FFFFFF
+      ld_star_5: FF0000
 
 - duration: 1
   leds:
-      ld_star_1: off
+      ld_star_1: FF0000
       ld_star_2: off
       ld_star_3: off
-      ld_star_4: blue
-      ld_star_5: off
+      ld_star_4: off
+      ld_star_5: FFFFFF
 
