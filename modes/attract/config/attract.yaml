@@ -1,11 +1,14 @@
 #config_version=4
 
+
 show_player:
     mode_attract_started:
-        attract_light_show:
-            speed: 4
-            #loops: -1
-            priority: 1
-    mode_attract_started.1:
         attract_display_loop:
             speed: 1
+        stars_circle:
+            speed: 4
+            loop: -1
+            #(color_on): green
+        bonus_ramp:
+            speed: 4
+            loop: -1

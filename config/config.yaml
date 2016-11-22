@@ -58,3 +58,30 @@ slide_player:
 modes:
   - base
   - attract
+
+
+shots:
+    shot_fix_target_center:
+        switch: sw_fix_target_center
+        show_tokens:
+            led: ld_not_used_1
+        profile: profile_just_lit
+
+shot_profiles:
+    profile_fix_target_center:
+        states:
+          - name: unlit
+            show: off
+          - name: flashing
+            show: flash
+          - name: lit
+            show: on
+        loop: yes
+    profile_just_lit:
+        states:
+          - name: unlit
+            show: off
+          - name: lit
+            show: on
+        loop: no
+

@@ -1,0 +1,178 @@
+#show_version=4
+
+- duration: 1
+  leds:
+      ld_bonus_1k: off
+      ld_bonus_2k: off
+      ld_bonus_3k: off
+      ld_bonus_4k: off
+      ld_bonus_5k: off
+      ld_bonus_6k: off
+      ld_bonus_7k: off
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: off
+      ld_bonus_3k: off
+      ld_bonus_4k: off
+      ld_bonus_5k: off
+      ld_bonus_6k: off
+      ld_bonus_7k: off
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: off
+      ld_bonus_4k: off
+      ld_bonus_5k: off
+      ld_bonus_6k: off
+      ld_bonus_7k: off
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: off
+      ld_bonus_5k: off
+      ld_bonus_6k: off
+      ld_bonus_7k: off
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: red
+      ld_bonus_5k: off
+      ld_bonus_6k: off
+      ld_bonus_7k: off
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: red
+      ld_bonus_5k: red
+      ld_bonus_6k: off
+      ld_bonus_7k: off
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: red
+      ld_bonus_5k: red
+      ld_bonus_6k: red
+      ld_bonus_7k: off
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: red
+      ld_bonus_5k: red
+      ld_bonus_6k: red
+      ld_bonus_7k: red
+      ld_bonus_8k: off
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: red
+      ld_bonus_5k: red
+      ld_bonus_6k: red
+      ld_bonus_7k: red
+      ld_bonus_8k: red
+      ld_bonus_9k: off
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: red
+      ld_bonus_5k: red
+      ld_bonus_6k: red
+      ld_bonus_7k: red
+      ld_bonus_8k: red
+      ld_bonus_9k: red
+      ld_bonus_10k: off
+      ld_bonus_20k: off
+
+- duration: 1
+  leds:
+      ld_bonus_1k: red
+      ld_bonus_2k: red
+      ld_bonus_3k: red
+      ld_bonus_4k: red
+      ld_bonus_5k: red
+      ld_bonus_6k: red
+      ld_bonus_7k: red
+      ld_bonus_8k: red
+      ld_bonus_9k: red
+      ld_bonus_10k: red
+      ld_bonus_20k: off
+
+
+- duration: 0.25
+  leds:
+      ld_bonus_20k: red
+
+- duration: 0.25
+  leds:
+      ld_bonus_20k: off
+
+- duration: 0.25
+  leds:
+      ld_bonus_20k: red
+
+- duration: 0.25
+  leds:
+      ld_bonus_20k: off
+
+- duration: 0.25
+  leds:
+      ld_bonus_20k: red
+
+

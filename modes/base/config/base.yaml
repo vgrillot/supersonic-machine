@@ -31,8 +31,12 @@ slide_player:
             y: 40%
 
 
-show_player:
-    mode_base_started: stars_circle
+#show_player:
+#    mode_base_started:
+#        stars_circle:
+#            loop: -1
+#        bonus_ramp:
+#            loop: -1
 
 scoring:
     sw_spinner_active:
@@ -41,7 +45,7 @@ scoring:
         score: 100
     sw_drop_target_d_active:
         score: 100
-    sw_drwwxxcop_target_c_active:
+    sw_drop_target_c_active:
         score: 100
     sw_drop_target_b_active:
         score: 100
@@ -57,8 +61,13 @@ scoring:
         score: 50
     sw_top_ro_button_active:
         score: 1000
-    sw_fix_target_center_active:
+
+    # shot_fix_target_center_hit:  #sw_fix_target_center_active:
+    shot_fix_target_center_profile_just_lit_unlit_hit:
         score: 500
+    shot_fix_target_center_profile_just_lit_lit_hit:
+        score: 100
+
     sw_star_5_active:
         score: 25
     sw_star_4_active:
@@ -79,15 +88,15 @@ scoring:
         score: 50
     sw_left_bumper_active:
         score: 50
-    sw_top_ro_1_active_active:
+    sw_top_ro_1_active:
         score: 100
-    sw_top_ro_2_active_active:
+    sw_top_ro_2_active:
         score: 100
-    sw_top_ro_3_active_active:
+    sw_top_ro_3_active:
         score: 100
-    sw_top_ro_4_active_active:
+    sw_top_ro_4_active:
         score: 100
-    sw_top_ro_5_active_active:
+    sw_top_ro_5_active:
         score: 100
 
 
@@ -96,4 +105,5 @@ scoring:
         flip: -1
     sw_right_flipper:
         flip: 1
+
 
