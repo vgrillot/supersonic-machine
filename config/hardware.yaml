@@ -1,9 +1,5 @@
 #config_version=4
 
-hardware:
-    platform: rasppinball
-
-
 flippers:
     left_flipper:
         main_coil: co_left_flipper_main

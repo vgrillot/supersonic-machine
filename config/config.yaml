@@ -6,6 +6,7 @@ config:
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
+    - rasppinball.yaml
 
 displays:
     window:
