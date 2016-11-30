@@ -5,71 +5,76 @@ led_settings:
 
 leds:
     ld_bonus_1k:
-        number: 10 #1-18
+        number: 19 #1-18
     ld_bonus_2k:
-        number: 11 #1-1
+        number: 20 #1-1
     ld_bonus_3k:
-        number: 12 #2-26
+        number: 21 #2-26
     ld_bonus_4k:
-        number: 13 #2-1
+        number: 22 #2-1
     ld_bonus_5k:
-        number: 14 #1-19
+        number: 23 #1-19
     ld_bonus_6k:
-        number: 15 #1-9
+        number: 24 #1-9
     ld_bonus_7k:
-        number: 16 #2-25
+        number: 25 #2-25
     ld_bonus_8k:
-        number: 17 #2-12
+        number: 26 #2-12
     ld_bonus_9k:
-        number: 18 #1-17
+        number: 27 #1-17
     ld_bonus_10k:
-        number: 19 #1-8
+        number: 28 #1-8
     ld_bonus_20k:
-        number: 20 #2-19
+        number: 29 #2-19
 
     ld_top_lane_1:
-        number: 6 #1-23
+        number: 0 #1-23
     ld_top_lane_2:
-        number: 7 #1-14
+        number: 1 #1-14
     ld_top_lane_3:
-        number: 8 #1-3
+        number: 2 #1-3
     ld_top_lane_4:
-        number: 9 #2-17
+        number: 3 #2-17
     ld_top_lane_5:
-        number: 10 #2-11
+        number: 4 #2-11
+
     ld_top_lane_3k_wl:
-        number: 11 #2-9
+        number: 18 #2-9
 
     ld_jet_stream_star_1k:
         number: 1-15
 
     ld_star_1:
-        number: 1 #1-16
+        number: 8 #1-16
     ld_star_2:
-        number: 2 #1-2
+        number: 9 #1-2
     ld_star_3:
-        number: 3 #1-7
+        number: 10 #1-7
     ld_star_4:
-        number: 4 #2-27
+        number: 12 #2-27
     ld_star_5:
-        number: 5 #2-4
+        number: 11 #2-4
 
     ld_left_lane_1:
-        number: 1-28
+        number: 13 #1-28
     ld_left_lane_2:
-        number: 2-16
+        number: 14 #2-16
     ld_left_lane_3:
-        number: 1-6
+        number: 15 #1-6
     ld_left_lane_4:
-        number: 1-13
+        number: 16 #1-13
     ld_left_lane_5:
-        number: 2-2
+        number: 17 #2-2
 
 
     ld_left_right_bumper: #?? pq mm lampes ?
         number: 1-25
+    ld_left_bumper:
+        number: 5 #do not exists in supersonic
+    ld_right_bumper:
+        number: 6 #do not exists in supersonic
     ld_bottom_bumper:
-        number: 1-11
+        number: 7 #1-11
 
     ld_not_used_1: #??
         number: 1-26

@@ -1,0 +1,30 @@
+#show_version=4
+
+- duration: 1
+  leds:
+      ld_left_lane_1: blue
+      ld_left_lane_2: blue
+      ld_left_lane_3: blue
+      ld_left_lane_4: blue
+      ld_left_lane_5: blue
+
+- duration: 0.2
+  leds:
+      ld_left_lane_1: off
+      ld_left_lane_2: off
+      ld_left_lane_3: off
+      ld_left_lane_4: off
+      ld_left_lane_5: off
+
+
+#    ld_left_lane_1:
+#        number: 13 #1-28
+#    ld_left_lane_2:
+#        number: 14 #2-16
+#    ld_left_lane_3:
+#        number: 15 #1-6
+#    ld_left_lane_4:
+#        number: 16 #1-13
+#    ld_left_lane_5:
+#        number: 17 #2-2
+#

@@ -12,3 +12,9 @@ show_player:
         bonus_ramp:
             speed: 4
             loop: -1
+        bumpers:
+            speed : 4
+            loop: -1
+        left_ramp:
+            speed: 2
+            loop: -1

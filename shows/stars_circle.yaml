@@ -2,7 +2,7 @@
 
 - time: 0
   leds:
-      ld_star_1: yellow
+      ld_star_1: green
       ld_star_2: off
       ld_star_3: off
       ld_star_4: off
@@ -11,7 +11,7 @@
 - time: +1
   leds:
       ld_star_1: off
-      ld_star_2: yellow
+      ld_star_2: green
       ld_star_3: off
       ld_star_4: off
       ld_star_5: off
@@ -20,7 +20,7 @@
   leds:
       ld_star_1: off
       ld_star_2: off
-      ld_star_3: yellow
+      ld_star_3: green
       ld_star_4: off
       ld_star_5: off
 
@@ -30,13 +30,13 @@
       ld_star_2: off
       ld_star_3: off
       ld_star_4: off
-      ld_star_5: yellow
+      ld_star_5: green
 
 - time: +1
   leds:
       ld_star_1: off
       ld_star_2: off
       ld_star_3: off
-      ld_star_4: yellow
+      ld_star_4: green
       ld_star_5: off
 
