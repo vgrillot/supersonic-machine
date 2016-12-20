@@ -4,9 +4,12 @@ hardware:
     platform: rasppinball
     #driverboards: rasp
 
+#bcp:
+#    servers:
+#        ip: None
 
-#rasppinball:
-#    debug: true
+rasppinball:
+    debug: true
 #    #rasp_strip_leds:      #   LED strip configuration:
 #    #    strip_0:
 #    count: 32         #   Number of LED pixels.

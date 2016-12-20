@@ -1,0 +1,78 @@
+Found here:
+http://www.vpforums.org/index.php?showtopic=22205
+
+Posted ImageFile Name: BALLY SUPERSONIC
+File Submitter: serpiko
+File Submitted: 05 Dec 2012
+File Category: VPinMAME 9.x Recreations
+Author(s): SERPIKO
+Manufacturer: Bally
+Year: 1979
+ROM: Link to ROM
+Permission to MOD?: Yes, with approval
+
+Big tanks to:
+Martin BRUNKER for playfield and plastics.
+JP SALAS for few textures and a lot of parts.
+ 
+Supersonic / October 06, 1979 / 4 Players
+Manufacturer:     Bally Manufacturing Corporation (1931-1983) [Trade Name: Bally]
+Model Number:     1106-E
+Common Abbreviations:     SS
+MPU:     Bally MPU AS-2518-35
+Type:     Solid State Electronic (SS)
+Production:     10,340 units   (confirmed)
+Theme:     Aircraft - Historical - Travel
+Notable Features:     Flippers (2), Pop bumpers (3), Slingshots (2), 5-bank drop targets (1), Standup targets (4), Kick-out hole (1), Rollunder spinner (1), Right outlane ball return gate.
+
+Maximum displayed point score is 999,990 points per player.
+
+Design by:     Greg Kmiec
+Art by:     Kevin O'Connor
+
+=================
+
+http://www.vpforums.org/index.php?showtopic=19059
+
+
+The manual says that completing upper lanes (1 - 5) scores 25,000 points at any time. But with the available rules cards there is no rule where this is marked (see below). Also the recommended score for to get a replay is with 120,000 / 260,000 (for 3-ball) and 220,000 / 480,000 (for 5-ball) a little low when scoring 25,000 points with each completion. Is anybody outside there who played this machine in real life or is even an owner of this pinball who can tell me, how it is used? Thanks for help ...
+
+Here are the available rules cards:
+Card M-1508-75-E
+* MAKING 1-2-3-4-5:
+1ST TIME LITES CENTER STAR R.O. BUTTONS TO ADVANCE BONUS.
+2ND TIME LITES JET STREAM R.O. BUTTONS TO ADVANCE BONUS.
+3RD TIME LITES 1-5 LANES & TARGETS FOR 3,000 POINTS
+AND OUTLANES FOR SPECIAL.
+4TH TIME AND EACH ADDITIONAL TIME SCORES SPECIAL AND LITES CENTER STAR
+AND JET STREAM 1,000 POINT LITES.
+BALL THRU OUTLANE WHEN LIT FOR SPECIAL SCORES 1 REPLAY.
+* SPINNER LITES WHEN BALL RETURN GATE IS OPEN.
+* MAXIMUM — 1 EXTRA BALL PER BALL IN PLAY.
+* TILT PENALTY — BALL IN PLAY.
+
+Card M-1508-75-F
+* MAKING 1-2-3-4-5:
+1ST TIME LITES CENTER STAR R.O. BUTTONS TO ADVANCE BONUS.
+2ND TIME LITES JET STREAM R.O. BUTTONS TO ADVANCE BONUS.
+3RD TIME LITES 1-5 LANES & TARGETS FOR 3,000 POINTS AND OUTLANES
+FOR SPECIAL.
+4TH TIME AND EACH ADDITIONAL TIME SCORES EXTRA BALL OR 25,000 POINTS AND
+LITES CENTER STAR AND JET STREAM 1,000 POINT LITES.
+BALL THRU OUTLANE WHEN LIT FOR SPECIAL SCORES EXTRA BALL OR 25,000 POINTS.
+* SPINNER LITES WHEN BALL RETURN GATE IS OPEN.
+* MAXIMUM — 1 EXTRA BALL PER BALL IN PLAY.
+* TILT PENALTY — BALL IN PLAY.
+
+Card M-1508-75-G
+* MAKING 1-2-3-4-5:
+1ST TIME LITES CENTER STAR R.O. BUTTONS TO ADVANCE BONUS.
+2ND TIME LITES JET STREAM R.O. BUTTONS TO ADVANCE BONUS.
+3RD TIME LITES 1-5 LANES & TARGETS FOR 3,000 POINTS AND OUTLANES
+FOR SPECIAL.
+4TH TIME AND EACH ADDITIONAL TIME SCORES 25,000 POINTS.
+BALL THRU OUTLANE WHEN LIT FOR SPECIAL SCORES 25,000 POINTS.
+* ALL TARGETS DOWN WHEN LIT FOR EXTRA BALL OR SPECIAL SCORES 25,000 POINTS.
+* SPINNER LITES WHEN BALL RETURN GATE IS OPEN.
+* TILT PENALTY — BALL IN PLAY. 
+
