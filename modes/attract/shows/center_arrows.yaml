@@ -4,19 +4,19 @@
   leds:
       ld_center_target_3k: white
       ld_center_target_3k_tail: white
-      ld_center_target_1: on
-      ld_center_target_1_tail: on
-
-- duration: 0.1
-  leds:
-      ld_center_target_3k: white
-      ld_center_target_3k_tail: red
       ld_center_target_1: white
       ld_center_target_1_tail: white
 
 - duration: 0.1
   leds:
-      ld_center_target_3k: red
+      ld_center_target_3k: white
+      ld_center_target_3k_tail: blue
+      ld_center_target_1: white
+      ld_center_target_1_tail: white
+
+- duration: 0.1
+  leds:
+      ld_center_target_3k: blue
       ld_center_target_3k_tail: white
       ld_center_target_1: white
       ld_center_target_1_tail: white
@@ -33,12 +33,12 @@
       ld_center_target_3k: white
       ld_center_target_3k_tail: white
       ld_center_target_1: white
-      ld_center_target_1_tail: blue
+      ld_center_target_1_tail: red
 
 - duration: 0.1
   leds:
       ld_center_target_3k: white
       ld_center_target_3k_tail: white
-      ld_center_target_1: blue
+      ld_center_target_1: red
       ld_center_target_1_tail: white
 

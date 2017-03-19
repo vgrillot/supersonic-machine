@@ -2,12 +2,6 @@
 
 - duration: 2
   leds:
-      ld_bonus_5x: red
-      ld_bonus_3x: yellow
-      ld_bonus_2x: green
-
-- duration: 2
-  leds:
       ld_bonus_5x: off
       ld_bonus_3x: off
       ld_bonus_2x: off
