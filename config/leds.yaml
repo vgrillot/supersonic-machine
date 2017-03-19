@@ -41,9 +41,9 @@ leds:
     ld_top_lane_5:
         number: 7 #4 #2-11
 
-    ld_top_lane_3k_wl:
-        number: 1 # 18 #2-9
-    ld_top_lane_3k_wl_right: # this one is duplicated
+    ld_top_lane_3k:
+        number: 3 # 18 #2-9
+    ld_top_lane_3k_right: # this one is duplicated
         number: 9 # 18 #2-9
 
     ld_jet_stream_star_1k:
@@ -93,6 +93,12 @@ leds:
     ld_center_target_3k_tail: # added a second led for insert's tail
         number: 23 #1-12
 
+    ld_center_target_1:
+        number: 25
+    ld_center_target_1_tail:
+        number: 24
+
+
     ld_spinner_1k:
         number: 15 # 1-10
 
@@ -113,11 +119,11 @@ leds:
         number: 14 # 2-10
 
     ld_bonus_5x:
-        number: 30 # 1-24
+        number: 32 # 1-24 # TODO:doesnt light !
     ld_bonus_3x:
         number: 31 # 1-5-b
     ld_bonus_2x:  # same output because
-        number: 32 # 2-21-b
+        number: 30 # 2-21-b
 
 
     ld_gate_open:
@@ -129,7 +135,6 @@ leds:
         number: 21 # 2-20
     ld_left_outlane: # special
         number: 33 # 2-18
-
     ld_s_p_s_a: # ???
         number: 122 # hmmmm...
 

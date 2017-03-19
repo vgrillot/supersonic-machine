@@ -8,6 +8,10 @@ config:
     - keyboard.yaml
     - rasppinball.yaml
 
+#bcp:
+#    servers:
+#       ip: None
+
 displays:
     window:
         #width: 1280

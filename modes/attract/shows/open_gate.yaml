@@ -1,0 +1,43 @@
+#show_version=4
+
+- duration: 2
+  leds:
+      ld_gate_open_wl: off
+      ld_gate_open_wl_tail: off
+
+- duration: 0.1
+  leds:
+      ld_gate_open_wl: off
+      ld_gate_open_wl_tail: red
+
+- duration: 0.1
+  leds:
+      ld_gate_open_wl: red
+      ld_gate_open_wl_tail: yellow
+
+- duration: 0.1
+  leds:
+      ld_gate_open_wl: yellow
+      ld_gate_open_wl_tail: white
+
+- duration: 1
+  leds:
+      ld_gate_open_wl: white
+      ld_gate_open_wl_tail: white
+
+- duration: 0.1
+  leds:
+      ld_gate_open_wl: white
+      ld_gate_open_wl_tail: blue
+
+- duration: 0.1
+  leds:
+      ld_gate_open_wl: blue
+      ld_gate_open_wl_tail: blue
+
+- duration: 0.1
+  leds:
+      ld_gate_open_wl: blue
+      ld_gate_open_wl_tail: off
+
+

@@ -1,0 +1,58 @@
+#show_version=4
+
+- duration: 0.5
+  leds:
+      ld_saucer_5x: off
+      ld_saucer_3x: off
+      ld_saucer_2x: off
+
+- duration: 0.4
+  leds:
+      ld_saucer_5x: off
+      ld_saucer_3x: off
+      ld_saucer_2x: on
+
+- duration: 0.3
+  leds:
+      ld_saucer_5x: off
+      ld_saucer_3x: on
+      ld_saucer_2x: on
+
+- duration: 1
+  leds:
+      ld_saucer_5x: on
+      ld_saucer_3x: on
+      ld_saucer_2x: on
+
+- duration: 0.2
+  leds:
+      ld_saucer_5x: green
+      ld_saucer_3x: green
+      ld_saucer_2x: green
+
+- duration: 0.1
+  leds:
+      ld_saucer_5x: off
+      ld_saucer_3x: off
+      ld_saucer_2x: off
+
+- duration: 0.2
+  leds:
+      ld_saucer_5x: green
+      ld_saucer_3x: green
+      ld_saucer_2x: green
+
+- duration: 0.1
+  leds:
+      ld_saucer_5x: off
+      ld_saucer_3x: off
+      ld_saucer_2x: off
+
+- duration: 0.2
+  leds:
+      ld_saucer_5x: green
+      ld_saucer_3x: green
+      ld_saucer_2x: green
+
+
+
