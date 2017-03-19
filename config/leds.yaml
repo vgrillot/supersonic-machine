@@ -1,93 +1,100 @@
 #config_version=4
 
+# consider there is 2 test leds in the led ruban in first positions
+# every led count must be inc by 2.
+
 led_settings:
     default_led_fade_ms: 100
 
 leds:
     ld_bonus_1k:
-        number: 19 #1-18
+        number: 100 #19 #1-18
     ld_bonus_2k:
-        number: 20 #1-1
+        number: 101 #20 #1-1
     ld_bonus_3k:
-        number: 21 #2-26
+        number: 102 #21 #2-26
     ld_bonus_4k:
-        number: 22 #2-1
+        number: 103 #22 #2-1
     ld_bonus_5k:
-        number: 23 #1-19
+        number: 104 #23 #1-19
     ld_bonus_6k:
-        number: 24 #1-9
+        number: 105# 24 #1-9
     ld_bonus_7k:
-        number: 25 #2-25
+        number: 106# 25 #2-25
     ld_bonus_8k:
-        number: 26 #2-12
+        number: 107# 26 #2-12
     ld_bonus_9k:
-        number: 27 #1-17
+        number: 108 # 27 #1-17
     ld_bonus_10k:
-        number: 28 #1-8
+        number: 109 #28 #1-8
     ld_bonus_20k:
-        number: 29 #2-19
+        number: 110 # 29 #2-19
 
     ld_top_lane_1:
-        number: 0 #1-23
+        number: 4 #0 #1-23
     ld_top_lane_2:
-        number: 1 #1-14
+        number: 6 #1 #1-14
     ld_top_lane_3:
-        number: 2 #1-3
+        number: 8 #2 #1-3
     ld_top_lane_4:
-        number: 3 #2-17
+        number: 5 #3 #2-17
     ld_top_lane_5:
-        number: 4 #2-11
+        number: 7 #4 #2-11
 
     ld_top_lane_3k_wl:
-        number: 18 #2-9
+        number: 1 # 18 #2-9
+    ld_top_lane_3k_wl_right: # this one is duplicated
+        number: 9 # 18 #2-9
 
     ld_jet_stream_star_1k:
-        number: 1-15
+        number: 999 #1-15 # TODO still no led here...
 
     ld_star_1:
-        number: 8 #1-16
+        number: 998 #8 #1-16 # TODO
     ld_star_2:
-        number: 9 #1-2
+        number: 997 #9 #1-2 # TODO
     ld_star_3:
-        number: 10 #1-7
+        number: 996 # 10 #1-7 # TODO
     ld_star_4:
-        number: 12 #2-27
+        number: 995 # 12 #2-27 # TODO
     ld_star_5:
-        number: 11 #2-4
+        number: 994 # 11 #2-4 # TODO
 
     ld_left_lane_1:
-        number: 13 #1-28
+        number: 38 # 13 #1-28
     ld_left_lane_2:
-        number: 14 #2-16
+        number: 37 # 14 #2-16
     ld_left_lane_3:
-        number: 15 #1-6
+        number: 36 #15 #1-6
     ld_left_lane_4:
-        number: 16 #1-13
+        number: 35 # 16 #1-13
     ld_left_lane_5:
-        number: 17 #2-2
+        number: 34 # 17 #2-2
 
 
     ld_left_right_bumper: #?? pq mm lampes ?
-        number: 1-25
+        number: 993 # 1-25 # TODO
     ld_left_bumper:
-        number: 5 #do not exists in supersonic
+        number: 992 # 5 #do not exists in supersonic #TODO
     ld_right_bumper:
-        number: 6 #do not exists in supersonic
+        number: 991 # 6 #do not exists in supersonic # TODO
     ld_bottom_bumper:
-        number: 7 #1-11
+        number: 990 # 7 #1-11 # TODO
 
     ld_not_used_1: #??
-        number: 1-26
+        number: 989 # 1-26
     ld_not_used_2:
-        number: 1-4
+        number: 988# 1-4
     ld_not_used_3:
-        number: 2-15
+        number: 987 # 2-15
 
     ld_center_target_3k:
-        number: 1-12
+        number: 26 # 1-12
+    ld_center_target_3k_tail: # added a second led for insert's tail
+        number: 23 #1-12
 
     ld_spinner_1k:
-        number: 1-10
+        number: 15 # 1-10
 
 #    originally got 1 output for 2 leds because:
 #     saucer display next available bonus, then next is 5x when you already lit the 3x
@@ -99,43 +106,47 @@ leds:
 #        number: 2-10
 
     ld_saucer_5x:
-        number: 1-5-a
+        number: 12 # 1-5-a
     ld_saucer_3x:
-        number: 2-21-a
+        number: 13 # 2-21-a
     ld_saucer_2x:
-        number: 2-10
+        number: 14 # 2-10
 
     ld_bonus_5x:
-        number: 1-24
+        number: 30 # 1-24
     ld_bonus_3x:
-        number: 1-5-b
+        number: 31 # 1-5-b
     ld_bonus_2x:  # same output because
-        number: 2-21-b
+        number: 32 # 2-21-b
 
 
     ld_gate_open:
-        number: 2-23
+        number: 22 # 2-23
+    ld_gate_open_tail: # added a second led for insert's tail
+        number: 20 # 2-23
 
-    ld_right_outlane:
-        number: 2-20
-    ld_left_outlane:
-        number: 2-18
+    ld_right_outlane: # special
+        number: 21 # 2-20
+    ld_left_outlane: # special
+        number: 33 # 2-18
 
     ld_s_p_s_a: # ???
-        number: 22
+        number: 122 # hmmmm...
 
     ld_drop_target_x_ball:  # extral ball
-        number: 2-24
+        number: 29 # 2-24
     ld_drop_target_special:
-        number: 2-14
+        number: 27 # 2-14
     ld_side_target_3k: # should be named ld_drop_target_3k?
-        number: 1-27
+        number: 28 # 1-27
 
     ld_credit_indicator:
         number: 2-13
 
     ld_opens_gate_wl:
-        number: 2-3
+        number: 10 # 2-3
+    ld_opens_gate_wl_tail: # added a second led for insert's tail
+        number: 11 # 2-3
 
-    ld_feature_lamps_bus: # GI Global Illumination ?
+    ld_feature_lamps_bus: # GI Global Illumination 
         number: 2-7
