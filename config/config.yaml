@@ -31,9 +31,9 @@ window:
     #borderless: false
     exit_on_escape: true
 
-#kivy_config:
-#    graphics:
-#        fbo: force-hardware
+kivy_config:
+    graphics:
+        fbo: force-hardware
 
 
 slides:
