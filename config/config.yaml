@@ -9,6 +9,10 @@ config:
 #    - rasppinball.yaml
     - shots.yaml
 
+#bcp:
+#    servers:
+#       ip: None
+
 displays:
     window:
         #width: 1280
@@ -27,9 +31,9 @@ window:
     #borderless: false
     exit_on_escape: true
 
-#kivy_config:
-#    graphics:
-#        fbo: force-hardware
+kivy_config:
+    graphics:
+        fbo: force-hardware
 
 
 slides:

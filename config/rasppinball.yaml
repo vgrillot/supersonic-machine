@@ -2,6 +2,7 @@
 
 hardware:
     platform: rasppinball
+    #debug: true
     #driverboards: rasp
 
 #bcp:

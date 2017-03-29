@@ -1,0 +1,74 @@
+events:
+  game_ended: 13
+  game_started: 16
+player:
+  score:
+    average: 1750.0
+    top:
+    - 4400
+    - 3600
+    - 2700
+    - 2525
+    - 2500
+    - 2100
+    - 2100
+    - 1400
+    - 1350
+    - 1250
+    total: 14
+shots:
+  shot_drop_target_a: 2
+  shot_drop_target_b: 1
+  shot_drop_target_c: 1
+  shot_drop_target_d: 1
+  shot_drop_target_e: 11
+  shot_fix_target_center: 22
+  shot_top_ro_1: 10
+  shot_top_ro_2: 10
+  shot_top_ro_4: 1
+switches:
+  bt_left_flipper: 59
+  bt_right_flipper: 117
+  sw_bottom_bumper: 39
+  sw_coin_1_left: 0
+  sw_coin_2_middle: 0
+  sw_coin_3_right: 0
+  sw_credit_button: 4
+  sw_drop_target_a: 2
+  sw_drop_target_b: 1
+  sw_drop_target_c: 1
+  sw_drop_target_d: 9
+  sw_drop_target_e: 34
+  sw_drop_target_rebound: 0
+  sw_feed_lane: 0
+  sw_fix_target_center: 53
+  sw_fix_target_right_1: 0
+  sw_fix_target_right_2: 0
+  sw_fix_target_right_3: 0
+  sw_left_bumper: 59
+  sw_left_lane_ro_button_1: 0
+  sw_left_lane_ro_button_2: 0
+  sw_left_lane_ro_button_3: 0
+  sw_left_lane_ro_button_4: 0
+  sw_left_lane_ro_button_5: 0
+  sw_left_outlane: 0
+  sw_left_slingshot: 55
+  sw_outhole: 57
+  sw_right_bumper: 52
+  sw_right_outlane: 0
+  sw_right_slingshot: 32
+  sw_saucer: 9
+  sw_slam_2: 0
+  sw_spinner: 0
+  sw_star_1: 1
+  sw_star_2: 2
+  sw_star_3: 0
+  sw_star_4: 0
+  sw_star_5: 0
+  sw_tilt: 0
+  sw_top_ro_1: 100
+  sw_top_ro_2: 88
+  sw_top_ro_3: 0
+  sw_top_ro_4: 1
+  sw_top_ro_5: 0
+  sw_top_ro_button: 0
