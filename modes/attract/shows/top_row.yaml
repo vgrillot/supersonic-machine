@@ -1,0 +1,83 @@
+#show_version=4
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: red
+      ld_top_lane_5: off
+      ld_top_lane_2: off
+      ld_top_lane_4: off
+      ld_top_lane_1: off
+      ld_top_lane_3k: blue
+      ld_top_lane_3k_right: off
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: off
+      ld_top_lane_5: red
+      ld_top_lane_2: off
+      ld_top_lane_4: off
+      ld_top_lane_1: off
+      ld_top_lane_3k: off
+      ld_top_lane_3k_right: red
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: off
+      ld_top_lane_5: off
+      ld_top_lane_2: red
+      ld_top_lane_4: off
+      ld_top_lane_1: off
+      ld_top_lane_3k: white
+      ld_top_lane_3k_right: off
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: off
+      ld_top_lane_5: off
+      ld_top_lane_2: off
+      ld_top_lane_4: red
+      ld_top_lane_1: off
+      ld_top_lane_3k: off
+      ld_top_lane_3k_right: blue
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: off
+      ld_top_lane_5: off
+      ld_top_lane_2: off
+      ld_top_lane_4: off
+      ld_top_lane_1: red
+      ld_top_lane_3k: red
+      ld_top_lane_3k_right: white
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: off
+      ld_top_lane_5: off
+      ld_top_lane_2: off
+      ld_top_lane_4: red
+      ld_top_lane_1: off
+      ld_top_lane_3k: white
+      ld_top_lane_3k_right: off
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: off
+      ld_top_lane_5: off
+      ld_top_lane_2: red
+      ld_top_lane_4: off
+      ld_top_lane_1: off
+      ld_top_lane_3k: off
+      ld_top_lane_3k_right: blue
+
+- duration: 0.2 
+  leds:
+      ld_top_lane_3: off
+      ld_top_lane_5: red
+      ld_top_lane_2: off
+      ld_top_lane_4: off
+      ld_top_lane_1: off
+      ld_top_lane_3k: red
+      ld_top_lane_3k_right: white
+
+

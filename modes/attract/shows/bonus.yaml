@@ -1,0 +1,39 @@
+#show_version=4
+
+- duration: 2
+  leds:
+      ld_bonus_5x: off
+      ld_bonus_3x: off
+      ld_bonus_2x: off
+
+- duration: 0.5
+  leds:
+      ld_bonus_5x: on
+      ld_bonus_3x: off
+      ld_bonus_2x: off
+
+- duration: 0.5
+  leds:
+      ld_bonus_5x: on
+      ld_bonus_3x: on
+      ld_bonus_2x: off
+
+- duration: 0.5
+  leds:
+      ld_bonus_5x: on
+      ld_bonus_3x: on
+      ld_bonus_2x: on
+
+- duration: 0.5
+  leds:
+      ld_bonus_5x: off
+      ld_bonus_3x: on
+      ld_bonus_2x: on
+
+- duration: 0.5
+  leds:
+      ld_bonus_5x: off
+      ld_bonus_3x: off
+      ld_bonus_2x: on
+
+
