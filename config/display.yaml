@@ -1,0 +1,41 @@
+# config_version=4
+# duplicate from NBX (The Nightmare Before Christmas Pinball)
+
+window:
+  width: 800
+  height: 600
+  fullscreen: false
+  borderless: false
+  title: Supersonic!
+  resizable: true
+  exit_on_escape: true
+
+displays:
+  window:
+    width: 1280
+    height: 768
+  dmd:
+    width: 210
+    height: 128
+    default: true
+
+slides:
+  backglass:
+    - type: common
+      color: yellow
+  dmd_parent:
+    - type: color_dmd
+      width: 1260
+      height: 768
+      gain: 1.15
+      bg_color: 020202ff
+      blur: 0.1
+      pixel_size: 0.85
+      dot_filter: True
+
+slide_player:
+  mc_ready:
+    dmd_parent:
+      target: window
+
+

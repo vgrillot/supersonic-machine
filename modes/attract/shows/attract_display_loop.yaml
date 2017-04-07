@@ -7,7 +7,7 @@
       widgets:
       - type: text
         text: SuperSonic !
-        font_size: 50
+        font_size: 30
       transition:
          type: push
          duration: 1s
