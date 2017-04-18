@@ -2,30 +2,30 @@
 
 coils:
     co_outhole_kicker:
-        number: 1
+        number: 42
 
     co_knocker:
-        number: 2
+        number: 0
 
     co_saucer:
-        number: 3
+        number: 26
 
     co_left_bumper:
-        number: 4
+        number: 46
     co_right_bumper:
-        number: 5
+        number: 30
     co_bottom_bumper:
-        number: 6
+        number: 32
 
     co_left_slingshot:
-        number: 7
+        number: 44
     co_right_slingshot:
-        number: 8
+        number: 28
 
     co_drop_targer_reset:
-        number: 9
+        number: 36
     co_lower_right_gate:
-        number: 10
+        number: 34
 
     #co_coin_lockout_door:
     #    number: 11
