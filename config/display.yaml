@@ -25,8 +25,8 @@ slides:
 #      color: yellow
   dmd_parent:
     - type: color_dmd
-      width: 1260
-      height: 768
+      width: 630
+      height: 384
       gain: 1.15
       bg_color: 020202ff
       blur: 0.1
