@@ -18,7 +18,8 @@ kivy_config:
     graphics:
         fbo: force-hardware
 
-
+mpf:
+  default_pulse_ms: 50
 
 
 modes:
