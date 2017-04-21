@@ -32,3 +32,25 @@ show_player:
         special:
             speed: 2
             loop: -1          
+
+    mode_attract_stopped:
+        attract_display_loop:
+            action: stop
+        left_ramp:
+            action: stop
+        top_row:
+            action: stop
+        drop_target:
+            action: stop
+        saucer:
+            action: stop
+        bonus:
+            action: stop
+        gate_open:
+            action: stop
+        open_gate:
+            action: stop
+        center_arrows:
+            action: stop
+        special:
+            action: stop
