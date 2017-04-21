@@ -37,12 +37,12 @@ switches:
 
     sw_outhole:
         label: sw_outhole
-        number: 08
+        number: 8
         # see device... tags: drain, trough, home
 
     sw_coin_3_right:
         label: sw_coin_3_right
-        number: 09
+        number: 9
     sw_coin_1_left:
         label: sw_coin_1_left
         number: 10
