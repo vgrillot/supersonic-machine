@@ -32,6 +32,7 @@ slides:
       blur: 0.1
       pixel_size: 0.85
       dot_filter: True
+      dark_color: 050505ff
 
 slide_player:
   mc_ready:

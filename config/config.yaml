@@ -14,9 +14,9 @@ config:
 #    servers:
 #       ip: None
 
-kivy_config:
-    graphics:
-        fbo: force-hardware
+#kivy_config:
+#    graphics:
+#        fbo: force-hardware
 
 mpf:
   default_pulse_ms: 50
