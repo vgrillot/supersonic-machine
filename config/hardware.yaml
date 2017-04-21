@@ -3,13 +3,13 @@
 flippers:
     left_flipper:
         main_coil: co_left_flipper_main
-        hold_coil: co_left_flipper_hold
+        #hold_coil: co_left_flipper_hold
         activation_switch: bt_left_flipper
         #enable_events: machine_reset_phase_3
 
     right_flipper:
         main_coil: co_right_flipper_main
-        hold_coil: co_right_flipper_hold
+        #hold_coil: co_right_flipper_hold
         activation_switch: bt_right_flipper
         #enable_events: machine_reset_phase_3
 
@@ -23,6 +23,11 @@ ball_devices:
         #exit_delay_count: 300ms
         debug: yes
         #eject_targets: playfield
+
+    bd_bonus_hole:
+        ball_switches: sw_saucer
+        eject_coil: co_saucer
+        eject_timeouts: 1s
 
 
 

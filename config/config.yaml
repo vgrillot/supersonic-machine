@@ -6,7 +6,7 @@ config:
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
-#    - rasppinball.yaml
+    - rasppinball.yaml
     - shots.yaml
     - display.yaml
 
@@ -14,11 +14,12 @@ config:
 #    servers:
 #       ip: None
 
-kivy_config:
-    graphics:
-        fbo: force-hardware
+#kivy_config:
+#    graphics:
+#        fbo: force-hardware
 
-
+mpf:
+  default_pulse_ms: 50
 
 
 modes:

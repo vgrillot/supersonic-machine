@@ -2,45 +2,49 @@
 
 coils:
     co_outhole_kicker:
-        number: 1
+        number: 42
+        pulse_ms: 30
 
     co_knocker:
-        number: 2
+        number: 0
 
     co_saucer:
-        number: 3
+        number: 26
+        pulse_ms: 30
 
     co_left_bumper:
-        number: 4
+        number: 46
+        pulse_ms: 50
     co_right_bumper:
-        number: 5
+        number: 30
+        pulse_ms: 50
     co_bottom_bumper:
-        number: 6
+        number: 32
+        pulse_ms: 50
 
     co_left_slingshot:
-        number: 7
+        number: 44
+        pulse_ms: 50
     co_right_slingshot:
-        number: 8
+        number: 28
+        pulse_ms: 50
 
     co_drop_targer_reset:
-        number: 9
+        number: 36
+        pulse_ms: 30
+
     co_lower_right_gate:
-        number: 10
+        number: 34
 
     #co_coin_lockout_door:
     #    number: 11
+
     #relay_flipper_enable:
     #    number: 12
 
     co_left_flipper_main:
-        number: 50
-    co_left_flipper_hold:
-        number: 51
-        allow_enable: true
+        number: 40
     co_right_flipper_main:
-        number: 52
-    co_right_flipper_hold:
-        number: 53
-        allow_enable: true
+        number: 38
 
         

@@ -3,19 +3,19 @@
 switches:
     #   drop target, e=bottom, a=top
     sw_drop_target_e:
-        number: O #1
+        number: 01
         label: sw_drop_target_e
     sw_drop_target_d:
-        number: P #2
+        number: 02
         label: sw_drop_target_d
     sw_drop_target_c:
-        number: 3
+        number: 03
         label: sw_drop_target_c
     sw_drop_target_b:
-        number: 4
+        number: 04
         label: sw_drop_target_b
     sw_drop_target_a:
-        number: 5
+        number: 05
         label: sw_drop_target_a
     sw_drop_target_rebound:
         number: 13
@@ -23,7 +23,7 @@ switches:
         label: sw_drop_target_rebound
 
     sw_credit_button:
-        number: A #6
+        number: 103 
         tags: start
         label: sw_credit_button
 
@@ -37,11 +37,12 @@ switches:
 
     sw_outhole:
         label: sw_outhole
-        number: H
+        number: 08
+        # see device... tags: drain, trough, home
 
     sw_coin_3_right:
         label: sw_coin_3_right
-        number: 9
+        number: 09
     sw_coin_1_left:
         label: sw_coin_1_left
         number: 10
@@ -82,11 +83,11 @@ switches:
         tags: playfield_active
     sw_top_ro_2:
         label: sw_top_ro_2
-        number: M #21
+        number: 21
         tags: playfield_active
     sw_top_ro_1:
         label: sw_top_ro_1
-        number: N #22
+        number: 22
         tags: playfield_active
 
     sw_fix_target_right_1:
@@ -104,7 +105,7 @@ switches:
 
     sw_fix_target_center:
         label: sw_fix_target_center
-        number: G #222
+        number: 222
         tags: playfield_active
 
     # don't understand "L&R flip / Feed lane, Top rt.reb."
@@ -116,7 +117,7 @@ switches:
     # ball capture
     sw_saucer:
         label: sw_saucer
-        number: D #24
+        number: 24
         # not playfield active car ca sera un ball device
 
     # there is no number 25
@@ -140,31 +141,31 @@ switches:
         tags: playfield_active
     sw_star_1:
         label: sw_star_1
-        number: L #30
+        number: 30
         tags: playfield_active
 
     # SLING SHOTS
     sw_right_slingshot:
         label: sw_right_slingshot
-        number: E #31
+        number: 31
         tags: playfield_active
     sw_left_slingshot:
         label: sw_left_slingshot
-        number: F #32
+        number: 32
         tags: playfield_active
 
     # BUMPERS
     sw_bottom_bumper:
         label: sw_bottom_bumper
-        number: I #33
+        number: 33
         tags: playfield_active
     sw_right_bumper:
         label: sw_right_bumper
-        number: J #39
+        number: 39
         tags: playfield_active
     sw_left_bumper:
         label: sw_left_bumper
-        number: K #40
+        number: 40
         tags: playfield_active
 
     ### LEFT LANE, 5 is bottom, 1 is top
@@ -192,11 +193,11 @@ switches:
 
     bt_right_flipper:
         label: bt_right_flipper
-        number: C #50
+        number: 102
         tags: right_flipper
     bt_left_flipper:
         label: bt_left_flipper
-        number: B #51
+        number: 101
         tags: left_flipper
 
 

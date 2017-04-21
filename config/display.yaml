@@ -20,18 +20,19 @@ displays:
     default: true
 
 slides:
-  backglass:
-    - type: common
-      color: yellow
+#  backglass:
+#    - type: common
+#      color: yellow
   dmd_parent:
     - type: color_dmd
-      width: 1260
-      height: 768
+      width: 630
+      height: 384
       gain: 1.15
       bg_color: 020202ff
       blur: 0.1
       pixel_size: 0.85
       dot_filter: True
+      dark_color: 050505ff
 
 slide_player:
   mc_ready:

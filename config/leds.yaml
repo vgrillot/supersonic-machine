@@ -4,7 +4,7 @@
 # every led count must be inc by 2.
 
 led_settings:
-    default_led_fade_ms: 100
+    default_led_fade_ms: 00
 
 leds:
     ld_bonus_1k:
@@ -18,11 +18,11 @@ leds:
     ld_bonus_5k:
         number: 104 #23 #1-19
     ld_bonus_6k:
-        number: 105# 24 #1-9
+        number: 105 # 24 #1-9
     ld_bonus_7k:
-        number: 106# 25 #2-25
+        number: 106 # 25 #2-25
     ld_bonus_8k:
-        number: 107# 26 #2-12
+        number: 107 # 26 #2-12
     ld_bonus_9k:
         number: 108 # 27 #1-17
     ld_bonus_10k:
@@ -84,7 +84,7 @@ leds:
     ld_not_used_1: #??
         number: 989 # 1-26
     ld_not_used_2:
-        number: 988# 1-4
+        number: 988 # 1-4
     ld_not_used_3:
         number: 987 # 2-15
 
@@ -146,7 +146,7 @@ leds:
         number: 28 # 1-27
 
     ld_credit_indicator:
-        number: 2-13
+        number: 888 #2-13
 
     ld_opens_gate_wl:
         number: 10 # 2-3
@@ -154,4 +154,4 @@ leds:
         number: 11 # 2-3
 
     ld_feature_lamps_bus: # GI Global Illumination 
-        number: 2-7
+        number: 889 #2-7
