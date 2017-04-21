@@ -1,1 +1,1 @@
-sudo mpf both -v
+sudo mpf both
