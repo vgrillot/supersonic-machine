@@ -24,6 +24,11 @@ ball_devices:
         debug: yes
         #eject_targets: playfield
 
+    bd_bonus_hole:
+        ball_switches: sw_saucer
+        eject_coil: co_saucer
+        eject_timeouts: 1s
+
 
 
 autofire_coils:
