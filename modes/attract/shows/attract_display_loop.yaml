@@ -35,12 +35,12 @@
               duration: .5s
               repeat: -1
         anchor_y: top
-        y: top + 5
+        y: top -2
       - type: Text
         text: FREE PLAY
         color: green
         anchor_y: bottom
-        y: bottom
+        y: bottom + 2
       transition:
          type: move_in
          duration: 1s

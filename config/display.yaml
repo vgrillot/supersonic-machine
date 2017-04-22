@@ -102,7 +102,7 @@ slides:
       z: 9
     # score lcd
     - type: text
-      text: 13370
+      text: (score)
       number_grouping: true
       min_digits: 2
       y: 545
