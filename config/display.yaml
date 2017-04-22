@@ -2,8 +2,8 @@
 # duplicate from NBX (The Nightmare Before Christmas Pinball)
 
 window:
-  width: 800
-  height: 600
+  width: 1280
+  height: 768
   fullscreen: false
   borderless: false
   title: Supersonic!
@@ -15,28 +15,116 @@ displays:
     width: 1280
     height: 768
   dmd:
-    width: 210
-    height: 128
+    width: 128
+    height: 32
     default: true
+
+
+
+widget_styles:
+  text_default:
+    font_name: Quadrit
+    font_size: 10
+    adjust_top: 2
+    adjust_bottom: 3
+  space title huge:
+    font_name: DEADJIM
+    font_size: 29
+    antialias: true
+    adjust_top: 3
+    adjust_bottom: 3
+  space title:
+    font_name: DEADJIM
+    font_size: 21
+    antialias: true
+    adjust_top: 2
+    adjust_bottom: 3
+  medium:
+    font_name: pixelmix
+    font_size: 8
+    adjust_top: 1
+    adjust_bottom: 1
+  small:
+    font_name: smallest_pixel-7
+    font_size: 9
+    adjust_top: 2
+    adjust_bottom: 3
+  tall_title:
+    font_name: big_noodle_titling
+    font_size: 20
+  lcd:
+    font_name: digital-7-mono
+    font_size: 50
+    color: orange
+
 
 slides:
 #  backglass:
 #    - type: common
 #      color: yellow
   dmd_parent:
-    - type: color_dmd
-      width: 630
-      height: 384
+    widgets:
+    # the backglass
+    - type: image
+      image: backglass
+      anchor_y: center
+      anchor_x: center
+      x: center
+      y: center-30
+      width: 1400
+      height: 800
+      z: 0
+      allow_stretch: true
+
+    # the fake dmd
+    - type: color_dmd     # RTFM: source_display = dmd, a color_dmd render automatically to the "dmd" logical display
+      width: 1024
+      height: 256
       gain: 1.15
       bg_color: 020202ff
       blur: 0.1
       pixel_size: 0.85
       dot_filter: True
       dark_color: 050505ff
+      anchor_y: bottom
+      anchor_x: center
+      y: 10
+      x: center
+      z: 10
+    # dmd coutour
+    - type: rectangle
+      width: 1026
+      height: 258
+      anchor_y: bottom
+      anchor_x: center
+      y: 9
+      x: center
+      z: 9
+    # score lcd
+    - type: text
+      text: 13370
+      number_grouping: true
+      min_digits: 2
+      y: 545
+      x: 420
+      anchor_y: bottom
+      anchor_x: right
+      style: lcd
+      z: 5
+    - type: text
+      text: 22330
+      number_grouping: true
+      min_digits: 2
+      anchor_x: right
+      anchor_y: bottom
+      y: 545
+      x: 1100
+      style: lcd
+      z: 5
+
 
 slide_player:
-  mc_ready:
+  init_done: #was mc_ready:
     dmd_parent:
       target: window
-
 
