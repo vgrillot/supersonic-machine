@@ -40,6 +40,9 @@ shots:
         show_tokens:
             led: ld_top_lane_1
 
+    shot_spinner:
+        switch: sw_spinner
+
 shot_groups:
     top_ro:
         shots: shot_top_ro_1, shot_top_ro_4, shot_top_ro_2, shot_top_ro_5, shot_top_ro_3

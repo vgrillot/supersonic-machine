@@ -1,0 +1,32 @@
+#config_version=4
+
+#
+# Spinner bonus is enabled, lit or blink the spinner led
+#
+# Start when the top lane row 2 (center) is activated
+# Stop on ball loose
+#
+#
+
+mode:
+    start_events: shot_top_ro_2_hit
+    stop_events: player_turn_stop
+    priority: 200
+
+
+scoring:
+    #sw_spinner_active:
+    shot_spinner_hit:
+      score: 1000
+      block: true # do not cumulate
+
+
+show_player:
+  mode_spinner_1k_started:
+    spinner_light_1k:
+      speed: 1
+      #loop: -1
+  mode_spinner_1k_stopped:
+    spinner_light_1k:
+      action: stop
+

@@ -15,7 +15,7 @@ Bumpers score 10
 Lit bumpers score 100
 
 ##### Bumpers alternance
-* on center fix target "1"
+* on center fix target "2"
 * on any top lane row
 * on any drop target
 * on any fixed target
@@ -28,7 +28,7 @@ Score 10
 2x is lit
 score 3000
 bonus +1000
-bonus is resetx on new ball
+bonus is reset on new ball
 
 #### Star roll over
 
@@ -46,7 +46,7 @@ On hit:
 it's the same sw both, and than the upper lane rebound
 score 300
 
-#### Left target
+#### Drop target
 3000 is lit at start
 When all targets down, 
 * extraball is lit, score +3000
@@ -54,11 +54,7 @@ When all targets down,
 * score +3000, nothing more ?
 
 
-
-
-
-
-### Missing rule
+### Missing rules
 
 * how to light top "lanes score 3000" ?
 * how to light "special" (left or right outlanes)

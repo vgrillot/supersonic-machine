@@ -6,7 +6,7 @@ config:
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
-    - rasppinball.yaml
+#    - rasppinball.yaml
     - shots.yaml
     - display.yaml
 
@@ -25,4 +25,5 @@ mpf:
 modes:
   - base
   - attract
+  - spinner_1k
 

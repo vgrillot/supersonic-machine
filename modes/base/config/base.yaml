@@ -29,15 +29,9 @@ slide_player:
             font_size: 20
 
 
-#show_player:
-#    mode_base_started:
-#        stars_circle:
-#            loop: -1
-#        bonus_ramp:
-#            loop: -1
-
 scoring:
-    sw_spinner_active:
+    #sw_spinner_active:
+    shot_spinner_hit:
         score: 10
     sw_drop_target_e_active:
         score: 100
