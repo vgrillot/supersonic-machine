@@ -6,11 +6,12 @@
 # Start when the top lane row 2 (center) is activated
 # Stop on ball loose
 #
+# TODO: the block scoring doesn't work and cumulate base mode...
 #
 
 mode:
     start_events: shot_top_ro_2_hit
-    stop_events: player_turn_stop
+    stop_events: ball_ending
     priority: 200
 
 
