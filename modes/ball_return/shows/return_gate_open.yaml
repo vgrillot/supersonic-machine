@@ -1,0 +1,51 @@
+#show_version=4
+
+#
+# return_gate_open.yaml
+#
+# gate is open, light the arrow (2 leds) !
+#
+#!!170423:VG:Creation
+#
+
+- duration: 2
+  leds:
+      ld_gate_open: white
+      ld_gate_open_tail: white
+
+- duration: 0.1
+  leds:
+      ld_gate_open: white
+      ld_gate_open_tail: red
+
+- duration: 0.1
+  leds:
+      ld_gate_open: red
+      ld_gate_open_tail: yellow
+
+- duration: 0.1
+  leds:
+      ld_gate_open: yellow
+      ld_gate_open_tail: white
+
+- duration: 1
+  leds:
+      ld_gate_open: white
+      ld_gate_open_tail: white
+
+- duration: 0.1
+  leds:
+      ld_gate_open: white
+      ld_gate_open_tail: blue
+
+- duration: 0.1
+  leds:
+      ld_gate_open: blue
+      ld_gate_open_tail: blue
+
+- duration: 0.1
+  leds:
+      ld_gate_open: blue
+      ld_gate_open_tail: white
+
+

@@ -3,15 +3,11 @@
 flippers:
     left_flipper:
         main_coil: co_left_flipper_main
-        #hold_coil: co_left_flipper_hold
         activation_switch: bt_left_flipper
-        #enable_events: machine_reset_phase_3
 
     right_flipper:
         main_coil: co_right_flipper_main
-        #hold_coil: co_right_flipper_hold
         activation_switch: bt_right_flipper
-        #enable_events: machine_reset_phase_3
 
 
 ball_devices:
@@ -49,6 +45,16 @@ autofire_coils:
         switch: sw_bottom_bumper
 
 
+
+diverters:
+    ball_return_diverter:
+        enable_events: mode_ball_return_started
+        disable_events: mode_ball_return_stopped
+        activation_coil: co_lower_right_gate
+        activation_switches: sw_right_outlane
+        activation_time: 3s
+        type: hold
+        debug: true
 
 virtual_platform_start_active_switches:
     -  sw_outhole  # put a ball ready to go at the beginning
