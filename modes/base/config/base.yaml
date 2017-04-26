@@ -31,6 +31,7 @@ slide_player:
             anchor_y: bottom
 
 
+
 scoring:
     #sw_spinner_active:
     shot_spinner_hit:
@@ -92,6 +93,8 @@ scoring:
         score: 100
     sw_top_ro_5_active:
         score: 100
+    top_ro_default_lit_complete:
+        top_ro_default_lit_complete: 1
 
 
 
@@ -100,4 +103,42 @@ scoring:
 #    sw_right_flipper:
 #        flip: 1
 
+
+shot_groups:
+    top_ro:
+        shots: shot_top_ro_1, shot_top_ro_4, shot_top_ro_2, shot_top_ro_5, shot_top_ro_3
+        rotate_left_events: sw_left_flipper
+        rotate_right_events: sw_right_flipper
+        reset_events:
+            top_ro_default_lit_complete: 1s
+            ball_starting: 0s
+        enable_rotation_events: ball_started
+        disable_rotation_events: ball_ending
+
+    # when done : top_ro_default_lit_complete
+
+# wait_for is mandatory....
+#queue_relay_player:
+#    top_ro_default_lit_complete{player.top_ro_default_lit_complete==1}:
+#        post: enable_top_ro_mode_2
+#        #wait_for: wizardintro_stopping
+#    top_ro_default_lit_complete{player.top_ro_default_lit_complete==2}:
+#        post: enable_top_ro_mode_3
+
+
+logic_blocks:
+    counters:
+        enable_top_ro_mode_2:
+            count_events: top_ro_default_lit_complete
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            events_when_complete: enable_top_ro_mode_2_complete
+        enable_top_ro_mode_3:
+            #count_events: top_ro_default_lit_complete{current_player.enable_top_ro_mode_2_count==1}
+            count_events: top_ro_default_lit_complete
+            starting_count: 0
+            count_complete_value: 2
+            direction: up
+            events_when_complete: enable_top_ro_mode_3_complete
 
