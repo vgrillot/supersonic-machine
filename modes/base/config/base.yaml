@@ -11,22 +11,24 @@ slide_player:
             text: (score)
             number_grouping: true
             min_digits: 2
-            font_size: 40
-            color: yellow 
+            font_size: 20
+            color: yellow
+            anchor_y: top
+            y: top
           - type: text
             text: PLAYER (number)
-            y: 20
             x: 10
-            font_size: 20
+            y: bottom + 2
+            font_size: 5
             anchor_x: left
             anchor_y: bottom
           - type: text
             text: BALL (ball)
-            y: 20
+            font_size: 5
+            y: bottom + 2
             x: right - 10
             anchor_x: right
             anchor_y: bottom
-            font_size: 20
 
 
 scoring:
