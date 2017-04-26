@@ -19,6 +19,7 @@ shots:
     shot_drop_target_a:
         switch: sw_drop_target_a
 
+
     shot_top_ro_5:
         switch: sw_top_ro_5
         show_tokens:
@@ -42,17 +43,6 @@ shots:
 
     shot_spinner:
         switch: sw_spinner
-
-shot_groups:
-    top_ro:
-        shots: shot_top_ro_1, shot_top_ro_4, shot_top_ro_2, shot_top_ro_5, shot_top_ro_3
-        rotate_left_events: sw_left_flipper
-        rotate_right_events: sw_right_flipper
-        reset_events:
-            top_ro_default_lit_complete: 1s
-            ball_starting: 0s
-        enable_rotation_events: ball_started
-        disable_rotation_events: ball_ending
 
 
 drop_targets:
