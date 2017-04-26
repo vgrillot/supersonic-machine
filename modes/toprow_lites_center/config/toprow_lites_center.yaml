@@ -1,0 +1,27 @@
+#config_version=4
+
+#
+# toprow_lites_center
+#
+# Spinner bonus is enabled, lit or blink the spinner led
+#
+# Start when the top lane row 2 (center) is activated
+# Stop on ball loose
+#
+# TODO: the block scoring doesn't work and cumulate base mode...
+#
+
+mode:
+    start_events: enable_top_ro_mode_3_complete
+    stop_events: ball_ending
+    priority: 200
+
+
+show_player:
+    mode_toprow_lites_center_started:
+        stars_circle:
+            loop: -1
+
+    mode_toprow_lites_center_stopped:
+        stars_circle:
+            action: stop
