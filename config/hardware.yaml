@@ -26,7 +26,6 @@ ball_devices:
         eject_timeouts: 1s
 
 
-
 autofire_coils:
     left_slingshot:
         coil: co_left_slingshot
@@ -45,7 +44,6 @@ autofire_coils:
         switch: sw_bottom_bumper
 
 
-
 diverters:
     ball_return_diverter:
         enable_events: mode_ball_return_started
@@ -55,6 +53,7 @@ diverters:
         activation_time: 3s
         type: hold
         debug: true
+
 
 virtual_platform_start_active_switches:
     -  sw_outhole  # put a ball ready to go at the beginning
