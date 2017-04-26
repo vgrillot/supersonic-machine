@@ -32,7 +32,7 @@ slide_player:
 scoring:
     #sw_spinner_active:
     shot_spinner_hit:
-        score: 10
+        score: 100
     sw_drop_target_e_active:
         score: 100
     sw_drop_target_d_active:
