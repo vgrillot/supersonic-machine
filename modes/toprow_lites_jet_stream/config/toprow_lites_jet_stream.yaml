@@ -1,0 +1,17 @@
+#config_version=4
+
+
+mode:
+    start_events: enable_top_ro_mode_2_complete
+    stop_events: ball_ending
+    priority: 200
+
+
+show_player:
+    mode_toprow_lites_jet_stream_started:
+        left_ramp:
+            loop: -1
+
+    mode_toprow_lites_jet_stream_stopped:
+        left_ramp:
+            action: stop
