@@ -102,7 +102,7 @@ slides:
       z: 9
     # score lcd
     - type: text
-      text: (score)
+      text: (score) # TODO : (player1_score) pareil ?
       number_grouping: true
       min_digits: 2
       y: 545
@@ -112,7 +112,7 @@ slides:
       style: lcd
       z: 5
     - type: text
-      text: 22330
+      text: (player2_score) # TODO : a valider
       number_grouping: true
       min_digits: 2
       anchor_x: right
