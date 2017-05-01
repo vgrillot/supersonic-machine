@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="72bd5f5c-ab30-4aa4-b280-bf393030cb84" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/hardware.yaml" afterPath="$PROJECT_DIR$/config/hardware.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/shots.yaml" afterPath="$PROJECT_DIR$/config/shots.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/audits.yaml" afterPath="$PROJECT_DIR$/data/audits.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/machine_vars.yaml" afterPath="$PROJECT_DIR$/data/machine_vars.yaml" />
@@ -43,15 +41,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="120">
-                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <first_editor relative-caret-position="72">
+                <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -62,14 +60,14 @@
       <file leaf-file-name="toprow_lites_center.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="336">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toprow_lites_jet_stream.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="toprow_lites_jet_stream.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="579">
@@ -126,8 +124,8 @@
         <option value="$PROJECT_DIR$/config/shots.yaml" />
         <option value="$PROJECT_DIR$/config/hardware.yaml" />
         <option value="$PROJECT_DIR$/modes/base/config/base.yaml" />
-        <option value="$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml" />
       </list>
     </option>
   </component>
@@ -680,22 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modes/base/config/base.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -723,11 +705,27 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <first_editor relative-caret-position="72">
+            <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

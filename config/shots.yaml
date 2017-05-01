@@ -7,7 +7,6 @@ shots:
             led: ld_not_used_1
         profile: profile_just_lit
 
-
     shot_drop_target_e:
         switch: sw_drop_target_e
     shot_drop_target_d:
@@ -18,7 +17,6 @@ shots:
         switch: sw_drop_target_b
     shot_drop_target_a:
         switch: sw_drop_target_a
-
 
     shot_top_ro_5:
         switch: sw_top_ro_5
