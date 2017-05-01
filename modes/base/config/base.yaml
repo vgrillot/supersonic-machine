@@ -1,4 +1,7 @@
 #config_version=4
+#
+#!!170501:VG:adjust scoring
+#
 
 mode:
     start_events: ball_starting
@@ -33,29 +36,35 @@ slide_player:
 
 
 scoring:
-    #sw_spinner_active:
     shot_spinner_hit:
         score: 100
+
     sw_drop_target_e_active:
-        score: 100
+        score: 300
     sw_drop_target_d_active:
-        score: 100
+        score: 300
     sw_drop_target_c_active:
-        score: 100
+        score: 300
     sw_drop_target_b_active:
-        score: 100
+        score: 300
     sw_drop_target_a_active:
-        score: 100
+        score: 300
+
     sw_drop_target_rebound_active:
         score: 10
+
+    drop_target_bank_left_drops_down:
+        score: 3000
+
     sw_fix_target_right_1_active:
-        score: 50
+        score: 300
     sw_fix_target_right_2_active:
-        score: 50
+        score: 300
     sw_fix_target_right_3_active:
-        score: 50
+        score: 300
+
     sw_top_ro_button_active:
-        score: 1000
+        score: 300
 
     # shot_fix_target_center_hit:  #sw_fix_target_center_active:
     shot_fix_target_center_profile_just_lit_unlit_hit:
@@ -64,38 +73,67 @@ scoring:
         score: 100
 
     sw_star_5_active:
-        score: 25
+        score: 100
     sw_star_4_active:
-        score: 25
+        score: 100
     sw_star_3_active:
-        score: 25
+        score: 100
     sw_star_2_active:
-        score: 25
+        score: 100
     sw_star_1_active:
-        score: 25
+        score: 100
+
     sw_right_slingshot_active:
-        score: 25
+        score: 10
     sw_left_slingshot_active:
-        score: 25
+        score: 10
+
     sw_bottom_bumper_active:
-        score: 50
+        score: 10
     sw_right_bumper_active:
-        score: 50
+        score: 10
     sw_left_bumper_active:
-        score: 50
+        score: 10
+
     sw_top_ro_1_active:
-        score: 100
+        score: 300
     sw_top_ro_2_active:
-        score: 100
+        score: 300
     sw_top_ro_3_active:
-        score: 100
+        score: 300
     sw_top_ro_4_active:
-        score: 100
+        score: 300
     sw_top_ro_5_active:
-        score: 100
+        score: 300
+
     top_ro_default_lit_complete:
         top_ro_default_lit_complete: 1
 
+    sw_feed_lane_active:
+        score: 300
+
+    sw_fix_target_center:
+        score: 300
+
+    sw_right_outlane:
+        score: 1000
+
+    sw_left_outlane:
+        score: 1000
+
+    sw_saucer_active:
+        score: 3000
+
+    sw_left_lane_ro_button_5_active:
+        score: 100
+    sw_left_lane_ro_button_4_active:
+        score: 100
+    sw_left_lane_ro_button_3_active:
+        score: 100
+    sw_left_lane_ro_button_2_active:
+        score: 100
+    sw_left_lane_ro_button_1_active:
+        score: 100
 
 
 #    sw_left_flipper:
