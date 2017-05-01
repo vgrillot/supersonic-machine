@@ -2,6 +2,9 @@ Supersonic-machine
 ==================
 
 MPF machine description for Super Sonic pinball
+Follow my progress here : https://thelegomoviepinball.wordpress.com/
+
+
 
 Rules
 -----
@@ -43,11 +46,11 @@ On hit:
 * +3k bonus
 
 #### Feed lane
-it's the same sw both, and than the upper lane rebound
-score 300
+It's the same sw both, and than the upper lane rebound.
+Score 300
 
 #### Drop target
-3000 is lit at start
+3000 is lit at start.
 When all targets down, 
 * extraball is lit, score +3000
 * extraball is win, special is lit, score +3000, lit "same player shoot again"
@@ -65,11 +68,11 @@ Card Rules
 ----------
 ### Card M-1508-75-E
 * MAKING 1-2-3-4-5:
-1ST TIME LITES CENTER STAR R.O. BUTTONS TO ADVANCE BONUS.
-2ND TIME LITES JET STREAM R.O. BUTT,ONS TO ADVANCE BONUS.
-3RD TIME LITES 1-5 LANES & TARGETS FOR 3,000 POINTS
+** 1ST TIME LITES CENTER STAR R.O. BUTTONS TO ADVANCE BONUS.
+** 2ND TIME LITES JET STREAM R.O. BUTT,ONS TO ADVANCE BONUS.
+** 3RD TIME LITES 1-5 LANES & TARGETS FOR 3,000 POINTS
 AND OUTLANES FOR SPECIAL.
-4TH TIME AND EACH ADDITIONAL TIME SCORES SPECIAL AND LITES CENTER STAR
+** 4TH TIME AND EACH ADDITIONAL TIME SCORES SPECIAL AND LITES CENTER STAR
 AND JET STREAM 1,000 POINT LITES.
 BALL THRU OUTLANE WHEN LIT FOR SPECIAL SCORES 1 REPLAY.
 * SPINNER LITES WHEN BALL RETURN GATE IS OPEN.
