@@ -8,7 +8,9 @@
 # Start when the top lane row 2 (center) is activated
 # Stop on ball loose
 #
-# TODO: the block scoring doesn't work and cumulate base mode...
+#!!170428:FIX:the block scoring doesn't work and cumulate base mode...
+#!!170501:TODO:issue with star lit
+#!!170501:TODO:show player conflicts with lit star for scoring...
 #
 
 mode:
@@ -55,13 +57,13 @@ shots:
     star_1_shot:
         switch: sw_star_1
     star_2_shot:
-        switch: sw_star_1
+        switch: sw_star_2
     star_3_shot:
-        switch: sw_star_1
+        switch: sw_star_3
     star_4_shot:
-        switch: sw_star_1
+        switch: sw_star_4
     star_5_shot:
-        switch: sw_star_1
+        switch: sw_star_5
 
 #
 # center star score 100 when unlit, 1000 when lit
