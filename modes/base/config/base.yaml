@@ -72,17 +72,6 @@ scoring:
     shot_fix_target_center_profile_just_lit_lit_hit:
         score: 100
 
-    sw_star_5_active:
-        score: 100
-    sw_star_4_active:
-        score: 100
-    sw_star_3_active:
-        score: 100
-    sw_star_2_active:
-        score: 100
-    sw_star_1_active:
-        score: 100
-
     sw_right_slingshot_active:
         score: 10
     sw_left_slingshot_active:

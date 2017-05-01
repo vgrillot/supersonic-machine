@@ -12,16 +12,80 @@
 #
 
 mode:
-    start_events: enable_top_ro_mode_3_complete
+    start_events: ball_started
     stop_events: ball_ending
     priority: 200
 
 
-show_player:
-    mode_toprow_lites_center_started:
-        stars_circle:
-            loop: -1
+#show_player:
+#    mode_toprow_lites_center_started:
+#        stars_circle:
+#            loop: -1
+#
+#    mode_toprow_lites_center_stopped:
+#        stars_circle:
+#            action: stop
 
-    mode_toprow_lites_center_stopped:
-        stars_circle:
-            action: stop
+
+#
+# top row corridors lit center stars
+#
+shots:
+    lit_star_1_shot:
+        switch: sw_top_ro_1
+        show_tokens:
+            led: ld_star_1
+    lit_star_2_shot:
+        switch: sw_top_ro_2
+        show_tokens:
+            led: ld_star_2
+    lit_star_3_shot:
+        switch: sw_top_ro_3
+        show_tokens:
+            led: ld_star_3
+    lit_star_4_shot:
+        switch: sw_top_ro_4
+        show_tokens:
+            led: ld_star_4
+    lit_star_5_shot:
+        switch: sw_top_ro_5
+        show_tokens:
+            led: ld_star_5
+
+    star_1_shot:
+        switch: sw_star_1
+    star_2_shot:
+        switch: sw_star_1
+    star_3_shot:
+        switch: sw_star_1
+    star_4_shot:
+        switch: sw_star_1
+    star_5_shot:
+        switch: sw_star_1
+
+#
+# center star score 100 when unlit, 1000 when lit
+#
+scoring:
+    star_1_shot_unlit_hit:
+        score: 100
+    star_1_shot_lit_hit:
+        score: 1000
+    star_2_shot_unlit_hit:
+        score: 100
+    star_2_shot_lit_hit:
+        score: 1000
+    star_3_shot_unlit_hit:
+        score: 100
+    star_3_shot_lit_hit:
+        score: 1000
+    star_4_shot_unlit_hit:
+        score: 100
+    star_4_shot_lit_hit:
+        score: 1000
+    star_5_shot_unlit_hit:
+        score: 100
+    star_5_shot_lit_hit:
+        score: 1000
+
+
