@@ -1,74 +1,88 @@
 events:
-  game_ended: 13
-  game_started: 16
+  game_ended: 21
+  game_started: 84
 player:
   score:
-    average: 1750.0
+    average: 4762.272727272727
     top:
+    - 30100
+    - 18720
+    - 16380
+    - 6355
+    - 4465
     - 4400
     - 3600
     - 2700
+    - 2700
     - 2525
-    - 2500
-    - 2100
-    - 2100
-    - 1400
-    - 1350
-    - 1250
-    total: 14
+    total: 22
 shots:
-  shot_drop_target_a: 2
-  shot_drop_target_b: 1
-  shot_drop_target_c: 1
-  shot_drop_target_d: 1
-  shot_drop_target_e: 11
-  shot_fix_target_center: 22
-  shot_top_ro_1: 10
-  shot_top_ro_2: 10
-  shot_top_ro_4: 1
+  left_lane_1_shot: 1
+  lit_star_1_shot: 2
+  lit_star_2_shot: 1
+  lit_star_3_shot: 1
+  lit_star_4_shot: 2
+  lit_star_5_shot: 1
+  shot_drop_target_a: 4
+  shot_drop_target_b: 5
+  shot_drop_target_c: 4
+  shot_drop_target_d: 4
+  shot_drop_target_e: 19
+  shot_fix_target_center: 29
+  shot_spinner: 36
+  shot_top_ro_1: 21
+  shot_top_ro_2: 45
+  shot_top_ro_3: 24
+  shot_top_ro_4: 59
+  shot_top_ro_5: 18
+  star_1_shot: 13
+  star_2_shot: 16
+  star_3_shot: 4
+  star_4_shot: 8
+  star_5_shot: 6
 switches:
-  bt_left_flipper: 59
-  bt_right_flipper: 117
-  sw_bottom_bumper: 39
+  bt_left_flipper: 66
+  bt_right_flipper: 120
+  sw_bottom_bumper: 52
   sw_coin_1_left: 0
   sw_coin_2_middle: 0
   sw_coin_3_right: 0
   sw_credit_button: 4
-  sw_drop_target_a: 2
-  sw_drop_target_b: 1
-  sw_drop_target_c: 1
-  sw_drop_target_d: 9
-  sw_drop_target_e: 34
+  sw_drop_target_a: 4
+  sw_drop_target_b: 5
+  sw_drop_target_c: 4
+  sw_drop_target_d: 12
+  sw_drop_target_e: 42
   sw_drop_target_rebound: 0
-  sw_feed_lane: 0
-  sw_fix_target_center: 53
-  sw_fix_target_right_1: 0
-  sw_fix_target_right_2: 0
-  sw_fix_target_right_3: 0
-  sw_left_bumper: 59
-  sw_left_lane_ro_button_1: 0
-  sw_left_lane_ro_button_2: 0
-  sw_left_lane_ro_button_3: 0
-  sw_left_lane_ro_button_4: 0
-  sw_left_lane_ro_button_5: 0
-  sw_left_outlane: 0
-  sw_left_slingshot: 55
-  sw_outhole: 57
-  sw_right_bumper: 52
-  sw_right_outlane: 0
-  sw_right_slingshot: 32
-  sw_saucer: 9
+  sw_feed_lane: 8
+  sw_fix_target_center: 60
+  sw_fix_target_right_1: 9
+  sw_fix_target_right_2: 9
+  sw_fix_target_right_3: 12
+  sw_left_bumper: 101
+  sw_left_lane_ro_button_1: 2
+  sw_left_lane_ro_button_2: 1
+  sw_left_lane_ro_button_3: 1
+  sw_left_lane_ro_button_4: 1
+  sw_left_lane_ro_button_5: 1
+  sw_left_outlane: 2
+  sw_left_slingshot: 63
+  sw_outhole: 103
+  sw_right_bumper: 65
+  sw_right_outlane: 26
+  sw_right_slingshot: 44
+  sw_saucer: 18
   sw_slam_2: 0
-  sw_spinner: 0
-  sw_star_1: 1
-  sw_star_2: 2
-  sw_star_3: 0
-  sw_star_4: 0
-  sw_star_5: 0
+  sw_spinner: 105
+  sw_star_1: 19
+  sw_star_2: 24
+  sw_star_3: 5
+  sw_star_4: 9
+  sw_star_5: 10
   sw_tilt: 0
-  sw_top_ro_1: 100
-  sw_top_ro_2: 88
-  sw_top_ro_3: 0
-  sw_top_ro_4: 1
-  sw_top_ro_5: 0
+  sw_top_ro_1: 111
+  sw_top_ro_2: 123
+  sw_top_ro_3: 24
+  sw_top_ro_4: 59
+  sw_top_ro_5: 18
   sw_top_ro_button: 0
