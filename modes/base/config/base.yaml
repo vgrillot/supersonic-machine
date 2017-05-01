@@ -180,3 +180,17 @@ logic_blocks:
             direction: up
             events_when_complete: enable_top_ro_mode_3_complete
 
+        enable_dropbank_lit_extraball:
+            count_events: drop_target_bank_left_drops_down
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            events_when_complete: lit_extraball
+
+        enable_dropbank_mode_special:
+            count_events: drop_target_bank_left_drops_down
+            starting_count: 0
+            count_complete_value: 2
+            direction: up
+            events_when_complete: win_extraball, lit_special
+
