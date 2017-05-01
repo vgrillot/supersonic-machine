@@ -4,6 +4,7 @@ Supersonic-machine
 MPF machine description for Super Sonic pinball
 Follow my progress here : https://thelegomoviepinball.wordpress.com/
 
+![Supersonic playfield](/supersonic-monitor.PNG?raw=true "Playfield")
 
 
 Rules
