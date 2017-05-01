@@ -52,7 +52,6 @@ diverters:
         activation_switches: sw_right_outlane
         activation_time: 3s
         type: hold
-        debug: true
 
 
 virtual_platform_start_active_switches:
