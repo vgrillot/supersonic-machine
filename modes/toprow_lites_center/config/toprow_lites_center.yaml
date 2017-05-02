@@ -9,9 +9,10 @@
 # Stop on ball loose
 #
 #!!170428:FIX:the block scoring doesn't work and cumulate base mode...
-#!!170501:TODO:issue with star lit
-#!!170501:TODO:show player conflicts with lit star for scoring...
-#
+#!!170501:FIXED:issue with star lit
+#!!170501:FIXED:show player conflicts with lit star for scoring...
+#!!170502:light and scoring fixed
+#         see https://groups.google.com/forum/#!topic/mpf-users/RmOsYkKyc8M, thanks to Dan !
 
 mode:
     start_events: ball_started
@@ -54,40 +55,77 @@ shots:
         show_tokens:
             led: ld_star_5
 
-    star_1_shot:
-        switch: sw_star_1
-    star_2_shot:
-        switch: sw_star_2
-    star_3_shot:
-        switch: sw_star_3
-    star_4_shot:
-        switch: sw_star_4
-    star_5_shot:
-        switch: sw_star_5
 
 #
 # center star score 100 when unlit, 1000 when lit
 #
 scoring:
-    star_1_shot_unlit_hit:
+    sw_star_1_active{current_player.star_1_state_count==0}:
         score: 100
-    star_1_shot_lit_hit:
+    sw_star_1_active{current_player.star_1_state_count==1}:
         score: 1000
-    star_2_shot_unlit_hit:
+
+    sw_star_2_active{current_player.star_2_state_count==0}:
         score: 100
-    star_2_shot_lit_hit:
+    sw_star_2_active{current_player.star_2_state_count==1}:
         score: 1000
-    star_3_shot_unlit_hit:
+
+    sw_star_3_active{current_player.star_3_state_count==0}:
         score: 100
-    star_3_shot_lit_hit:
+    sw_star_3_active{current_player.star_3_state_count==1}:
         score: 1000
-    star_4_shot_unlit_hit:
+
+    sw_star_4_active{current_player.star_4_state_count==0}:
         score: 100
-    star_4_shot_lit_hit:
+    sw_star_4_active{current_player.star_4_state_count==1}:
         score: 1000
-    star_5_shot_unlit_hit:
+
+    sw_star_5_active{current_player.star_5_state_count==0}:
         score: 100
-    star_5_shot_lit_hit:
+    sw_star_5_active{current_player.star_5_state_count==1}:
         score: 1000
+
+
+logic_blocks:
+    counters:
+        star_1_state:
+            count_events: sw_top_ro_1_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: false
+
+        star_2_state:
+            count_events: sw_top_ro_2_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: false
+
+        star_3_state:
+            count_events: sw_top_ro_3_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: false
+
+        star_4_state:
+            count_events: sw_top_ro_4_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: false
+
+        star_5_state:
+            count_events: sw_top_ro_5_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: false
 
 
