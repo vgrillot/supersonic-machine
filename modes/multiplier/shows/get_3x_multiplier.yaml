@@ -1,0 +1,40 @@
+#show_version=4
+
+#
+# blink the 3X multiplier bonus of saucer
+#
+#!!170502:Creation
+#
+
+
+- duration: 1
+  leds:
+      ld_saucer_2x: white
+      ld_saucer_3x: white
+
+
+- duration: 0.1
+  leds:
+      ld_saucer_3x: off
+
+- duration: 0.1
+  leds:
+      ld_saucer_3x: white
+
+
+- duration: 0.1
+  leds:
+      ld_saucer_3x: off
+
+- duration: 0.1
+  leds:
+      ld_saucer_3x: white
+
+
+- duration: 0.1
+  leds:
+      ld_saucer_3x: off
+
+- duration: 0.1
+  leds:
+      ld_saucer_3x: white

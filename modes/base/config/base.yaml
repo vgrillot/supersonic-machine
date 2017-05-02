@@ -134,7 +134,7 @@ scoring:
         #action: set
     multiplier_5x_complete:
         multiplier: 2
-        action: set
+        #action: set
 
 
 #    sw_left_flipper:
@@ -159,16 +159,6 @@ shot_groups:
             ball_starting: 0s
         enable_rotation_events: ball_started
         disable_rotation_events: ball_ending
-
-    # when done : top_ro_default_lit_complete
-
-# wait_for is mandatory....
-#queue_relay_player:
-#    top_ro_default_lit_complete{player.top_ro_default_lit_complete==1}:
-#        post: enable_top_ro_mode_2
-#        #wait_for: wizardintro_stopping
-#    top_ro_default_lit_complete{player.top_ro_default_lit_complete==2}:
-#        post: enable_top_ro_mode_3
 
 
 logic_blocks:
