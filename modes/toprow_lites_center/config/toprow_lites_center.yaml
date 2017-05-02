@@ -85,6 +85,14 @@ scoring:
     sw_star_5_active{current_player.star_5_state_count==1}:
         score: 1000
 
+event_player:
+    sw_star_1_active{current_player.star_1_state_count==1}: increase_bonus
+    sw_star_2_active{current_player.star_2_state_count==1}: increase_bonus
+    sw_star_3_active{current_player.star_3_state_count==1}: increase_bonus
+    sw_star_4_active{current_player.star_4_state_count==1}: increase_bonus
+    sw_star_5_active{current_player.star_5_state_count==1}: increase_bonus
+
+
 
 logic_blocks:
     counters:
@@ -94,7 +102,7 @@ logic_blocks:
             count_complete_value: 1
             direction: up
             reset_on_complete: false
-            disable_on_complete: false
+            disable_on_complete: true
 
         star_2_state:
             count_events: sw_top_ro_2_active
@@ -102,7 +110,7 @@ logic_blocks:
             count_complete_value: 1
             direction: up
             reset_on_complete: false
-            disable_on_complete: false
+            disable_on_complete: true
 
         star_3_state:
             count_events: sw_top_ro_3_active
@@ -110,7 +118,7 @@ logic_blocks:
             count_complete_value: 1
             direction: up
             reset_on_complete: false
-            disable_on_complete: false
+            disable_on_complete: true
 
         star_4_state:
             count_events: sw_top_ro_4_active
@@ -118,7 +126,7 @@ logic_blocks:
             count_complete_value: 1
             direction: up
             reset_on_complete: false
-            disable_on_complete: false
+            disable_on_complete: true
 
         star_5_state:
             count_events: sw_top_ro_5_active
@@ -126,6 +134,6 @@ logic_blocks:
             count_complete_value: 1
             direction: up
             reset_on_complete: false
-            disable_on_complete: false
+            disable_on_complete: true
 
 

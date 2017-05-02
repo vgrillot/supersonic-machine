@@ -40,14 +40,75 @@ shots:
             led: ld_left_lane_5
 
 scoring:
-    left_lane_1_shot_lit_hit:
-        score: 1000
-    left_lane_2_shot_lit_hit:
-        score: 1000
-    left_lane_3_shot_lit_hit:
-        score: 1000
-    left_lane_4_shot_lit_hit:
-        score: 1000
-    left_lane_5_shot_lit_hit:
-        score: 1000
+    sw_left_lane_ro_button_1_active{current_player.left_lane_ro_1_state_count==1}:
+        score: 1000|block
+    sw_left_lane_ro_button_2_active{current_player.left_lane_ro_2_state_count==1}:
+        score: 1000|block
+    sw_left_lane_ro_button_3_active{current_player.left_lane_ro_3_state_count==1}:
+        score: 1000|block
+    sw_left_lane_ro_button_4_active{current_player.left_lane_ro_4_state_count==1}:
+        score: 1000|block
+    sw_left_lane_ro_button_5_active{current_player.left_lane_ro_5_state_count==1}:
+        score: 1000|block
 
+#TODO:need also the 100 score as the base mode is no more available
+    sw_left_lane_ro_button_1_active{current_player.left_lane_ro_1_state_count==0}:
+        score: 100|block
+    sw_left_lane_ro_button_2_active{current_player.left_lane_ro_2_state_count==0}:
+        score: 100|block
+    sw_left_lane_ro_button_3_active{current_player.left_lane_ro_3_state_count==0}:
+        score: 100|block
+    sw_left_lane_ro_button_4_active{current_player.left_lane_ro_4_state_count==0}:
+        score: 100|block
+    sw_left_lane_ro_button_5_active{current_player.left_lane_ro_5_state_count==0}:
+        score: 100|block
+
+event_player:
+    sw_left_lane_ro_button_1_active{current_player.left_lane_ro_1_state_count==1}: increase_bonus
+    sw_left_lane_ro_button_2_active{current_player.left_lane_ro_2_state_count==1}: increase_bonus
+    sw_left_lane_ro_button_3_active{current_player.left_lane_ro_3_state_count==1}: increase_bonus
+    sw_left_lane_ro_button_4_active{current_player.left_lane_ro_4_state_count==1}: increase_bonus
+    sw_left_lane_ro_button_5_active{current_player.left_lane_ro_5_state_count==1}: increase_bonus
+
+
+logic_blocks:
+    counters:
+        left_lane_ro_1_state:
+            count_events: sw_top_ro_1_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: true
+
+        left_lane_ro_2_state:
+            count_events: sw_top_ro_2_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: true
+
+        left_lane_ro_3_state:
+            count_events: sw_top_ro_3_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: true
+
+        left_lane_ro_4_state:
+            count_events: sw_top_ro_4_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: true
+
+        left_lane_ro_5_state:
+            count_events: sw_top_ro_5_active
+            starting_count: 0
+            count_complete_value: 1
+            direction: up
+            reset_on_complete: false
+            disable_on_complete: true

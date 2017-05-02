@@ -113,15 +113,15 @@ scoring:
     sw_saucer_active:
         score: 3000
 
-    left_lane_1_shot_unlit_hit:
+    sw_left_lane_ro_button_1_active:
         score: 100
-    left_lane_2_shot_unlit_hit:
+    sw_left_lane_ro_button_2_active:
         score: 100
-    left_lane_3_shot_unlit_hit:
+    sw_left_lane_ro_button_3_active:
         score: 100
-    left_lane_4_shot_unlit_hit:
+    sw_left_lane_ro_button_4_active:
         score: 100
-    left_lane_5_shot_unlit_hit:
+    sw_left_lane_ro_button_5_active:
         score: 100
 
     game_starting:
@@ -143,18 +143,11 @@ scoring:
 #        flip: 1
 
 shots:
-    left_lane_1_shot:
-        switch: sw_left_lane_ro_button_1
-    left_lane_2_shot:
-        switch: sw_left_lane_ro_button_2
-    left_lane_3_shot:
-        switch: sw_left_lane_ro_button_3
-    left_lane_4_shot:
-        switch: sw_left_lane_ro_button_4
-    left_lane_5_shot:
-        switch: sw_left_lane_ro_button_5
+
+
     saucer_shot:
         switch: sw_saucer
+
 
 shot_groups:
     top_ro:
