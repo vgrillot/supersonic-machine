@@ -6,6 +6,7 @@
 mode:
     start_events: ball_starting
     priority: 100
+    code: base.base
 
 slide_player:
     mode_base_started:
@@ -18,6 +19,14 @@ slide_player:
             color: yellow
             anchor_y: top
             y: top
+          - type: text
+            text: (bonus_score)
+            number_grouping: true
+            min_digits: 4
+            font_size: 5
+            color: orange
+            anchor_y: bottom
+            y: bottom
           - type: text
             text: PLAYER (number)
             x: 10
@@ -136,15 +145,46 @@ scoring:
         multiplier: 2
         #action: set
 
+    increase_bonus:
+        bonus_score: 1000
+
+# doesn't work
+#    ball_ended:
+#        bonus_score: 0|set
+
+# never called ?
+#    ball_started:
+#        bonus_score:
+#            score: 0
+#            action: set
+
+# ok
+    sw_right_flipper_hit:
+        bonus_score:
+            score: 0
+            action: set
+
+# ok
+#    mode_base_started:
+#        bonus_score:
+#            score: 0
+#            action: set
+
+    bonus_score_reset:
+        bonus_score:
+            score: 0
+            action: set
 
 #    sw_left_flipper:
 #        flip: -1
 #    sw_right_flipper:
 #        flip: 1
 
+event_player:
+    ball_started: bonus_score_reset
+    #bonus_score_reset: ball_started
+
 shots:
-
-
     saucer_shot:
         switch: sw_saucer
 
