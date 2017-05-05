@@ -187,6 +187,9 @@ event_player:
 shots:
     saucer_shot:
         switch: sw_saucer
+        # accept only if the saucer has not been activated in the last second
+        delay_switch:
+            sw_saucer: 1s
 
 
 shot_groups:

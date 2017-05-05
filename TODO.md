@@ -8,7 +8,6 @@ BUGS
 
 Improvements
 ============
-- add a delay to enable a multiplier score (when the ball rebound in the saucer, multiplier can be enable several time in one shot)
 
 
 
