@@ -1,94 +1,94 @@
 events:
-  game_ended: 33
-  game_started: 110
+  game_ended: 37
+  game_started: 115
 player:
   score:
-    average: 16274.117647058823
+    average: 18205.78947368421
     top:
     - 87170
     - 87130
+    - 57710
     - 48440
     - 47000
+    - 39780
     - 37440
+    - 37040
     - 36360
     - 30100
-    - 28250
-    - 26130
-    - 20510
-    total: 34
+    total: 38
 shots:
   left_lane_1_shot: 1
-  lit_left_lane_ro_1_shot: 86
+  lit_left_lane_ro_1_shot: 108
   lit_left_lane_ro_2_shot: 8
   lit_left_lane_ro_3_shot: 4
-  lit_left_lane_ro_4_shot: 16
-  lit_left_lane_ro_5_shot: 5
-  lit_star_1_shot: 373
-  lit_star_2_shot: 31
-  lit_star_3_shot: 26
-  lit_star_4_shot: 73
-  lit_star_5_shot: 74
-  saucer_shot: 19
-  shot_drop_target_a: 183
-  shot_drop_target_b: 17
-  shot_drop_target_c: 17
-  shot_drop_target_d: 17
-  shot_drop_target_e: 33
+  lit_left_lane_ro_4_shot: 18
+  lit_left_lane_ro_5_shot: 13
+  lit_star_1_shot: 504
+  lit_star_2_shot: 32
+  lit_star_3_shot: 32
+  lit_star_4_shot: 86
+  lit_star_5_shot: 101
+  saucer_shot: 21
+  shot_drop_target_a: 187
+  shot_drop_target_b: 77
+  shot_drop_target_c: 24
+  shot_drop_target_d: 21
+  shot_drop_target_e: 36
   shot_fix_target_center: 29
-  shot_spinner: 380
-  shot_top_ro_1: 392
-  shot_top_ro_2: 75
-  shot_top_ro_3: 49
-  shot_top_ro_4: 130
-  shot_top_ro_5: 91
+  shot_spinner: 460
+  shot_top_ro_1: 523
+  shot_top_ro_2: 76
+  shot_top_ro_3: 55
+  shot_top_ro_4: 143
+  shot_top_ro_5: 118
   star_1_shot: 13
   star_2_shot: 16
   star_3_shot: 4
   star_4_shot: 8
   star_5_shot: 6
 switches:
-  bt_left_flipper: 287
-  bt_right_flipper: 435
-  sw_bottom_bumper: 136
+  bt_left_flipper: 348
+  bt_right_flipper: 496
+  sw_bottom_bumper: 163
   sw_coin_1_left: 0
   sw_coin_2_middle: 0
   sw_coin_3_right: 0
-  sw_credit_button: 6
-  sw_drop_target_a: 183
-  sw_drop_target_b: 17
-  sw_drop_target_c: 17
-  sw_drop_target_d: 25
-  sw_drop_target_e: 56
-  sw_drop_target_rebound: 164
-  sw_feed_lane: 39
+  sw_credit_button: 7
+  sw_drop_target_a: 187
+  sw_drop_target_b: 77
+  sw_drop_target_c: 24
+  sw_drop_target_d: 29
+  sw_drop_target_e: 59
+  sw_drop_target_rebound: 192
+  sw_feed_lane: 46
   sw_fix_target_center: 60
   sw_fix_target_right_1: 9
   sw_fix_target_right_2: 9
   sw_fix_target_right_3: 12
-  sw_left_bumper: 252
-  sw_left_lane_ro_button_1: 12
-  sw_left_lane_ro_button_2: 17
-  sw_left_lane_ro_button_3: 18
-  sw_left_lane_ro_button_4: 20
-  sw_left_lane_ro_button_5: 19
-  sw_left_outlane: 13
-  sw_left_slingshot: 109
-  sw_outhole: 154
-  sw_right_bumper: 153
-  sw_right_outlane: 40
-  sw_right_slingshot: 103
-  sw_saucer: 46
+  sw_left_bumper: 303
+  sw_left_lane_ro_button_1: 17
+  sw_left_lane_ro_button_2: 21
+  sw_left_lane_ro_button_3: 22
+  sw_left_lane_ro_button_4: 24
+  sw_left_lane_ro_button_5: 23
+  sw_left_outlane: 18
+  sw_left_slingshot: 139
+  sw_outhole: 167
+  sw_right_bumper: 176
+  sw_right_outlane: 43
+  sw_right_slingshot: 125
+  sw_saucer: 50
   sw_slam_2: 0
-  sw_spinner: 449
+  sw_spinner: 529
   sw_star_1: 19
-  sw_star_2: 59
-  sw_star_3: 34
-  sw_star_4: 61
-  sw_star_5: 45
+  sw_star_2: 68
+  sw_star_3: 43
+  sw_star_4: 79
+  sw_star_5: 52
   sw_tilt: 0
-  sw_top_ro_1: 482
-  sw_top_ro_2: 153
-  sw_top_ro_3: 49
-  sw_top_ro_4: 130
-  sw_top_ro_5: 91
-  sw_top_ro_button: 17
+  sw_top_ro_1: 613
+  sw_top_ro_2: 154
+  sw_top_ro_3: 55
+  sw_top_ro_4: 143
+  sw_top_ro_5: 118
+  sw_top_ro_button: 21
