@@ -2,18 +2,25 @@
 
 BUGS
 ====
-- ball save gate doesn't goes off when used or on restart or on game end.
 
 
 
 Improvements
 ============
-
+- ball save not enought quick, diverter too slow to be trigged by lane sw -> need to use a coil player
 
 
 Communication
 =============
-- double send from RASP to ARDN not even reliable
-- ignore a second same frame
 
+Rules
+=====
+
+- center target does nothing, should shot 1
+- right fixed target should shot 3+4+5
+
+
+
+Debug
+=====
 
