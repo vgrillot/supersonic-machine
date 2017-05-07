@@ -1,0 +1,23 @@
+#config_version=4
+
+#
+# open_gate.yaml
+#
+# light the top arrow of top lane (row 2)
+#
+#!!170506:VG:Creation
+ #
+
+mode:
+    start_events: ball_started
+    stop_events: ball_ending, mode_ball_return_started
+    priority: 200
+
+
+show_player:
+    mode_open_gate_started:
+      open_gate_arrow:
+        speed: 1
+    mode_open_gate_ended:
+      open_gate_arrow:
+        action: stop
