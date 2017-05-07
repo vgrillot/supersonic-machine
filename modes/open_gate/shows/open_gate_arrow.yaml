@@ -19,42 +19,42 @@
       ld_opens_gate_wl: off
       ld_opens_gate_wl_tail: off
 
-- duration: 0.2
+- duration: 0.1
+  leds:
+      ld_opens_gate_wl: off
+      ld_opens_gate_wl_tail: white
+
+- duration: 0.1
   leds:
       ld_opens_gate_wl: white
-      ld_opens_gate_wl_tail: white
+      ld_opens_gate_wl_tail: off
 
 - duration: 0.1
   leds:
       ld_opens_gate_wl: off
       ld_opens_gate_wl_tail: off
 
-- duration: 0.2
+- duration: 0.1
+  leds:
+      ld_opens_gate_wl: off
+      ld_opens_gate_wl_tail: white
+
+- duration: 0.1
   leds:
       ld_opens_gate_wl: white
-      ld_opens_gate_wl_tail: white
+      ld_opens_gate_wl_tail: off
 
 - duration: 0.1
   leds:
       ld_opens_gate_wl: off
       ld_opens_gate_wl_tail: off
 
-- duration: 0.2
+- duration: 0.1
   leds:
-      ld_opens_gate_wl: white
+      ld_opens_gate_wl: off
       ld_opens_gate_wl_tail: white
 
 - duration: 0.1
   leds:
-      ld_opens_gate_wl: off
-      ld_opens_gate_wl_tail: off
-
-- duration: 0.2
-  leds:
       ld_opens_gate_wl: white
-      ld_opens_gate_wl_tail: white
-
-- duration: 0.1
-  leds:
-      ld_opens_gate_wl: off
       ld_opens_gate_wl_tail: off
