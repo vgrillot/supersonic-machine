@@ -44,14 +44,14 @@ autofire_coils:
         switch: sw_bottom_bumper
 
 
-diverters:
-    ball_return_diverter:
-        enable_events: mode_ball_return_started
-        disable_events: mode_ball_return_stopped
-        activation_coil: co_lower_right_gate
-        activation_switches: sw_right_outlane
-        activation_time: 3s
-        type: hold
+#diverters:
+#    ball_return_diverter:
+#        enable_events: mode_ball_return_started
+#        disable_events: mode_ball_return_stopped
+#        activation_coil: co_lower_right_gate
+#        activation_switches: sw_right_outlane
+#        activation_time: 3s
+#        type: hold
 
 
 virtual_platform_start_active_switches:

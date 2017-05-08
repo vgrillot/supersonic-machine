@@ -28,12 +28,12 @@ show_player:
         action: stop
 
 
-#coil_player:
-#    #mode_ball_return_started: co_lower_right_gate # ok, but only a pulse...
-#    mode_ball_return_started:
-#        co_lower_right_gate: enable
+coil_player:
+    #mode_ball_return_started: co_lower_right_gate # ok, but only a pulse...
+    mode_ball_return_started:
+        co_lower_right_gate: enable
 
-#    #mode_ball_return_ended:
-#        co_lower_right_gate:
-#            action: disable
+    mode_ball_return_ended:
+        co_lower_right_gate:
+            action: disable
 
