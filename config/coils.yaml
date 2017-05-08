@@ -35,6 +35,7 @@ coils:
 
     co_lower_right_gate:
         number: 34
+        allow_enable: true
 
     #co_coin_lockout_door:
     #    number: 11
