@@ -17,7 +17,6 @@ class base(Mode):
             10000: self.machine.leds.ld_bonus_10k,
             20000: self.machine.leds.ld_bonus_20k,
         }
-        self.bonus_score = 0
 
     def mode_init(self):
         pass
@@ -68,6 +67,7 @@ class base(Mode):
         ld_bonus_20k
         """
         score = self.player['bonus_score']
+        bonus_score = score
         self.log.info('**** _update_leds (%s) ****' % score)
 
         if score >= 20000:
@@ -87,7 +87,7 @@ class base(Mode):
                 if v < 10000:
                     if v == score:
                         l.on()
-                    elif v <= score and self.bonus_score > 30000:
+                    elif v <= score and bonus_score > 30000:
                         l.on()
                     else:
                         l.off()
