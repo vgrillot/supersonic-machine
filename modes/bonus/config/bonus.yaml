@@ -1,0 +1,41 @@
+#config_version=4
+
+#
+# Bonus mode
+#
+#
+#!!170509:Creation
+#
+
+mode:
+    #start_events: ball_started
+    #stop_events: ball_ending
+    priority: 300
+
+mode_settings:
+    bonus_entries:
+        - event: bonus_modes
+          score: current_player.bonus_score
+          player_score_entry: current_player.bonus_score
+          reset_player_score_entry: True
+
+show_player:
+    mode_bonus_started:
+        bonus_display:
+            speed: 1
+            loops: 0
+    bonus_multiplier:
+        bonus_multiplier:
+            speed: 1
+            loops: 0
+    bonus_total:
+        bonus_total:
+            speed: 1
+            loops: 0
+
+#slide_player:
+#    bonus_start: collect_bonus_slide
+
+
+
+

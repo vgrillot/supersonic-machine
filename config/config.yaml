@@ -6,7 +6,7 @@ config:
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
-    - rasppinball.yaml
+    #- rasppinball.yaml
     - shots.yaml
     - display.yaml
 
@@ -22,9 +22,15 @@ mpf:
   default_pulse_ms: 50
 
 
+player_vars:
+    bonus_multiplier:
+        initial_value: 1
+
+
 modes:
-  - base
   - attract
+  - base
+  - bonus
   - spinner_1k
   - open_gate
   - ball_return
