@@ -9,77 +9,110 @@ led_settings:
 leds:
     ld_bonus_1k:
         number: 100 #19 #1-18
+        tags: led, bonus, y_20
     ld_bonus_2k:
         number: 101 #20 #1-1
+        tags: led, bonus, y_19
     ld_bonus_3k:
         number: 102 #21 #2-26
+        tags: led, bonus, y_18
     ld_bonus_4k:
         number: 103 #22 #2-1
+        tags: led, bonus, y_17
     ld_bonus_5k:
         number: 104 #23 #1-19
+        tags: led, bonus, y_16
     ld_bonus_6k:
         number: 105 # 24 #1-9
+        tags: led, bonus, y_15
     ld_bonus_7k:
         number: 106 # 25 #2-25
+        tags: led, bonus, y_14
     ld_bonus_8k:
         number: 107 # 26 #2-12
+        tags: led, bonus, y_13
     ld_bonus_9k:
         number: 108 # 27 #1-17
+        tags: led, bonus, y_12
     ld_bonus_10k:
         number: 109 #28 #1-8
+        tags: led, bonus, y_11
     ld_bonus_20k:
         number: 110 # 29 #2-19
+        tags: led, bonus, y_11
 
     ld_top_lane_1:
         number: 4 #0 #1-23
+        tags: led, top_lane, y_2
     ld_top_lane_2:
         number: 6 #1 #1-14
+        tags: led, top_lane, y_2
     ld_top_lane_3:
         number: 8 #2 #1-3
+        tags: led, top_lane, y_2
     ld_top_lane_4:
         number: 5 #3 #2-17
+        tags: led, top_lane, y_2
     ld_top_lane_5:
         number: 7 #4 #2-11
+        tags: led, top_lane, y_2
 
     ld_top_lane_3k:
         number: 3 # 18 #2-9
+        tags: led, top_lane, y_1
     ld_top_lane_3k_right: # this one is duplicated
         number: 9 # 18 #2-9
+        tags: led, top_lane, y_1
 
     ld_jet_stream_star_1k:
         number: 999 #1-15 # TODO still no led here...
+        tags: led, jet_stream
 
     ld_star_1:
         number: 998 #8 #1-16 # TODO
+        tags: led, star, y_9
     ld_star_2:
         number: 997 #9 #1-2 # TODO
+        tags: led, star, y_8
     ld_star_3:
         number: 996 # 10 #1-7 # TODO
+        tags: led, star, y_9
     ld_star_4:
         number: 995 # 12 #2-27 # TODO
+        tags: led, star, y_10
     ld_star_5:
         number: 994 # 11 #2-4 # TODO
+        tags: led, star, y_10
 
     ld_left_lane_1:
         number: 38 # 13 #1-28
+        tags: led, left_lane, y_3
     ld_left_lane_2:
         number: 37 # 14 #2-16
+        tags: led, left_lane, y_4
     ld_left_lane_3:
         number: 36 #15 #1-6
+        tags: led, left_lane, y_5
     ld_left_lane_4:
         number: 35 # 16 #1-13
+        tags: led, left_lane, y_6
     ld_left_lane_5:
         number: 34 # 17 #2-2
+        tags: led, left_lane, y_7
 
 
     ld_left_right_bumper: #?? pq mm lampes ?
         number: 993 # 1-25 # TODO
+        tags: led, bumper, y_3
     ld_left_bumper:
         number: 992 # 5 #do not exists in supersonic #TODO
+        tags: led, bumper, y_3
     ld_right_bumper:
         number: 991 # 6 #do not exists in supersonic # TODO
+        tags: led, bumper, y_3
     ld_bottom_bumper:
         number: 990 # 7 #1-11 # TODO
+        tags: led, bumper, y_5
 
     ld_not_used_1: #??
         number: 989 # 1-26
@@ -90,17 +123,22 @@ leds:
 
     ld_center_target_3k:
         number: 26 # 1-12
+        tags: led, center_target, y_7
     ld_center_target_3k_tail: # added a second led for insert's tail
         number: 23 #1-12
+        tags: led, center_target, y_7
 
     ld_center_target_1:
         number: 25
+        tags: led, center_target, y_7
     ld_center_target_1_tail:
         number: 24
+        tags: led, center_target, y_7
 
 
     ld_spinner_1k:
         number: 15 # 1-10
+        tags: led, spinner, y_6
 
 #    originally got 1 output for 2 leds because:
 #     saucer display next available bonus, then next is 5x when you already lit the 3x
@@ -113,45 +151,64 @@ leds:
 
     ld_saucer_5x:
         number: 12 # 1-5-a
+        tags: led, saucer, y_3
     ld_saucer_3x:
         number: 13 # 2-21-a
+        tags: led, saucer, y_4
     ld_saucer_2x:
         number: 14 # 2-10
+        tags: led, saucer, y_5
 
     ld_bonus_5x:
         number: 32 # 1-24 # TODO:doesnt light !
+        tags: led, multiplier, y_10
     ld_bonus_3x:
         number: 31 # 1-5-b
+        tags: led, multiplier, y_10
     ld_bonus_2x:  # same output because
         number: 30 # 2-21-b
+        tags: led, multiplier, y_11
 
 
     ld_gate_open:
         number: 22 # 2-23
+        tags: led, gate_open
     ld_gate_open_tail: # added a second led for insert's tail
         number: 20 # 2-23
+        tags: led, gate_open
 
     ld_right_outlane: # special
         number: 21 # 2-20
+        tags: led, y_11
     ld_left_outlane: # special
         number: 33 # 2-18
+        tags: led, y_11
+
     ld_s_p_s_a: # ???
         number: 122 # hmmmm...
+        tags: led
 
     ld_drop_target_x_ball:  # extral ball
         number: 29 # 2-24
+        tags: led
     ld_drop_target_special:
         number: 27 # 2-14
+        tags: led, y_7
     ld_side_target_3k: # should be named ld_drop_target_3k?
         number: 28 # 1-27
+        tags: led, y_6
 
     ld_credit_indicator:
         number: 888 #2-13
+        tags: led
 
     ld_opens_gate_wl:
         number: 10 # 2-3
+        tags: led, open_gate, y_3
     ld_opens_gate_wl_tail: # added a second led for insert's tail
         number: 11 # 2-3
+        tags: led, open_gate, y_3
 
     ld_feature_lamps_bus: # GI Global Illumination 
         number: 889 #2-7
+        tags: led

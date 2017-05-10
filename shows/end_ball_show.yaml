@@ -12,6 +12,18 @@
 
 - duration: 0.3
   leds:
+    star: green
+
+- duration: 0.3
+  leds:
+    (all): blue
+
+- duration: 0.3
+  leds:
+    (led): yellow
+
+- duration: 0.3
+  leds:
     ld_bonus_1k: red
     ld_bonus_2k: red
     ld_bonus_3k: red

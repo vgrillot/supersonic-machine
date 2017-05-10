@@ -263,4 +263,7 @@ show_player:
       end_ball_show:
         speed: 1
         loops: 0
+        show_tokens:
+          all: led
+          led: bonus
 
