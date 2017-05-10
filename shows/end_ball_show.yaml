@@ -1,0 +1,70 @@
+#show_version=4
+
+#
+# open_gate_arrow.yaml
+#
+# light/blink the top arrow
+#
+#!!170506:VG:Creation
+#
+
+
+
+- duration: 0.3
+  leds:
+    ld_bonus_1k: red
+    ld_bonus_2k: red
+    ld_bonus_3k: red
+    ld_bonus_4k: red
+    ld_bonus_5k: red
+    ld_bonus_6k: red
+    ld_bonus_7k: red
+    ld_bonus_8k: red
+    ld_bonus_9k: red
+    ld_bonus_10k: red
+    ld_bonus_20k: red
+
+- duration: 0.1
+  leds:
+    ld_bonus_20k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_10k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_9k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_8k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_7k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_6k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_5k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_4k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_3k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_2k: off
+
+- duration: 0.1
+  leds:
+    ld_bonus_1k: off
+

@@ -212,6 +212,7 @@ logic_blocks:
             count_complete_value: 1
             direction: up
             events_when_complete: enable_top_ro_mode_2_complete
+            persist_state: true
         enable_top_ro_mode_3:
             #count_events: top_ro_default_lit_complete{current_player.enable_top_ro_mode_2_count==1}
             count_events: top_ro_default_lit_complete
@@ -219,6 +220,7 @@ logic_blocks:
             count_complete_value: 2
             direction: up
             events_when_complete: enable_top_ro_mode_3_complete
+            persist_state: true
 
         enable_dropbank_lit_extraball:
             count_events: drop_target_bank_left_drops_down
@@ -255,4 +257,10 @@ logic_blocks:
             direction: up
             events_when_complete: multiplier_5x_complete
 
+
+show_player:
+    ball_drain:
+      end_ball_show:
+        speed: 1
+        loops: 0
 
