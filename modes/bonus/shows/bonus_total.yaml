@@ -13,7 +13,7 @@
     collect_bonus_slide:
       widgets:
       - type: text
-        text: current_player.bonus_score
+        text: (current_player.bonus_score)
         #font_size: 30
       transition:
          type: push
