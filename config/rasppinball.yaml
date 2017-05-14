@@ -10,7 +10,7 @@ hardware:
 #        ip: None
 
 rasppinball:
-    debug: true
+    debug: false
 #    #rasp_strip_leds:      #   LED strip configuration:
 #    #    strip_0:
     count: 64         #   Number of LED pixels.

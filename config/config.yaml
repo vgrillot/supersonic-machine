@@ -6,9 +6,10 @@ config:
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
-    #- rasppinball.yaml
+    - rasppinball.yaml
     - shots.yaml
     - display.yaml
+    - sounds.yaml
 
 #bcp:
 #    servers:

@@ -43,6 +43,59 @@ slide_player:
             anchor_y: bottom
 
 
+sound_player:
+    sw_left_slingshot_active:
+        slingshots:
+            action: play
+    sw_right_slingshot_active:
+        slingshots:
+            action: play
+
+    sw_bottom_bumper_active:
+        bumpers:
+            action: play
+    sw_right_bumper_active:
+        bumpers:
+            action: play
+    sw_left_bumper_active:
+        bumpers:
+            action: play
+
+    shot_spinner_hit:
+        spinner:
+            action: play
+
+    sw_drop_target_e_active:
+        drop_target:
+            action: play
+    sw_drop_target_d_active:
+        drop_target:
+            action: play
+    sw_drop_target_c_active:
+        drop_target:
+            action: play
+    sw_drop_target_b_active:
+        drop_target:
+            action: play
+    sw_drop_target_a_active:
+        drop_target:
+            action: play
+
+    drop_target_bank_left_drops_down:
+        drop_target_all_down:
+            action: play
+
+    sw_fix_target_right_1_active:
+        fix_target:
+            action: play
+    sw_fix_target_right_2_active:
+        fix_target:
+            action: play
+    sw_fix_target_right_3_active:
+        fix_target:
+            action: play
+
+
 
 scoring:
     shot_spinner_hit:

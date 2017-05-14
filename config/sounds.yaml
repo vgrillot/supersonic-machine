@@ -1,0 +1,57 @@
+#config_version=4
+
+#
+# sounds.yaml
+#
+#!!170514:VG:Creation
+#  Added sampes from MAME supersonic emulation:
+#  	1000.wav  
+#	100.wav  
+#	10.wav  
+#	3000.wav  
+#	300.wav  
+#	bonus_5.wav  
+#	bonus_multiplier.wav  
+#	game_over.wav  
+#	game_start.wav  
+#	roll_over.wav  
+#	tilt.wav
+#
+#
+
+assets:
+    sounds:
+        default:
+            load: on_demand
+        music:  
+            track: music
+        sfx:
+            track: sfx
+        voice:   
+            track: voice
+
+
+sounds:
+    100:
+        file: 100.wav 
+
+    bumpers:
+        file: 10.wav 
+
+    bumper_lit:
+        file: 100.wav 
+
+    slingshots:
+        file: 10.wav 
+
+    drop_target:
+        file: 300.wav
+
+    drop_target_all_down:
+        file: 3000.wav
+
+    fix_target:
+        file: 300.wav
+
+
+
