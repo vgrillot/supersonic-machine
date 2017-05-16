@@ -45,54 +45,124 @@ slide_player:
 
 sound_player:
     sw_left_slingshot_active:
-        slingshots:
+        snd_slingshot:
             action: play
     sw_right_slingshot_active:
-        slingshots:
+        snd_slingshot:
             action: play
 
     sw_bottom_bumper_active:
-        bumpers:
+        snd_bumper:
             action: play
     sw_right_bumper_active:
-        bumpers:
+        snd_bumper:
             action: play
     sw_left_bumper_active:
-        bumpers:
+        snd_bumper:
             action: play
 
     shot_spinner_hit:
-        spinner:
+        snd_spinner:
             action: play
 
     sw_drop_target_e_active:
-        drop_target:
+        snd_drop_target:
             action: play
     sw_drop_target_d_active:
-        drop_target:
+        snd_drop_target:
             action: play
     sw_drop_target_c_active:
-        drop_target:
+        snd_drop_target:
             action: play
     sw_drop_target_b_active:
-        drop_target:
+        snd_drop_target:
             action: play
     sw_drop_target_a_active:
-        drop_target:
+        snd_drop_target:
+            action: play
+
+    sw_drop_target_rebound_active:
+        snd_drop_target_rebound:
             action: play
 
     drop_target_bank_left_drops_down:
-        drop_target_all_down:
-            action: play
+        snd_drop_target_all_down:
+             action: play
 
     sw_fix_target_right_1_active:
-        fix_target:
+        snd_fix_target:
             action: play
     sw_fix_target_right_2_active:
-        fix_target:
+        snd_fix_target:
             action: play
     sw_fix_target_right_3_active:
-        fix_target:
+        snd_fix_target:
+            action: play
+
+    sw_top_ro_button_active:
+        snd_top_ro_button:
+            action: play
+
+    sw_top_ro_1_active:
+        snd_top_ro_button:
+            action: play
+    sw_top_ro_2_active:
+        snd_top_ro_button:
+            action: play
+    sw_top_ro_3_active:
+        snd_top_ro_button:
+            action: play
+    sw_top_ro_4_active:
+        snd_top_ro_button:
+            action: play
+    sw_top_ro_5_active:
+        snd_top_ro_button:
+            action: play
+
+    top_ro_default_lit_complete:
+        snd_top_ro_button_complete:
+            action: play
+
+    sw_feed_lane_active:
+        snd_feed_lane:
+            action: play
+
+    sw_right_outlane_active:
+        snd_outlane:
+            action: play
+
+    sw_left_outlane_active:
+        snd_outlane:
+            action: play
+
+    sw_left_lane_ro_button_1_active:
+        snd_left_lane:
+            action: play
+    sw_left_lane_ro_button_2_active:
+        snd_left_lane:
+            action: play
+    sw_left_lane_ro_button_3_active:
+        snd_left_lane:
+            action: play
+    sw_left_lane_ro_button_4_active:
+        snd_left_lane:
+            action: play
+    sw_left_lane_ro_button_5_active:
+        snd_left_lane:
+            action: play
+
+    #TODO: snd_saucer hide the snd_increase_bonus
+    sw_saucer_active:
+        snd_saucer:
+            action: play
+    multiplier_2x_complete:
+        snd_increase_bonus:
+            action: play
+    multiplier_3x_complete:
+        snd_increase_bonus:
+            action: play
+    multiplier_5x_complete:
+        snd_increase_bonus:
             action: play
 
 
@@ -158,7 +228,7 @@ scoring:
         score: 300
 
     top_ro_default_lit_complete:
-        top_ro_default_lit_complete: 1
+        score: 3000
 
     sw_feed_lane_active:
         score: 300
@@ -166,10 +236,10 @@ scoring:
     sw_fix_target_center:
         score: 300
 
-    sw_right_outlane:
+    sw_right_outlane_active:
         score: 1000
 
-    sw_left_outlane:
+    sw_left_outlane_active:
         score: 1000
 
     sw_saucer_active:

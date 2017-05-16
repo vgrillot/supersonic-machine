@@ -4,8 +4,8 @@
 # sounds.yaml
 #
 #!!170514:VG:Creation
-#  Added sampes from MAME supersonic emulation:
-#  	1000.wav  
+# Added sampes from MAME supersonic emulation:
+# 1000.wav
 #	100.wav  
 #	10.wav  
 #	3000.wav  
@@ -18,6 +18,23 @@
 #	tilt.wav
 #
 #
+
+sound_system:
+    buffer: 2048
+    channels: 1
+    enabled: True
+    frequency: 44100
+    master_volume: 1.00
+    tracks:
+        music:
+            volume: 0.5
+            simultaneaous_sounds: 1
+        sfx:
+            volumne: 0.4
+            simultaneaous_sounds: 8
+        voice:
+           volumne: 0.6
+           simultaneaous_sounds: 1
 
 assets:
     sounds:
@@ -32,26 +49,76 @@ assets:
 
 
 sounds:
-    100:
-        file: 100.wav 
+    snd_bumper:
+        file: sounds/sfx/10.wav
+        track: sfx
+        max_queue_time: 0
 
-    bumpers:
-        file: 10.wav 
+#    bumper_lit:
+#        file: 100.wav
+#        track: sfx
+#
+    snd_slingshot:
+        file: sounds/sfx/10.wav
+        track: sfx
+        max_queue_time: 0
 
-    bumper_lit:
-        file: 100.wav 
+    snd_drop_target:
+        file: sounds/sfx/300.wav
+        track: sfx
+        max_queue_time: None
 
-    slingshots:
-        file: 10.wav 
+    snd_drop_target_rebound:
+        file: sounds/sfx/10.wav
+        track: sfx
+        max_queue_time: 0
 
-    drop_target:
-        file: 300.wav
+    snd_drop_target_all_down:
+        file: sounds/sfx/3000.wav
+        track: sfx
+        max_queue_time: 0
 
-    drop_target_all_down:
-        file: 3000.wav
+    snd_fix_target:
+        file: sounds/sfx/300.wav
+        track: sfx
+        max_queue_time: None
 
-    fix_target:
-        file: 300.wav
+    snd_spinner:
+        file: sounds/sfx/100.wav
+        track: sfx
+        max_queue_time: 0
 
+    snd_top_ro_button:
+        file: sounds/sfx/300.wav
+        track: sfx
+        max_queue_time: None
 
+    snd_top_ro_button_complete:
+        file: sounds/sfx/3000.wav
+        track: sfx
+        max_queue_time: None
 
+    snd_feed_lane:
+        file: sounds/sfx/300.wav
+        track: sfx
+        max_queue_time: None
+
+    snd_outlane:
+        file: sounds/sfx/1000.wav
+        track: sfx
+        max_queue_time: None
+
+    snd_saucer:
+        file: sounds/sfx/3000.wav
+        track: sfx
+        max_queue_time: None
+
+    snd_left_lane:
+        file: sounds/sfx/100.wav
+        track: sfx
+        max_queue_time: 0
+
+    snd_increase_bonus:
+        file: sounds/sfx/bonus_multiplier.wav
+        track: sfx
+        max_queue_time: None
