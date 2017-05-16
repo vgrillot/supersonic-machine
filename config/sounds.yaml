@@ -122,3 +122,9 @@ sounds:
         file: sounds/sfx/bonus_multiplier.wav
         track: sfx
         max_queue_time: None
+
+    snd_star:
+        file: sounds/sfx/100.wav
+        track: sfx
+        max_queue_time: 0
+

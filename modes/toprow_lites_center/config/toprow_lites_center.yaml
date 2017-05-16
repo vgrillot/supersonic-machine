@@ -59,31 +59,6 @@ shots:
 #
 # center star score 100 when unlit, 1000 when lit
 #
-scoring:
-    sw_star_1_active{current_player.star_1_state_count==0}:
-        score: 100
-    sw_star_1_active{current_player.star_1_state_count==1}:
-        score: 1000
-
-    sw_star_2_active{current_player.star_2_state_count==0}:
-        score: 100
-    sw_star_2_active{current_player.star_2_state_count==1}:
-        score: 1000
-
-    sw_star_3_active{current_player.star_3_state_count==0}:
-        score: 100
-    sw_star_3_active{current_player.star_3_state_count==1}:
-        score: 1000
-
-    sw_star_4_active{current_player.star_4_state_count==0}:
-        score: 100
-    sw_star_4_active{current_player.star_4_state_count==1}:
-        score: 1000
-
-    sw_star_5_active{current_player.star_5_state_count==0}:
-        score: 100
-    sw_star_5_active{current_player.star_5_state_count==1}:
-        score: 1000
 
 event_player:
     sw_star_1_active{current_player.star_1_state_count==1}: increase_bonus

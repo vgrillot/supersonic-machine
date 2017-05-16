@@ -165,11 +165,38 @@ sound_player:
         snd_increase_bonus:
             action: play
 
+    sw_star_1_active:
+        snd_star:
+            action: play
+    sw_star_2_active:
+        snd_star:
+            action: play
+    sw_star_3_active:
+        snd_star:
+            action: play
+    sw_star_4_active:
+        snd_star:
+            action: play
+    sw_star_5_active:
+        snd_star:
+            action: play
 
 
 scoring:
     shot_spinner_hit:
         score: 100
+
+    sw_star_1_active:
+        score: 100
+    sw_star_2_active:
+        score: 100
+    sw_star_3_active:
+        score: 100
+    sw_star_4_active:
+        score: 100
+    sw_star_5_active:
+        score: 100
+
 
     sw_drop_target_e_active:
         score: 300
