@@ -31,7 +31,7 @@ sound_system:
             simultaneaous_sounds: 1
         sfx:
             volumne: 0.4
-            simultaneaous_sounds: 8
+            simultaneaous_sounds: 1
         voice:
            volumne: 0.6
            simultaneaous_sounds: 1
