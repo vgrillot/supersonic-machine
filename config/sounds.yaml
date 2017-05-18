@@ -28,13 +28,13 @@ sound_system:
     tracks:
         music:
             volume: 0.5
-            simultaneaous_sounds: 1
+            simultaneous_sounds: 1
         sfx:
             volumne: 0.4
-            simultaneaous_sounds: 1
+            simultaneous_sounds: 8
         voice:
            volumne: 0.6
-           simultaneaous_sounds: 1
+           simultaneous_sounds: 1
 
 assets:
     sounds:
