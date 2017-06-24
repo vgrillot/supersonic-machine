@@ -1,11 +1,15 @@
 #config_version=4
 
 #
+#!!170624:VG:Try the workaround use_sdl_mixer_loader for rpi platform
+#
+
+#
 # sounds.yaml
 #
 #!!170514:VG:Creation
-# Added sampes from MAME supersonic emulation:
-# 1000.wav
+# Added samples from MAME supersonic emulation:
+#   1000.wav
 #	100.wav  
 #	10.wav  
 #	3000.wav  
@@ -19,10 +23,12 @@
 #
 #
 
+
 sound_system:
+    use_sdl_mixer_loader: False
+    enabled: true
     buffer: 2048
-    channels: 1
-    enabled: True
+    channels: 2
     frequency: 44100
     master_volume: 1.00
     tracks:
@@ -30,7 +36,7 @@ sound_system:
             volume: 0.5
             simultaneous_sounds: 1
         sfx:
-            volumne: 0.4
+            volumne: 0.7
             simultaneous_sounds: 8
         voice:
            volumne: 0.6
@@ -39,7 +45,7 @@ sound_system:
 assets:
     sounds:
         default:
-            load: on_demand
+            load: preload
         music:  
             track: music
         sfx:
