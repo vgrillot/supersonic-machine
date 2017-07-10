@@ -74,7 +74,7 @@ led:
   ld_drop_target_x_ball:
     x: 0.29291488349976225
     y: 0.48502139800285304
-   ld_gate_open:
+  ld_gate_open:
     x: 0.7506736408305595
     y: 0.6212553495007133
   ld_gate_open_tail:
