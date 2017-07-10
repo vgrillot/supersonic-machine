@@ -416,5 +416,25 @@ show_player:
         loops: 0
         show_tokens:
           all: led
-          led: bonus
+          y_20: y_20
+          y_19: y_19
+          y_18: y_18
+          y_17: y_17
+          y_16: y_16
+          y_15: y_15
+          y_14: y_14
+          y_13: y_13
+          y_12: y_12
+          y_11: y_11
+          y_10: y_10
+          y_9: y_9
+          y_8: y_8
+          y_7: y_7
+          y_6: y_6
+          y_5: y_5
+          y_4: y_4
+          y_3: y_3
+          y_2: y_2
+          y_1: y_1
+          what: what
 
