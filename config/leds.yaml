@@ -66,7 +66,7 @@ leds:
 
     ld_jet_stream_star_1k:
         number: 999 #1-15 # TODO still no led here...
-        tags: led, jet_stream
+        tags: led, jet_stream, y_3
 
     ld_star_1:
         number: 998 #8 #1-16 # TODO
@@ -172,10 +172,10 @@ leds:
 
     ld_gate_open:
         number: 22 # 2-23
-        tags: led, gate_open
+        tags: led, gate_open, y_10
     ld_gate_open_tail: # added a second led for insert's tail
         number: 20 # 2-23
-        tags: led, gate_open
+        tags: led, gate_open, y_10
 
     ld_right_outlane: # special
         number: 21 # 2-20
@@ -184,13 +184,13 @@ leds:
         number: 33 # 2-18
         tags: led, y_11
 
-    ld_s_p_s_a: # ???
+    ld_s_p_s_a: # Same Player Shoot Again !
         number: 122 # hmmmm...
-        tags: led
+        tags: led, y_17
 
     ld_drop_target_x_ball:  # extral ball
         number: 29 # 2-24
-        tags: led
+        tags: led, y_8
     ld_drop_target_special:
         number: 27 # 2-14
         tags: led, y_7
