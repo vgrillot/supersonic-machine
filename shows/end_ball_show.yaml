@@ -1,82 +1,95 @@
 #show_version=4
 
 #
-# open_gate_arrow.yaml
+# end_ball_show.yaml
 #
-# light/blink the top arrow
+# light all to the same color and drop all to black
 #
 #!!170506:VG:Creation
+#!!171710:VG:Adjusted light show
 #
 
-
-
-- duration: 0.3
-  leds:
-    star: green
 
 - duration: 0.3
   leds:
     (all): blue
 
-- duration: 0.3
+- duration: 0.1
   leds:
-    (led): yellow
-
-- duration: 0.3
-  leds:
-    ld_bonus_1k: red
-    ld_bonus_2k: red
-    ld_bonus_3k: red
-    ld_bonus_4k: red
-    ld_bonus_5k: red
-    ld_bonus_6k: red
-    ld_bonus_7k: red
-    ld_bonus_8k: red
-    ld_bonus_9k: red
-    ld_bonus_10k: red
-    ld_bonus_20k: red
+    (y_1): off
 
 - duration: 0.1
   leds:
-    ld_bonus_20k: off
+    (y_2): off
 
 - duration: 0.1
   leds:
-    ld_bonus_10k: off
+    (y_3): off
 
 - duration: 0.1
   leds:
-    ld_bonus_9k: off
+    (y_4): off
 
 - duration: 0.1
   leds:
-    ld_bonus_8k: off
+    (y_5): off
 
 - duration: 0.1
   leds:
-    ld_bonus_7k: off
+    (y_6): off
 
 - duration: 0.1
   leds:
-    ld_bonus_6k: off
+    (y_7): off
 
 - duration: 0.1
   leds:
-    ld_bonus_5k: off
+    (y_8): off
 
 - duration: 0.1
   leds:
-    ld_bonus_4k: off
+    (y_9): off
 
 - duration: 0.1
   leds:
-    ld_bonus_3k: off
+    (y_10): off
 
 - duration: 0.1
   leds:
-    ld_bonus_2k: off
+    (y_11): off
 
 - duration: 0.1
   leds:
-    ld_bonus_1k: off
+    (y_12): off
 
+- duration: 0.1
+  leds:
+    (y_13): off
+
+- duration: 0.1
+  leds:
+    (y_14): off
+
+- duration: 0.1
+  leds:
+    (y_15): off
+
+- duration: 0.1
+  leds:
+    (y_16): off
+
+- duration: 0.1
+  leds:
+    (y_17): off
+
+- duration: 0.1
+  leds:
+    (y_18): off
+
+- duration: 0.1
+  leds:
+    (y_19): off
+
+- duration: 0.1
+  leds:
+    (y_20): off
