@@ -411,6 +411,7 @@ logic_blocks:
 show_player:
     ball_drain:
       end_ball_show:
+        priority: 999
         speed: 1
         loops: 0
         show_tokens:
