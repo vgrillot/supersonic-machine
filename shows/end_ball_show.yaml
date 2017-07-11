@@ -12,84 +12,84 @@
 
 - duration: 0.3
   leds:
-    (all): blue
+    led: blue
 
 - duration: 0.1
   leds:
-    (y_1): off
+    y_1: off
 
 - duration: 0.1
   leds:
-    (y_2): off
+    y_2: off
 
 - duration: 0.1
   leds:
-    (y_3): off
+    y_3: off
 
 - duration: 0.1
   leds:
-    (y_4): off
+    y_4: off
 
 - duration: 0.1
   leds:
-    (y_5): off
+    y_5: off
 
 - duration: 0.1
   leds:
-    (y_6): off
+    y_6: off
 
 - duration: 0.1
   leds:
-    (y_7): off
+    y_7: off
 
 - duration: 0.1
   leds:
-    (y_8): off
+    y_8: off
 
 - duration: 0.1
   leds:
-    (y_9): off
+    y_9: off
 
 - duration: 0.1
   leds:
-    (y_10): off
+    y_10: off
 
 - duration: 0.1
   leds:
-    (y_11): off
+    y_11: off
 
 - duration: 0.1
   leds:
-    (y_12): off
+    y_12: off
 
 - duration: 0.1
   leds:
-    (y_13): off
+    y_13: off
 
 - duration: 0.1
   leds:
-    (y_14): off
+    y_14: off
 
 - duration: 0.1
   leds:
-    (y_15): off
+    y_15: off
 
 - duration: 0.1
   leds:
-    (y_16): off
+    y_16: off
 
 - duration: 0.1
   leds:
-    (y_17): off
+    y_17: off
 
 - duration: 0.1
   leds:
-    (y_18): off
+    y_18: off
 
 - duration: 0.1
   leds:
-    (y_19): off
+    y_19: off
 
 - duration: 0.1
   leds:
-    (y_20): off
+    y_20: off
