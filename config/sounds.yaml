@@ -28,7 +28,7 @@ sound_system:
     use_sdl_mixer_loader: False
     enabled: true
     buffer: 2048
-    channels: 2
+    channels: 1
     frequency: 44100
     master_volume: 1.00
     tracks:
