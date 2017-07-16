@@ -5,8 +5,9 @@ coils:
         number: 42
         pulse_ms: 30
 
-    co_knocker:
-        number: 0
+# TODO:
+#    co_knocker:
+#        number: 0
 
     co_saucer:
         number: 26
