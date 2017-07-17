@@ -8,12 +8,13 @@
 #
 
 
-- duration: 1s
+- duration: 3s
   slides:
     collect_bonus_slide:
       widgets:
       - type: text
-        text: (current_player.bonus_multiplier)
+        #text: BONUS X (current_player.bonus_multiplier)
+        text: 'BONUS (multiplier)X'
         #font_size: 30
       transition:
          type: push

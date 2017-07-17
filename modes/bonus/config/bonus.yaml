@@ -5,6 +5,7 @@
 #
 #
 #!!170509:Creation
+# https://github.com/missionpinball/mpf-examples/blob/4a7c04c1a50e3ca7fdbe3dfbf45ff2818feaecd9/demo_man/modes/bonus/config/bonus.yaml
 #
 
 mode:
@@ -14,13 +15,16 @@ mode:
 
 mode_settings:
     bonus_entries:
-        - event: bonus_modes
-          score: bonus_score
-          player_score_entry: bonus_score
-          reset_player_score_entry: True
+        - event: show_bonus_score
+          score: 0
+#        - event: add_bonus_score
+#          score: bonus_score
+#          player_score_entry: multiplier
+#        - event: show_total_score
+#          score: 0
 
 show_player:
-    mode_bonus_started:
+    bonus_start:
         bonus_display:
             speed: 1
             loops: 0
@@ -33,5 +37,19 @@ show_player:
             speed: 1
             loops: 0
 
+scoring:
+    bonus_total: # ok
+        score: bonus_score
+        test5_score: 100
+        test_score: (player_bonus_score)
+        test2_score: player_bonus_score
+        test3_score: (bonus_score)
+        test4_score: bonus_score
+    mode_bonus_stopping: # ok
+        bonus_score:
+            score: 0
+            action: set
 
 
+#event_player:
+#    bonus_mode_started: bonus_score_reset # ok

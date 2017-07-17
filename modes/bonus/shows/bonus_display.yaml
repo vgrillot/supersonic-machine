@@ -13,7 +13,7 @@
     collect_bonus_slide:
       widgets:
       - type: text
-        text: Collect bonus !
+        text: 'Collect bonus !'
         #font_size: 30
       transition:
          type: push

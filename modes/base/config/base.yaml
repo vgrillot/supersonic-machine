@@ -286,53 +286,18 @@ scoring:
     game_starting:
         multiplier: 1
     multiplier_2x_complete:
-        multiplier: 1
-        #action: set
+        multiplier: 1 # +1 -> x2
     multiplier_3x_complete:
-        multiplier: 1
-        #action: set
+        multiplier: 1 # +1 -> x3
     multiplier_5x_complete:
-        multiplier: 2
-        #action: set
+        multiplier: 2 # +2 -> x5
 
     increase_bonus:
         bonus_score: 1000
 
-# doesn't work
 #    ball_ended:
-#        bonus_score: 0|set
+#        player_bonus_score: 0|set
 
-# never called ?
-#    ball_started:
-#        bonus_score:
-#            score: 0
-#            action: set
-
-# ok
-    sw_right_flipper_hit:
-        bonus_score:
-            score: 0
-            action: set
-
-# ok
-#    mode_base_started:
-#        bonus_score:
-#            score: 0
-#            action: set
-
-    bonus_score_reset:
-        bonus_score:
-            score: 0
-            action: set
-
-#    sw_left_flipper:
-#        flip: -1
-#    sw_right_flipper:
-#        flip: 1
-
-event_player:
-    ball_started: bonus_score_reset
-    #bonus_score_reset: ball_started
 
 shots:
     saucer_shot:

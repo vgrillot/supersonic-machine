@@ -13,7 +13,8 @@
     collect_bonus_slide:
       widgets:
       - type: text
-        text: (current_player.bonus_score)
+        #text: 'TOTAL = (current_player.bonus_score)' #NOK
+        text: 'TOTAL = (bonus_score)'
         #font_size: 30
       transition:
          type: push
