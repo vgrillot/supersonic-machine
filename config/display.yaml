@@ -102,7 +102,9 @@ slides:
       z: 9
     # score lcd
     - type: text
-      text: (score) # TODO : (player1_score) pareil ?
+      #text: (score) # OK for one player only, display current player's score
+      #text: (player1_score) # NOK  : (player1_score) doens't work
+      text: (player1|score)
       number_grouping: true
       min_digits: 2
       y: 545
@@ -112,7 +114,8 @@ slides:
       style: lcd
       z: 5
     - type: text
-      text: (player2_score) # TODO : a valider
+      #text: (player2_score) # NO
+      text: (player2|score) # OK, but empty instead of zero when only 1 player
       number_grouping: true
       min_digits: 2
       anchor_x: right
