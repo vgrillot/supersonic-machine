@@ -32,6 +32,10 @@ show_player:
         bonus_multiplier:
             speed: 1
             loops: 0
+    bonus_subtotal:
+        bonus_subtotal:
+            speed: 1
+            loops: 0
     bonus_total:
         bonus_total:
             speed: 1
@@ -39,16 +43,16 @@ show_player:
 
 scoring:
     bonus_total: # ok
-        score: bonus_score
-        test5_score: 100
-        test_score: (player_bonus_score)
-        test2_score: player_bonus_score
-        test3_score: (bonus_score)
-        test4_score: bonus_score
-    mode_bonus_stopping: # ok
-        bonus_score:
-            score: 0
-            action: set
+        score: (bonus_score)
+#        test5_score: 100
+#        test_score: (player_bonus_score)
+#        test2_score: player_bonus_score
+#        test3_score: (bonus_score)
+#        test4_score: bonus_score
+#    mode_bonus_stopping: # ok
+#        bonus_score:
+#            score: 0
+#            action: set
 
 
 #event_player:

@@ -14,7 +14,7 @@
       widgets:
       - type: text
         #text: BONUS X (current_player.bonus_multiplier)
-        text: 'BONUS (multiplier)X'
+        text: 'BONUS (bonus_multiplier)X'
         #font_size: 30
       transition:
          type: push

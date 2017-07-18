@@ -20,7 +20,7 @@ slide_player:
             anchor_y: top
             y: top
           - type: text
-            text: (bonus_score)
+            text: (bonus_score) X(bonus_multiplier)
             number_grouping: true
             min_digits: 4
             font_size: 5
@@ -283,14 +283,15 @@ scoring:
     sw_left_lane_ro_button_5_active:
         score: 100
 
-    game_starting:
-        multiplier: 1
+    #game_started: nok
+    #    bonus_multiplier: 1
+    #    action: set
     multiplier_2x_complete:
-        multiplier: 1 # +1 -> x2
+        bonus_multiplier: 1 # +1 -> x2
     multiplier_3x_complete:
-        multiplier: 1 # +1 -> x3
+        bonus_multiplier: 1 # +1 -> x3
     multiplier_5x_complete:
-        multiplier: 2 # +2 -> x5
+        bonus_multiplier: 2 # +2 -> x5
 
     increase_bonus:
         bonus_score: 1000

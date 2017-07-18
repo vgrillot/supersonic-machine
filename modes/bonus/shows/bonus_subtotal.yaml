@@ -1,9 +1,9 @@
 #show_version=4
 
 #
-# Bonus total display
+# Bonus subtotal display
 #
-#!!170509:VG:Creation
+#!!170718:VG:Creation
 #
 #
 
@@ -14,7 +14,7 @@
       widgets:
       - type: text
         #text: 'TOTAL = (current_player.bonus_score)' #NOK
-        text: TOTAL = (bonus_score)
+        text: subtotal = (bonus_score)
         #font_size: 30
       transition:
          type: push
