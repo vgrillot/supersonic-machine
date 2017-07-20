@@ -9,19 +9,30 @@
 #
 
 mode:
-    #start_events: ball_started
-    #stop_events: ball_ending
     priority: 300
 
 mode_settings:
+    # display_delay_ms: 3s
+    keep_multiplier: False
     bonus_entries:
         - event: show_bonus_score
-          score: 0
-#        - event: add_bonus_score
-#          score: bonus_score
-#          player_score_entry: multiplier
-#        - event: show_total_score
-#          score: 0
+          score: 1
+          player_score_entry: bonus_score # score ok
+          reset_player_score_entry: True
+
+scoring:
+    bonus_start:
+        bonus_subtotal:
+            score: 0
+            action: set
+    bonus_subtotal:
+        bonus_subtotal: bonus_score
+    bonus_multiplier:
+        bonus_subtotal:
+           score: bonus_score * multiplier
+           action: set
+
+
 
 show_player:
     bonus_start:
@@ -41,19 +52,3 @@ show_player:
             speed: 1
             loops: 0
 
-scoring:
-    bonus_total: # ok
-        score: (bonus_score)
-#        test5_score: 100
-#        test_score: (player_bonus_score)
-#        test2_score: player_bonus_score
-#        test3_score: (bonus_score)
-#        test4_score: bonus_score
-#    mode_bonus_stopping: # ok
-#        bonus_score:
-#            score: 0
-#            action: set
-
-
-#event_player:
-#    bonus_mode_started: bonus_score_reset # ok

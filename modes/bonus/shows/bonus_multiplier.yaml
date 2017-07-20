@@ -13,8 +13,10 @@
     collect_bonus_slide:
       widgets:
       - type: text
-        #text: BONUS X (current_player.bonus_multiplier)
-        text: 'BONUS (bonus_multiplier)X'
+        #(player_bonus_subtotal) : nok
+        #text: 'BONUS (bonus_multiplier)X [(player_bonus_subtotal)]'
+        #text: 'BONUS (bonus_multiplier)X' #OK
+        text: 'BONUS (multiplier)X' #OK
         #font_size: 30
       transition:
          type: push

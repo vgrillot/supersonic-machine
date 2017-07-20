@@ -283,9 +283,6 @@ scoring:
     sw_left_lane_ro_button_5_active:
         score: 100
 
-    #game_started: nok
-    #    bonus_multiplier: 1
-    #    action: set
     multiplier_2x_complete:
         bonus_multiplier: 1 # +1 -> x2
     multiplier_3x_complete:
@@ -296,8 +293,10 @@ scoring:
     increase_bonus:
         bonus_score: 1000
 
-#    ball_ended:
-#        player_bonus_score: 0|set
+    ball_started:
+        bonus_score:
+            score: 999
+            action: set
 
 
 shots:

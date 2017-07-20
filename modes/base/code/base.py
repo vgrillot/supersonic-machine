@@ -22,24 +22,29 @@ class base(Mode):
         pass
 
     def mode_start(self, **kwargs):
-        self.add_mode_event_handler('increase_bonus', self.increase_bonus)
-        self.add_mode_event_handler('ball_starting', self.ball_starting)
-        self.add_mode_event_handler('mode_base_started', self.mode_base_started)
-        self.add_mode_event_handler('player_bonus_score', self.player_bonus_score)
+        """register events"""
+        self.add_mode_event_handler('increase_bonus', self.on_increase_bonus)
+        self.add_mode_event_handler('ball_started', self.on_ball_started)
+        self.add_mode_event_handler('mode_base_started', self.on_mode_base_started)
+        self.add_mode_event_handler('player_bonus_score', self.on_player_bonus_score)
 
-    def player_bonus_score(self, **kwargs):
+    def on_player_bonus_score(self, **kwargs):
+        """called when the bonus_score variable is updated"""
         self.log.info('**** display bonus_score (player_bonus_score) ****')
         self.__update_leds()
 
-    def mode_base_started(self, **kwargs):
+    def on_mode_base_started(self, **kwargs):
+        # TODO : never called ?
         self.log.info('**** display bonus_score (mode_base_started) ****')
         self.__update_leds()
 
-    def ball_starting(self, **kwargs):
-        self.log.info('**** display bonus_score (ball_starting) ****')
+    def on_ball_started(self, **kwargs):
+        # TODO : never called ?
+        self.log.info('**** display bonus_score (ball_started) ++reset++ ****')
         self.__update_leds()
 
-    def increase_bonus(self, **kwargs):
+    def on_increase_bonus(self, **kwargs):
+        """event received on bonus shot hit"""
         self.log.info('**** display bonus_score (increase_bonus) ****')
         bonus_score = self.player['bonus_score']
         if bonus_score == 40000:

@@ -14,7 +14,9 @@
       widgets:
       - type: text
         #text: 'TOTAL = (current_player.bonus_score)' #NOK
-        text: subtotal = (bonus_score)
+        #text: subtotal = (bonus_score) #NOK, no multiplier
+        #text: subtotal = (score) #NOK : display the current player score !
+        text: subtotal = (bonus_subtotal) #NOK : display the current player score !
         #font_size: 30
       transition:
          type: push

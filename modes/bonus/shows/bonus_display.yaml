@@ -8,7 +8,7 @@
 #
 
 
-- duration: 3s
+- duration: 2s
   slides:
     collect_bonus_slide:
       widgets:
