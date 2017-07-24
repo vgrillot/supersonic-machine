@@ -12,7 +12,7 @@ mode:
     priority: 300
 
 mode_settings:
-    # display_delay_ms: 3s
+    display_delay_ms: 3s
     keep_multiplier: False
     bonus_entries:
         - event: show_bonus_score
@@ -29,7 +29,8 @@ scoring:
         bonus_subtotal: bonus_score
     bonus_multiplier:
         bonus_subtotal:
-           score: bonus_score * multiplier
+           #score: bonus_score * multiplier #NOK
+           score: bonus_score * current_player.bonus_multiplier #NOK, always 0
            action: set
 
 

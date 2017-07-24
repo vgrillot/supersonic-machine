@@ -16,7 +16,7 @@
         #(player_bonus_subtotal) : nok
         #text: 'BONUS (bonus_multiplier)X [(player_bonus_subtotal)]'
         #text: 'BONUS (bonus_multiplier)X' #OK
-        text: 'BONUS (multiplier)X' #OK
+        text: 'BONUS (multiplier)X' #NOK, display "multiplier"
         #font_size: 30
       transition:
          type: push

@@ -20,6 +20,7 @@ slide_player:
             anchor_y: top
             y: top
           - type: text
+            #text: (player|bonus_score) X(player|bonus_multiplier) #NOK
             text: (bonus_score) X(bonus_multiplier)
             number_grouping: true
             min_digits: 4
@@ -295,8 +296,8 @@ scoring:
 
     ball_started:
         bonus_score:
-            score: 999
-            action: set
+            score: 999  #NOK
+            action: set #NOK
 
 
 shots:

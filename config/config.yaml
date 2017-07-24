@@ -6,7 +6,7 @@ config:
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
-    - rasppinball.yaml
+    #- rasppinball.yaml
     - shots.yaml
     - display.yaml
     - sounds.yaml
@@ -26,6 +26,12 @@ mpf:
 player_vars:
     bonus_multiplier:
         initial_value: 1
+    score:
+        initial_value: 0
+    bonus_score:
+        initial_value: 0
+
+
 
 
 modes:

@@ -6,6 +6,8 @@
 #!!170718:VG:Creation
 #
 #
+# param is EventManager : Event: ======'bonus_subtotal'====== Args={'score': 6000}
+#
 
 
 - duration: 3s
@@ -16,7 +18,8 @@
         #text: 'TOTAL = (current_player.bonus_score)' #NOK
         #text: subtotal = (bonus_score) #NOK, no multiplier
         #text: subtotal = (score) #NOK : display the current player score !
-        text: subtotal = (bonus_subtotal) #NOK : display the current player score !
+        #text: 'subtotal = (bonus_subtotal)' #NOK : 0
+        text: 'subtotal = (player|bonus_subtotal)' #NOK : 0
         #font_size: 30
       transition:
          type: push
