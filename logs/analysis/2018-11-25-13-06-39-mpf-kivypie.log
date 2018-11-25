@@ -1,0 +1,563 @@
+2018-11-25 13:06:39,752 : Machine : Mission Pinball Framework Core Engine v0.33.46
+2018-11-25 13:06:39,754 : Machine : Command line arguments: {'logfile': 'logs/2018-11-25-13-06-39-mpf-kivypie.log', 'mpfconfigfile': '/home/sysop/pinball/mpf/mpf/mpfconfig.yaml', 'mc_file_name': None, 'pause': False, 'force_platform': None, 'create_config_cache': True, 'consoleloglevel': 20, 'syslog_address': None, 'force_assets_load': False, 'loglevel': 11, 'no_load_cache': False, 'configfile': ['config'], 'bcp': True}
+2018-11-25 13:06:39,756 : Machine : MPF path: /home/sysop/pinball/mpf/mpf
+2018-11-25 13:06:39,756 : Machine : Machine path: /home/sysop/pinball/machines/supersonic
+2018-11-25 13:06:39,757 : Machine : Platform: linux
+2018-11-25 13:06:39,758 : Machine : Python executable location: /usr/bin/python3
+2018-11-25 13:06:39,759 : Machine : Python version: 3.4.2 (32-bit)
+2018-11-25 13:06:44,612 : Machine : Loading cached config: /tmp/b483c2bb19bc8f7f9bf445a6d20fd2dcconfig
+2018-11-25 13:06:44,750 : RASPPINBALL : Configuring raspPinball hardware.
+2018-11-25 13:06:44,751 : Machine : Setting default platform to 'rasppinball'
+2018-11-25 13:06:44,753 : Machine : Loading core modules...
+2018-11-25 13:06:44,753 : Machine : Loading 'mpf.core.events.EventManager' core module
+2018-11-25 13:06:44,865 : Machine : Loading 'mpf.core.mode_controller.ModeController' core module
+2018-11-25 13:06:45,038 : Machine : Loading 'mpf.core.config_processor.ConfigProcessor' core module
+2018-11-25 13:06:45,042 : Machine : Loading 'mpf.core.shot_profile_manager.ShotProfileManager' core module
+2018-11-25 13:06:45,071 : Machine : Loading 'mpf.core.device_manager.DeviceManager' core module
+2018-11-25 13:06:45,073 : DeviceManager : Loading the DeviceManager
+2018-11-25 13:06:45,081 : Machine : Loading 'mpf.core.switch_controller.SwitchController' core module
+2018-11-25 13:06:45,105 : SwitchController : Loading the SwitchController
+2018-11-25 13:06:45,112 : Machine : Loading 'mpf.core.ball_controller.BallController' core module
+2018-11-25 13:06:45,126 : Machine : Loading 'mpf.core.assets.AsyncioSyncAssetManager' core module
+2018-11-25 13:06:45,176 : Machine : Loading 'mpf.core.show_controller.ShowController' core module
+2018-11-25 13:06:45,194 : Machine : Loading 'mpf.core.bcp.bcp.Bcp' core module
+2018-11-25 13:06:45,243 : Machine : Loading 'mpf.core.logic_blocks.LogicBlocks' core module
+2018-11-25 13:06:45,258 : Machine : Loading 'mpf.core.service_controller.ServiceController' core module
+2018-11-25 13:06:45,271 : Machine : Loading 'mpf.core.settings_controller.SettingsController' core module
+2018-11-25 13:06:45,286 : Machine : Loading 'mpf.core.placeholder_manager.PlaceholderManager' core module
+2018-11-25 13:06:45,299 : Machine : Loading 'mpf.core.extra_balls.ExtraBallController' core module
+2018-11-25 13:06:45,317 : RASPPINBALL : Initialize raspPinball hardware.
+2018-11-25 13:06:45,320 : RASPPINBALL : Connecting to /dev/ttyAMA0 at 115200bps
+2018-11-25 13:06:45,328 : RASPPINBALL : SEND:!1:MI
+
+2018-11-25 13:06:45,461 : Machine : Registering Plugin Config Players
+2018-11-25 13:06:45,491 : Machine : Registering track_player = mpfmc.config_players.plugins.track_player:register_with_mpf
+2018-11-25 13:06:45,937 : Machine : Registering widget_player = mpfmc.config_players.plugins.widget_player:register_with_mpf
+2018-11-25 13:06:45,968 : Machine : Registering sound_player = mpfmc.config_players.plugins.sound_player:register_with_mpf
+2018-11-25 13:06:45,999 : Machine : Registering slide_player = mpfmc.config_players.plugins.slide_player:register_with_mpf
+2018-11-25 13:06:46,059 : Machine : Setting machine_var 'player1_score' to: 3160, (prior: 3160, change: 0)
+2018-11-25 13:06:46,061 : Machine : Setting machine_var 'mpf_version' to: MPF v0.33.46, (prior: MPF v0.33.46, change: False)
+2018-11-25 13:06:46,062 : Machine : Setting machine_var 'mpf_extended_version' to: MPF v0.33.46, Config version:4, Show version: 4, BCP version:1.1, (prior: MPF v0.33.46, Config version:4, Show version: 4, BCP version:1.1, change: False)
+2018-11-25 13:06:46,064 : Machine : Setting machine_var 'python_version' to: 3.4.2, (prior: 3.4.2, change: False)
+2018-11-25 13:06:46,076 : Machine : Setting machine_var 'platform' to: Linux-4.9.24-v7+-armv7l-with-debian-8.0, (prior: Linux-4.9.24-v7+-armv7l-with-debian-8.0, change: False)
+2018-11-25 13:06:46,077 : Machine : Setting machine_var 'platform_system' to: Linux, (prior: Linux, change: False)
+2018-11-25 13:06:46,078 : Machine : Setting machine_var 'platform_release' to: 4.9.24-v7+, (prior: 4.9.24-v7+, change: False)
+2018-11-25 13:06:46,079 : Machine : Setting machine_var 'platform_version' to: #993 SMP Wed Apr 26 18:01:23 BST 2017, (prior: #993 SMP Wed Apr 26 18:01:23 BST 2017, change: False)
+2018-11-25 13:06:46,080 : Machine : Setting machine_var 'platform_machine' to: armv7l, (prior: armv7l, change: False)
+2018-11-25 13:06:46,085 : RASPPINBALL : resend frame 1:MI
+2018-11-25 13:06:46,085 : RASPPINBALL : SEND:!1:MI
+
+2018-11-25 13:06:46,089 : RASPPINBALL : PARSING:b'DBG:PROTOCOL:1:MI.\r\nSWU:1;0\r\nSWU:9;0\r\nSWU:17;0\r\nSWU:25;0\r\nSWU:33;0\r\nSWU:2;0\r\nSWU:10;0\r\nSWU:18;0\r\nSWU'
+2018-11-25 13:06:46,096 : RASPPINBALL : PARSING:b':26;0\r\nSWU:34;0\r\nSWU:3;0\r\nSWU:11;0\r\nSWU:19;0\r\nSWU:27;0\r\nSWU:35;0\r\nSWU:4;0\r\nSWU:12;0\r\nSWU:20;0\r\nSWU:2'
+2018-11-25 13:06:46,097 : RASPPINBALL : SWU:switches not configured
+2018-11-25 13:06:46,098 : RASPPINBALL : PARSING:b'8;0\r\nSWU:36;0\r\nSWU:5;0\r\nSWU:13;0\r\nSWU:21;0\r\nSWU:29;0\r\nSWU:37;0\r\nSWU:6;0\r\nSWU:14;0\r\nSWU:22;0\r\nSWU:30;'
+2018-11-25 13:06:46,099 : RASPPINBALL : SWU:switches not configured
+2018-11-25 13:06:46,100 : RASPPINBALL : PARSING:b'0\r\nSWU:38;0\r\nSWU:7;0\r\nSWU:15;0\r\nSWU:23;0\r\nSWU:31;0\r\nSWU:39;0\r\nSWU:8;0\r\nSWU:16;0\r\nSWU:24;0\r\nSWU:32;0\r'
+2018-11-25 13:06:46,102 : RASPPINBALL : SWU:switches not configured
+2018-11-25 13:06:46,103 : RASPPINBALL : PARSING:b'\nSWU:40;0\r\nSWU:101;0\r\nSWU:102;0\r\nSWU:103;0\r\nSWU:104;0\r\nACK:1;OK\r\nTCK:1723\r\nDBG:T:5121088WD:0\r\n'
+2018-11-25 13:06:46,104 : RASPPINBALL : SWU:switches not configured
+2018-11-25 13:06:46,105 : RASPPINBALL : SWU:switches not configured
+2018-11-25 13:06:46,107 : DeviceManager : Loading devices...
+2018-11-25 13:06:46,761 : ball_device.bd_trough : Platform Driver: None
+2018-11-25 13:06:46,765 : ball_device.bd_trough : Configuring device with settings: '{'hold_coil_release_time': 1000, 'jam_switch': None, 'eject_coil': <coil.co_outhole_kicker>, 'entrance_switch': None, 'eject_coil_retry_pulse': None, 'hold_events': {}, 'retries_before_increasing_pulse': 4, 'captures_from': <playfield.playfield>, 'ball_capacity': None, 'eject_events': {}, 'eject_targets': [<playfield.playfield>], 'target_on_unexpected_ball': None, 'entrance_events': {}, 'entrance_switch_full_timeout': 0, 'confirm_eject_switch': None, 'hold_switches': [], 'tags': ['trough', 'home', 'drain', 'ball_add_live'], 'confirm_eject_type': 'target', 'file_log': 'full', 'eject_timeouts': [], 'max_eject_attempts': 0, 'console_log': 'full', 'ball_missing_target': <playfield.playfield>, 'debug': True, 'ball_missing_timeouts': [], 'player_controlled_eject_event': None, 'confirm_eject_event': None, 'entrance_count_delay': 300, 'eject_coil_jam_pulse': None, 'label': '%', 'eject_all_events': {}, 'auto_fire_on_unexpected_ball': True, 'ball_switches': [<switch.sw_outhole>], 'ball_search_order': 200, 'mechanical_eject': False, 'request_ball_events': [], 'exit_count_delay': 500, 'hold_coil': None}'
+2018-11-25 13:06:46,876 : RASPDriver : Driver Settings for 34
+2018-11-25 13:06:46,877 : RASPDriver : Driver Settings for 26
+2018-11-25 13:06:46,878 : RASPDriver : Driver Settings for 28
+2018-11-25 13:06:46,880 : RASPDriver : Driver Settings for 38
+2018-11-25 13:06:46,881 : RASPDriver : Driver Settings for 42
+2018-11-25 13:06:46,882 : RASPDriver : Driver Settings for 46
+2018-11-25 13:06:46,883 : RASPDriver : Driver Settings for 36
+2018-11-25 13:06:46,884 : RASPDriver : Driver Settings for 44
+2018-11-25 13:06:46,885 : RASPDriver : Driver Settings for 30
+2018-11-25 13:06:46,886 : RASPDriver : Driver Settings for 32
+2018-11-25 13:06:46,887 : RASPDriver : Driver Settings for 40
+2018-11-25 13:06:46,891 : RASPSwitch : Switch settings for 24
+2018-11-25 13:06:46,892 : RASPSwitch : Switch settings for 13
+2018-11-25 13:06:46,894 : RASPSwitch : Switch settings for 33
+2018-11-25 13:06:46,896 : RASPSwitch : Switch settings for 27
+2018-11-25 13:06:46,897 : RASPSwitch : Switch settings for 182
+2018-11-25 13:06:46,899 : RASPSwitch : Switch settings for 15
+2018-11-25 13:06:46,900 : RASPSwitch : Switch settings for 19
+2018-11-25 13:06:46,901 : RASPSwitch : Switch settings for 39
+2018-11-25 13:06:46,904 : RASPSwitch : Switch settings for 36
+2018-11-25 13:06:46,905 : RASPSwitch : Switch settings for 38
+2018-11-25 13:06:46,906 : RASPSwitch : Switch settings for 8
+2018-11-25 13:06:46,907 : RASPSwitch : Switch settings for 30
+2018-11-25 13:06:46,911 : RASPSwitch : Switch settings for 37
+2018-11-25 13:06:46,912 : RASPSwitch : Switch settings for 21
+2018-11-25 13:06:46,913 : RASPSwitch : Switch settings for 12
+2018-11-25 13:06:46,914 : RASPSwitch : Switch settings for 20
+2018-11-25 13:06:46,917 : RASPSwitch : Switch settings for 26
+2018-11-25 13:06:46,918 : RASPSwitch : Switch settings for 16
+2018-11-25 13:06:46,919 : RASPSwitch : Switch settings for 17
+2018-11-25 13:06:46,920 : RASPSwitch : Switch settings for 23
+2018-11-25 13:06:46,924 : RASPSwitch : Switch settings for 40
+2018-11-25 13:06:46,925 : RASPSwitch : Switch settings for 31
+2018-11-25 13:06:46,926 : RASPSwitch : Switch settings for 11
+2018-11-25 13:06:46,927 : RASPSwitch : Switch settings for 103
+2018-11-25 13:06:46,928 : RASPSwitch : Switch settings for 102
+2018-11-25 13:06:46,931 : RASPSwitch : Switch settings for 202
+2018-11-25 13:06:46,933 : RASPSwitch : Switch settings for 4
+2018-11-25 13:06:46,934 : RASPSwitch : Switch settings for 7
+2018-11-25 13:06:46,935 : RASPSwitch : Switch settings for 3
+2018-11-25 13:06:46,937 : RASPSwitch : Switch settings for 1
+2018-11-25 13:06:46,938 : RASPSwitch : Switch settings for 192
+2018-11-25 13:06:46,939 : RASPSwitch : Switch settings for 34
+2018-11-25 13:06:46,940 : RASPSwitch : Switch settings for 14
+2018-11-25 13:06:46,941 : RASPSwitch : Switch settings for 35
+2018-11-25 13:06:46,944 : RASPSwitch : Switch settings for 101
+2018-11-25 13:06:46,945 : RASPSwitch : Switch settings for 22
+2018-11-25 13:06:46,946 : RASPSwitch : Switch settings for 2
+2018-11-25 13:06:46,947 : RASPSwitch : Switch settings for 18
+2018-11-25 13:06:46,950 : RASPSwitch : Switch settings for 32
+2018-11-25 13:06:46,952 : RASPSwitch : Switch settings for 28
+2018-11-25 13:06:46,956 : RASPSwitch : Switch settings for 29
+2018-11-25 13:06:46,957 : RASPSwitch : Switch settings for 222
+2018-11-25 13:06:46,959 : RASPSwitch : Switch settings for 5
+2018-11-25 13:06:46,960 : RASPSwitch : Switch settings for 9
+2018-11-25 13:06:46,963 : RASPSwitch : Switch settings for 10
+2018-11-25 13:06:47,105 : SwitchController : Registering switch handler: bt_left_flipper, <bound method ComboSwitch._switch_1_went_active of <combo_switch.both_flippers>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:06:47,106 : SwitchController : Registering switch handler: bt_left_flipper, <bound method ComboSwitch._switch_1_went_inactive of <combo_switch.both_flippers>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:06:47,107 : SwitchController : Registering switch handler: bt_right_flipper, <bound method ComboSwitch._switch_2_went_active of <combo_switch.both_flippers>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:06:47,108 : SwitchController : Registering switch handler: bt_right_flipper, <bound method ComboSwitch._switch_2_went_inactive of <combo_switch.both_flippers>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:06:47,113 : SwitchController : Registering switch handler: bt_left_flipper, <bound method TimedSwitch._activate of <timed_switch.flipper_cradle>>, state: 1, ms: 3000, info: True, cb_kwargs: {}
+2018-11-25 13:06:47,115 : SwitchController : Registering switch handler: bt_left_flipper, <bound method TimedSwitch._deactivate of <timed_switch.flipper_cradle>>, state: 0, ms: 0, info: True, cb_kwargs: {}
+2018-11-25 13:06:47,116 : SwitchController : Registering switch handler: bt_right_flipper, <bound method TimedSwitch._activate of <timed_switch.flipper_cradle>>, state: 1, ms: 3000, info: True, cb_kwargs: {}
+2018-11-25 13:06:47,117 : SwitchController : Registering switch handler: bt_right_flipper, <bound method TimedSwitch._deactivate of <timed_switch.flipper_cradle>>, state: 0, ms: 0, info: True, cb_kwargs: {}
+2018-11-25 13:06:47,132 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_d
+2018-11-25 13:06:47,138 : RASPPINBALL : resend frame 1:MI
+2018-11-25 13:06:47,139 : RASPPINBALL : SEND:!1:MI
+
+2018-11-25 13:06:47,141 : RASPPINBALL : PARSING:b'DBG:PROTOCOL:1:MI.\r\nSWU:1;0\r\nSWU:9;0\r\nSWU:17;0\r\nSWU:25;0\r\nSWU:33;0\r\nSWU:2;0\r\nSWU:10;0\r\nSWU:18;0\r\nSWU'
+2018-11-25 13:06:47,143 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_1_left
+2018-11-25 13:06:47,149 : RASPPINBALL : PARSING:b':26;0\r\nSWU:34;0\r\nSWU:3;0\r\nSWU:11;0\r\nSWU:19;0\r\nSWU:27;0\r\nSWU:35;0\r\nSWU:4;0\r\nSWU:12;0\r\nSWU:20;0\r\nSWU:2'
+2018-11-25 13:06:47,151 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_5
+2018-11-25 13:06:47,157 : RASPPINBALL : PARSING:b'8;0\r\nSWU:36;0\r\nSWU:5;0\r\nSWU:13;0\r\nSWU:21;0\r\nSWU:29;0\r\nSWU:37;0\r\nSWU:6;0\r\nSWU:14;0\r\nSWU:22;0\r\nSWU:30;'
+2018-11-25 13:06:47,158 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_5
+2018-11-25 13:06:47,165 : RASPPINBALL : PARSING:b'0\r\nSWU:38;0\r\nSWU:7;0\r\nSWU:15;0\r\nSWU:23;0\r\nSWU:31;0\r\nSWU:39;0\r\nSWU:8;0\r\nSWU:16;0\r\nSWU:24;0\r\nSWU:32;0\r'
+2018-11-25 13:06:47,166 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_5
+2018-11-25 13:06:47,172 : RASPPINBALL : PARSING:b'\nSWU:40;0\r\nSWU:101;0\r\nSWU:102;0\r\nSWU:103;0\r\nSWU:104;0\r\nACK:1;OK\r\n'
+2018-11-25 13:06:47,174 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_c
+2018-11-25 13:06:47,182 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_2_middle
+2018-11-25 13:06:48,746 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_4
+2018-11-25 13:06:48,751 : RASPPINBALL : resend frame 1:MI
+2018-11-25 13:06:48,752 : RASPPINBALL : SEND:!1:MI
+
+2018-11-25 13:06:48,762 : RASPPINBALL : PARSING:b'DBG:PROTOCOL:1:MI.\r\nSWU:1;0\r\nSWU:9;0\r\nSWU:17;0\r\nSWU:25;0\r\nSWU:33;0\r\nSWU:2;0\r\nSWU:10;0\r\nSWU:18;0\r\nSWU'
+2018-11-25 13:06:48,763 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_4
+2018-11-25 13:06:48,769 : RASPPINBALL : PARSING:b':26;0\r\nSWU:34;0\r\nSWU:3;0\r\nSWU:11;0\r\nSWU:19;0\r\nSWU:27;0\r\nSWU:35;0\r\nSWU:4;0\r\nSWU:12;0\r\nSWU:20;0\r\nSWU:2'
+2018-11-25 13:06:48,771 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_4
+2018-11-25 13:06:48,777 : RASPPINBALL : PARSING:b'8;0\r\nSWU:36;0\r\nSWU:5;0\r\nSWU:13;0\r\nSWU:21;0\r\nSWU:29;0\r\nSWU:37;0\r\nSWU:6;0\r\nSWU:14;0\r\nSWU:22;0\r\nSWU:30;'
+2018-11-25 13:06:48,779 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_b
+2018-11-25 13:06:48,785 : RASPPINBALL : PARSING:b'0\r\nSWU:38;0\r\nSWU:7;0\r\nSWU:15;0\r\nSWU:23;0\r\nSWU:31;0\r\nSWU:39;0\r\nSWU:8;0\r\nSWU:16;0\r\nSWU:24;0\r\nSWU:32;0\r'
+2018-11-25 13:06:48,786 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_button
+2018-11-25 13:06:48,792 : RASPPINBALL : PARSING:b'\nSWU:40;0\r\nSWU:101;0\r\nSWU:102;0\r\nSWU:103;0\r\nSWU:104;0\r\nACK:1;OK\r\n'
+2018-11-25 13:06:48,794 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_3
+2018-11-25 13:06:48,801 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_3
+2018-11-25 13:06:48,810 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_3
+2018-11-25 13:06:48,823 : RASPPINBALL : PARSING:b'DBG:PROTOCOL:1:MI.\r\nSWU:1;0\r\nSWU:9;0\r\nSWU:17;0\r\nSWU:25;0\r\nSWU:33;0\r\nSWU:2;0\r\nSWU:10;0\r\nSWU:18;0\r\nSWU'
+2018-11-25 13:06:48,824 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_a
+2018-11-25 13:06:48,830 : RASPPINBALL : PARSING:b':26;0\r\nSWU:34;0\r\nSWU:3;0\r\nSWU:11;0\r\nSWU:19;0\r\nSWU:27;0\r\nSWU:35;0\r\nSWU:4;0\r\nSWU:12;0\r\nSWU:20;0\r\nSWU:2'
+2018-11-25 13:06:48,832 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_rebound
+2018-11-25 13:06:48,838 : RASPPINBALL : PARSING:b'8;0\r\nSWU:36;0\r\nSWU:5;0\r\nSWU:13;0\r\nSWU:21;0\r\nSWU:29;0\r\nSWU:37;0\r\nSWU:6;0\r\nSWU:14;0\r\nSWU:22;0\r\nSWU:30;'
+2018-11-25 13:06:48,839 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_2
+2018-11-25 13:06:48,845 : RASPPINBALL : PARSING:b'0\r\nSWU:38;0\r\nSWU:7;0\r\nSWU:15;0\r\nSWU:23;0\r\nSWU:31;0\r\nSWU:39;0\r\nSWU:8;0\r\nSWU:16;0\r\nSWU:24;0\r\nSWU:32;0\r'
+2018-11-25 13:06:48,847 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_2
+2018-11-25 13:06:48,853 : RASPPINBALL : PARSING:b'\nSWU:40;0\r\nSWU:101;0\r\nSWU:102;0\r\nSWU:103;0\r\nSWU:104;0\r\nACK:1;OK\r\n'
+2018-11-25 13:06:48,854 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_2
+2018-11-25 13:06:48,861 : SwitchController : Unknown switch 6 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:48,867 : RASPPINBALL : resend frame 1:MI
+2018-11-25 13:06:48,868 : RASPPINBALL : SEND:!1:MI
+
+2018-11-25 13:06:48,875 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_outlane
+2018-11-25 13:06:48,883 : RASPPINBALL : PARSING:b'DBG:PROTOCOL:1:MI.\r\nSWU:1;0\r\nSWU:9;0\r\nSWU:17;0\r\n'
+2018-11-25 13:06:48,885 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_1
+2018-11-25 13:06:48,899 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_1
+2018-11-25 13:06:48,909 : RASPPINBALL : PARSING:b'SWU:25;0\r\nSWU:33;0\r\nSWU:2;0\r\nSWU:10;0\r\nSWU:18;0\r\nSWU:26;0\r\nSWU:34;0\r\nSWU:3;0\r\nSWU:11;0\r\nSWU:19;0\r\nSW'
+2018-11-25 13:06:48,910 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_1
+2018-11-25 13:06:48,924 : RASPPINBALL : PARSING:b'U:27;0\r\nSWU:35;0\r\nSWU:4;0\r\nSWU:12;0\r\nSWU:20;0\r\nSWU:28;0\r\nSWU:36;0\r\nSWU:5;0\r\nSWU:13;0\r\nSWU:21;0\r\nSWU:'
+2018-11-25 13:06:48,926 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_tilt
+2018-11-25 13:06:48,937 : RASPPINBALL : PARSING:b'29;0\r\nSWU:37;0\r\nSWU:6;0\r\nSWU:14;0\r\nSWU:22;0\r\nSWU:30;0\r\nSWU:38;0\r\nSWU:7;0'
+2018-11-25 13:06:48,938 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_outlane
+2018-11-25 13:06:48,953 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_feed_lane
+2018-11-25 13:06:48,961 : RASPPINBALL : PARSING:b'\r\nSWU:15;0\r\nSWU:23;0\r\nSWU:31;0\r\nSWU:39;0\r\nSWU:8;0\r\nSWU:16;0\r\nSWU:24;0\r\nSWU:32;0\r\nSWU:40;0\r\nSWU:101;0'
+2018-11-25 13:06:48,963 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_slingshot
+2018-11-25 13:06:48,969 : RASPPINBALL : PARSING:b'\r\nSWU:102;0\r\nSWU:103;0\r\nSWU:104;0\r\nACK:1;OK\r\n'
+2018-11-25 13:06:48,970 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_bumper
+2018-11-25 13:06:48,979 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_outhole
+2018-11-25 13:06:48,985 : RASPPINBALL : resend frame 1:MI
+2018-11-25 13:06:48,986 : RASPPINBALL : SEND:!1:MI
+
+2018-11-25 13:06:48,988 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_slam_2
+2018-11-25 13:06:49,002 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_saucer
+2018-11-25 13:06:49,011 : RASPPINBALL : PARSING:b'DBG:PROTOCOL:1:MI.\r\nSWU:1;0\r\nSWU:9;0\r\nSWU:17;0\r\nSWU:25;0\r\nSWU:33;0\r\nSWU:2;0\r\nSWU:10;0\r\nSWU:18;0\r\nSWU'
+2018-11-25 13:06:49,012 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_slingshot
+2018-11-25 13:06:49,018 : RASPPINBALL : PARSING:b':26;0\r\nSWU:34;0\r\nSWU:3;0\r\nSWU:11;0\r\nSWU:19;0\r\nSWU:27'
+2018-11-25 13:06:49,020 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_bumper
+2018-11-25 13:06:49,029 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_left_flipper
+2018-11-25 13:06:49,036 : RASPPINBALL : PARSING:b';0\r\nSWU:35;0\r\nSWU:4;0\r\nSWU:12;0\r\nSWU:20;0\r\nSWU:28;0\r\nSWU:36;0\r\nSWU:5;0\r\nSWU:13;0\r\nSWU:21;0\r\nSWU:29;0'
+2018-11-25 13:06:49,037 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_right_flipper
+2018-11-25 13:06:49,043 : RASPPINBALL : PARSING:b'\r\nSWU:37;0\r\nSWU:6;0\r\nSWU:14;0\r\nSWU:22;0\r\nSWU:30;0\r\nSWU:38;0\r\nSWU:7;0\r\nSWU:15;0\r\nSWU:23;0\r\nSWU:31;0\r\n'
+2018-11-25 13:06:49,044 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_credit_button
+2018-11-25 13:06:49,051 : RASPPINBALL : PARSING:b'SWU:39;0\r\nSWU:8;0\r\nSWU:16;0\r\nSWU:24;0\r\nSWU:32;0\r\nSWU:40;0\r\nSWU:101;0\r\nSWU:102;0\r\nSWU:103;0\r\nSWU:104;'
+2018-11-25 13:06:49,052 : SwitchController : Unknown switch 104 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,058 : RASPPINBALL : PARSING:b'0\r\nACK:1;OK\r'
+2018-11-25 13:06:49,059 : RASPPINBALL : ACK frame done '{'msg': 'MI', 'retry': 5, 'time': 1543151208.985925}'
+2018-11-25 13:06:49,073 : RASPPINBALL : PARSING:b'\n'
+2018-11-25 13:06:49,088 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_e
+2018-11-25 13:06:49,095 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_3_right
+2018-11-25 13:06:49,102 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_spinner
+2018-11-25 13:06:49,109 : SwitchController : Unknown switch 25 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,115 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_bottom_bumper
+2018-11-25 13:06:49,122 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_d
+2018-11-25 13:06:49,129 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_1_left
+2018-11-25 13:06:49,136 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_5
+2018-11-25 13:06:49,143 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_5
+2018-11-25 13:06:49,150 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_5
+2018-11-25 13:06:49,157 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_c
+2018-11-25 13:06:49,164 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_2_middle
+2018-11-25 13:06:49,171 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_4
+2018-11-25 13:06:49,194 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_4
+2018-11-25 13:06:49,203 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_4
+2018-11-25 13:06:49,209 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_b
+2018-11-25 13:06:49,220 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_button
+2018-11-25 13:06:49,227 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_3
+2018-11-25 13:06:49,236 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_3
+2018-11-25 13:06:49,242 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_3
+2018-11-25 13:06:49,248 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_a
+2018-11-25 13:06:49,255 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_rebound
+2018-11-25 13:06:49,262 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_2
+2018-11-25 13:06:49,269 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_2
+2018-11-25 13:06:49,276 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_2
+2018-11-25 13:06:49,283 : SwitchController : Unknown switch 6 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,290 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_outlane
+2018-11-25 13:06:49,297 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_1
+2018-11-25 13:06:49,304 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_1
+2018-11-25 13:06:49,310 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_1
+2018-11-25 13:06:49,317 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_tilt
+2018-11-25 13:06:49,324 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_outlane
+2018-11-25 13:06:49,331 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_feed_lane
+2018-11-25 13:06:49,338 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_slingshot
+2018-11-25 13:06:49,357 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_bumper
+2018-11-25 13:06:49,365 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_outhole
+2018-11-25 13:06:49,372 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_slam_2
+2018-11-25 13:06:49,382 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_saucer
+2018-11-25 13:06:49,389 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_slingshot
+2018-11-25 13:06:49,397 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_bumper
+2018-11-25 13:06:49,403 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_left_flipper
+2018-11-25 13:06:49,410 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_right_flipper
+2018-11-25 13:06:49,416 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_credit_button
+2018-11-25 13:06:49,423 : SwitchController : Unknown switch 104 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,439 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_e
+2018-11-25 13:06:49,449 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_3_right
+2018-11-25 13:06:49,456 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_spinner
+2018-11-25 13:06:49,463 : SwitchController : Unknown switch 25 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,470 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_bottom_bumper
+2018-11-25 13:06:49,477 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_d
+2018-11-25 13:06:49,484 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_1_left
+2018-11-25 13:06:49,492 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_5
+2018-11-25 13:06:49,499 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_5
+2018-11-25 13:06:49,513 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_5
+2018-11-25 13:06:49,521 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_c
+2018-11-25 13:06:49,528 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_2_middle
+2018-11-25 13:06:49,537 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_4
+2018-11-25 13:06:49,543 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_4
+2018-11-25 13:06:49,552 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_4
+2018-11-25 13:06:49,560 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_b
+2018-11-25 13:06:49,567 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_button
+2018-11-25 13:06:49,573 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_3
+2018-11-25 13:06:49,580 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_3
+2018-11-25 13:06:49,587 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_3
+2018-11-25 13:06:49,594 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_a
+2018-11-25 13:06:49,601 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_rebound
+2018-11-25 13:06:49,608 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_2
+2018-11-25 13:06:49,615 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_2
+2018-11-25 13:06:49,622 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_2
+2018-11-25 13:06:49,629 : SwitchController : Unknown switch 6 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,636 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_outlane
+2018-11-25 13:06:49,643 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_1
+2018-11-25 13:06:49,650 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_1
+2018-11-25 13:06:49,657 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_1
+2018-11-25 13:06:49,668 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_tilt
+2018-11-25 13:06:49,676 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_outlane
+2018-11-25 13:06:49,682 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_feed_lane
+2018-11-25 13:06:49,692 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_slingshot
+2018-11-25 13:06:49,698 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_bumper
+2018-11-25 13:06:49,707 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_outhole
+2018-11-25 13:06:49,714 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_slam_2
+2018-11-25 13:06:49,720 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_saucer
+2018-11-25 13:06:49,727 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_slingshot
+2018-11-25 13:06:49,735 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_bumper
+2018-11-25 13:06:49,741 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_left_flipper
+2018-11-25 13:06:49,749 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_right_flipper
+2018-11-25 13:06:49,756 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_credit_button
+2018-11-25 13:06:49,763 : SwitchController : Unknown switch 104 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,780 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_e
+2018-11-25 13:06:49,785 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_3_right
+2018-11-25 13:06:49,792 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_spinner
+2018-11-25 13:06:49,799 : SwitchController : Unknown switch 25 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,807 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_bottom_bumper
+2018-11-25 13:06:49,813 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_d
+2018-11-25 13:06:49,822 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_1_left
+2018-11-25 13:06:49,832 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_5
+2018-11-25 13:06:49,839 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_5
+2018-11-25 13:06:49,849 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_5
+2018-11-25 13:06:49,856 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_c
+2018-11-25 13:06:49,865 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_2_middle
+2018-11-25 13:06:49,870 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_4
+2018-11-25 13:06:49,876 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_4
+2018-11-25 13:06:49,883 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_4
+2018-11-25 13:06:49,889 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_b
+2018-11-25 13:06:49,898 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_button
+2018-11-25 13:06:49,903 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_3
+2018-11-25 13:06:49,910 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_3
+2018-11-25 13:06:49,917 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_3
+2018-11-25 13:06:49,924 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_a
+2018-11-25 13:06:49,931 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_rebound
+2018-11-25 13:06:49,937 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_2
+2018-11-25 13:06:49,944 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_2
+2018-11-25 13:06:49,951 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_2
+2018-11-25 13:06:49,958 : SwitchController : Unknown switch 6 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:49,965 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_outlane
+2018-11-25 13:06:49,972 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_1
+2018-11-25 13:06:49,980 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_1
+2018-11-25 13:06:49,988 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_1
+2018-11-25 13:06:49,996 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_tilt
+2018-11-25 13:06:50,005 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_outlane
+2018-11-25 13:06:50,012 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_feed_lane
+2018-11-25 13:06:50,023 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_slingshot
+2018-11-25 13:06:50,031 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_bumper
+2018-11-25 13:06:50,039 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_outhole
+2018-11-25 13:06:50,045 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_slam_2
+2018-11-25 13:06:50,051 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_saucer
+2018-11-25 13:06:50,058 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_slingshot
+2018-11-25 13:06:50,066 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_bumper
+2018-11-25 13:06:50,072 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_left_flipper
+2018-11-25 13:06:50,079 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_right_flipper
+2018-11-25 13:06:50,086 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_credit_button
+2018-11-25 13:06:50,093 : SwitchController : Unknown switch 104 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:50,111 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_e
+2018-11-25 13:06:50,118 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_3_right
+2018-11-25 13:06:50,125 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_spinner
+2018-11-25 13:06:50,132 : SwitchController : Unknown switch 25 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:50,138 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_bottom_bumper
+2018-11-25 13:06:50,146 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_d
+2018-11-25 13:06:50,154 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_1_left
+2018-11-25 13:06:50,162 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_5
+2018-11-25 13:06:50,169 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_5
+2018-11-25 13:06:50,176 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_5
+2018-11-25 13:06:50,187 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_c
+2018-11-25 13:06:50,193 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_2_middle
+2018-11-25 13:06:50,203 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_4
+2018-11-25 13:06:50,209 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_4
+2018-11-25 13:06:50,215 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_4
+2018-11-25 13:06:50,222 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_b
+2018-11-25 13:06:50,229 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_button
+2018-11-25 13:06:50,236 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_3
+2018-11-25 13:06:50,243 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_3
+2018-11-25 13:06:50,250 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_3
+2018-11-25 13:06:50,257 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_a
+2018-11-25 13:06:50,264 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_rebound
+2018-11-25 13:06:50,271 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_2
+2018-11-25 13:06:50,278 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_2
+2018-11-25 13:06:50,285 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_2
+2018-11-25 13:06:50,292 : SwitchController : Unknown switch 6 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:50,298 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_outlane
+2018-11-25 13:06:50,306 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_1
+2018-11-25 13:06:50,314 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_1
+2018-11-25 13:06:50,322 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_1
+2018-11-25 13:06:50,329 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_tilt
+2018-11-25 13:06:50,335 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_outlane
+2018-11-25 13:06:50,347 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_feed_lane
+2018-11-25 13:06:50,354 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_slingshot
+2018-11-25 13:06:50,363 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_bumper
+2018-11-25 13:06:50,370 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_outhole
+2018-11-25 13:06:50,377 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_slam_2
+2018-11-25 13:06:50,384 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_saucer
+2018-11-25 13:06:50,391 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_slingshot
+2018-11-25 13:06:50,398 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_bumper
+2018-11-25 13:06:50,405 : RASPPINBALL : PARSING:b'TCK:1673\r\nDBG:T:5126089WD:0\r\n'
+2018-11-25 13:06:50,406 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_left_flipper
+2018-11-25 13:06:50,413 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_right_flipper
+2018-11-25 13:06:50,420 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_credit_button
+2018-11-25 13:06:50,427 : SwitchController : Unknown switch 104 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:50,444 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_e
+2018-11-25 13:06:50,451 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_3_right
+2018-11-25 13:06:50,458 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_spinner
+2018-11-25 13:06:50,465 : SwitchController : Unknown switch 25 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:50,473 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_bottom_bumper
+2018-11-25 13:06:50,482 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_d
+2018-11-25 13:06:50,490 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_1_left
+2018-11-25 13:06:50,500 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_5
+2018-11-25 13:06:50,506 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_5
+2018-11-25 13:06:50,515 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_5
+2018-11-25 13:06:50,522 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_c
+2018-11-25 13:06:50,529 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_2_middle
+2018-11-25 13:06:50,535 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_4
+2018-11-25 13:06:50,543 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_4
+2018-11-25 13:06:50,549 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_4
+2018-11-25 13:06:50,556 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_b
+2018-11-25 13:06:50,563 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_button
+2018-11-25 13:06:50,570 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_3
+2018-11-25 13:06:50,577 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_3
+2018-11-25 13:06:50,584 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_3
+2018-11-25 13:06:50,591 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_a
+2018-11-25 13:06:50,597 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_rebound
+2018-11-25 13:06:50,604 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_2
+2018-11-25 13:06:50,611 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_2
+2018-11-25 13:06:50,618 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_2
+2018-11-25 13:06:50,626 : SwitchController : Unknown switch 6 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:50,633 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_outlane
+2018-11-25 13:06:50,641 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_1
+2018-11-25 13:06:50,647 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_1
+2018-11-25 13:06:50,657 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_1
+2018-11-25 13:06:50,664 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_tilt
+2018-11-25 13:06:50,673 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_outlane
+2018-11-25 13:06:50,679 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_feed_lane
+2018-11-25 13:06:50,686 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_slingshot
+2018-11-25 13:06:50,693 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_bumper
+2018-11-25 13:06:50,700 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_outhole
+2018-11-25 13:06:50,707 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_slam_2
+2018-11-25 13:06:50,714 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_saucer
+2018-11-25 13:06:50,720 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_slingshot
+2018-11-25 13:06:50,727 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_bumper
+2018-11-25 13:06:50,734 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_left_flipper
+2018-11-25 13:06:50,741 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_right_flipper
+2018-11-25 13:06:50,747 : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_credit_button
+2018-11-25 13:06:50,754 : SwitchController : Unknown switch 104 change to state 0 on platform <Platform.raspPinball>
+2018-11-25 13:06:55,400 : RASPPINBALL : PARSING:b'TCK:1736'
+2018-11-25 13:06:55,403 : RASPPINBALL : PARSING:b'\r\nDBG:T:5131090WD:0\r\n'
+2018-11-25 13:06:59,790 : SwitchController : Registering switch handler: sw_outhole, <bound method SwitchCounter._switch_changed of <mpf.devices.ball_device.switch_counter.SwitchCounter object at 0x742613d0>>, state: 1, ms: 300, info: False, cb_kwargs: {}
+2018-11-25 13:06:59,791 : SwitchController : Registering switch handler: sw_outhole, <bound method SwitchCounter._switch_changed of <mpf.devices.ball_device.switch_counter.SwitchCounter object at 0x742613d0>>, state: 0, ms: 500, info: False, cb_kwargs: {}
+2018-11-25 13:06:59,794 : ball_device.bd_trough : Counted 0 balls. Active switches: []
+2018-11-25 13:06:59,798 : ball_device.bd_trough : Waiting for eject request.
+2018-11-25 13:06:59,804 : SwitchController : Registering switch handler: sw_saucer, <bound method SwitchCounter._switch_changed of <mpf.devices.ball_device.switch_counter.SwitchCounter object at 0x7426cc10>>, state: 1, ms: 500, info: False, cb_kwargs: {}
+2018-11-25 13:06:59,809 : SwitchController : Registering switch handler: sw_saucer, <bound method SwitchCounter._switch_changed of <mpf.devices.ball_device.switch_counter.SwitchCounter object at 0x7426cc10>>, state: 0, ms: 500, info: False, cb_kwargs: {}
+2018-11-25 13:06:59,820 : Machine : Loading plugins...
+2018-11-25 13:06:59,821 : Machine : Loading 'mpf.plugins.auditor.Auditor' plugin
+2018-11-25 13:07:00,136 : Machine : Loading 'mpf.plugins.info_lights.InfoLights' plugin
+2018-11-25 13:07:00,143 : Machine : Loading 'mpf.plugins.switch_player.SwitchPlayer' plugin
+2018-11-25 13:07:02,180 : Machine : Clearing boot hold assets. Holds remaining: {'init'}
+2018-11-25 13:07:02,195 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5136091WD:0\r\n'
+2018-11-25 13:07:02,242 : ball_device.bd_trough : Counted 0 balls. Active switches: []
+2018-11-25 13:07:03,122 : SwitchController : Registering switch handler: sw_drop_target_d, <bound method DropTarget._update_state_from_switch of <drop_target.d>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,124 : SwitchController : Registering switch handler: sw_drop_target_d, <bound method DropTarget._update_state_from_switch of <drop_target.d>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,126 : SwitchController : Registering switch handler: sw_drop_target_e, <bound method DropTarget._update_state_from_switch of <drop_target.e>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,128 : SwitchController : Registering switch handler: sw_drop_target_e, <bound method DropTarget._update_state_from_switch of <drop_target.e>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,137 : SwitchController : Registering switch handler: sw_drop_target_a, <bound method DropTarget._update_state_from_switch of <drop_target.a>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,138 : SwitchController : Registering switch handler: sw_drop_target_a, <bound method DropTarget._update_state_from_switch of <drop_target.a>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,140 : SwitchController : Registering switch handler: sw_drop_target_c, <bound method DropTarget._update_state_from_switch of <drop_target.c>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,144 : SwitchController : Registering switch handler: sw_drop_target_c, <bound method DropTarget._update_state_from_switch of <drop_target.c>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,146 : SwitchController : Registering switch handler: sw_drop_target_b, <bound method DropTarget._update_state_from_switch of <drop_target.b>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,147 : SwitchController : Registering switch handler: sw_drop_target_b, <bound method DropTarget._update_state_from_switch of <drop_target.b>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:03,171 : Machine : Setting machine_var 'audits_events_game_ended' to: 98, (prior: 98, change: 0)
+2018-11-25 13:07:03,176 : Machine : Setting machine_var 'audits_events_game_started' to: 282, (prior: 282, change: 0)
+2018-11-25 13:07:03,182 : Machine : Setting machine_var 'audits_player_score' to: {'total': 102, 'top': [126890, 91340, 87170, 87130, 76960, 70060, 69570, 67620, 59640, 57710], 'average': 23087.745098039217}, (prior: {'total': 102, 'top': [126890, 91340, 87170, 87130, 76960, 70060, 69570, 67620, 59640, 57710], 'average': 23087.745098039217}, change: False)
+2018-11-25 13:07:03,188 : Machine : Setting machine_var 'audits_switches_sw_saucer' to: 197, (prior: 197, change: 0)
+2018-11-25 13:07:03,194 : Machine : Setting machine_var 'audits_switches_sw_drop_target_rebound' to: 557, (prior: 557, change: 0)
+2018-11-25 13:07:03,199 : Machine : Setting machine_var 'audits_switches_sw_bottom_bumper' to: 456, (prior: 456, change: 0)
+2018-11-25 13:07:03,204 : Machine : Setting machine_var 'audits_switches_sw_star_4' to: 355, (prior: 355, change: 0)
+2018-11-25 13:07:03,209 : Machine : Setting machine_var 'audits_switches_sw_fix_target_right_3' to: 13, (prior: 13, change: 0)
+2018-11-25 13:07:03,215 : Machine : Setting machine_var 'audits_switches_sw_left_outlane' to: 51, (prior: 51, change: 0)
+2018-11-25 13:07:03,223 : Machine : Setting machine_var 'audits_switches_sw_top_ro_4' to: 423, (prior: 423, change: 0)
+2018-11-25 13:07:03,229 : Machine : Setting machine_var 'audits_switches_sw_right_bumper' to: 695, (prior: 695, change: 0)
+2018-11-25 13:07:03,235 : Machine : Setting machine_var 'audits_switches_sw_left_lane_ro_button_3' to: 78, (prior: 78, change: 0)
+2018-11-25 13:07:03,241 : Machine : Setting machine_var 'audits_switches_sw_left_lane_ro_button_1' to: 62, (prior: 62, change: 0)
+2018-11-25 13:07:03,246 : Machine : Setting machine_var 'audits_switches_sw_outhole' to: 487, (prior: 487, change: 0)
+2018-11-25 13:07:03,253 : Machine : Setting machine_var 'audits_switches_sw_star_1' to: 296, (prior: 296, change: 0)
+2018-11-25 13:07:03,257 : Machine : Setting machine_var 'audits_switches_sw_top_ro_3' to: 151, (prior: 151, change: 0)
+2018-11-25 13:07:03,263 : Machine : Setting machine_var 'audits_switches_sw_left_lane_ro_button_2' to: 80, (prior: 80, change: 0)
+2018-11-25 13:07:03,268 : Machine : Setting machine_var 'audits_switches_sw_top_ro_2' to: 241, (prior: 241, change: 0)
+2018-11-25 13:07:03,274 : Machine : Setting machine_var 'audits_switches_sw_top_ro_button' to: 72, (prior: 72, change: 0)
+2018-11-25 13:07:03,280 : Machine : Setting machine_var 'audits_switches_sw_star_5' to: 186, (prior: 186, change: 0)
+2018-11-25 13:07:03,285 : Machine : Setting machine_var 'audits_switches_sw_slam_2' to: 0, (prior: 0, change: 0)
+2018-11-25 13:07:03,290 : Machine : Setting machine_var 'audits_switches_sw_spinner' to: 1509, (prior: 1509, change: 0)
+2018-11-25 13:07:03,296 : Machine : Setting machine_var 'audits_switches_sw_feed_lane' to: 142, (prior: 142, change: 0)
+2018-11-25 13:07:03,301 : Machine : Setting machine_var 'audits_switches_sw_left_bumper' to: 972, (prior: 972, change: 0)
+2018-11-25 13:07:03,306 : Machine : Setting machine_var 'audits_switches_sw_right_slingshot' to: 346, (prior: 346, change: 0)
+2018-11-25 13:07:03,312 : Machine : Setting machine_var 'audits_switches_sw_coin_2_middle' to: 0, (prior: 0, change: 0)
+2018-11-25 13:07:03,318 : Machine : Setting machine_var 'audits_switches_sw_credit_button' to: 34, (prior: 34, change: 0)
+2018-11-25 13:07:03,324 : Machine : Setting machine_var 'audits_switches_bt_right_flipper' to: 2177, (prior: 2177, change: 0)
+2018-11-25 13:07:03,329 : Machine : Setting machine_var 'audits_switches_sw_fix_target_right_1' to: 9, (prior: 9, change: 0)
+2018-11-25 13:07:03,335 : Machine : Setting machine_var 'audits_switches_sw_drop_target_b' to: 835, (prior: 835, change: 0)
+2018-11-25 13:07:03,340 : Machine : Setting machine_var 'audits_switches_sw_tilt' to: 0, (prior: 0, change: 0)
+2018-11-25 13:07:03,345 : Machine : Setting machine_var 'audits_switches_sw_drop_target_c' to: 70, (prior: 70, change: 0)
+2018-11-25 13:07:03,349 : Machine : Setting machine_var 'audits_switches_sw_drop_target_e' to: 100, (prior: 100, change: 0)
+2018-11-25 13:07:03,353 : Machine : Setting machine_var 'audits_switches_bt_left_flipper' to: 1404, (prior: 1404, change: 0)
+2018-11-25 13:07:03,361 : Machine : Setting machine_var 'audits_switches_sw_left_lane_ro_button_5' to: 83, (prior: 83, change: 0)
+2018-11-25 13:07:03,366 : Machine : Setting machine_var 'audits_switches_sw_right_outlane' to: 78, (prior: 78, change: 0)
+2018-11-25 13:07:03,372 : Machine : Setting machine_var 'audits_switches_sw_left_lane_ro_button_4' to: 82, (prior: 82, change: 0)
+2018-11-25 13:07:03,377 : Machine : Setting machine_var 'audits_switches_sw_top_ro_1' to: 2568, (prior: 2568, change: 0)
+2018-11-25 13:07:03,382 : Machine : Setting machine_var 'audits_switches_sw_drop_target_d' to: 113, (prior: 113, change: 0)
+2018-11-25 13:07:03,387 : Machine : Setting machine_var 'audits_switches_sw_top_ro_5' to: 378, (prior: 378, change: 0)
+2018-11-25 13:07:03,393 : Machine : Setting machine_var 'audits_switches_sw_left_slingshot' to: 381, (prior: 381, change: 0)
+2018-11-25 13:07:03,397 : Machine : Setting machine_var 'audits_switches_sw_star_3' to: 165, (prior: 165, change: 0)
+2018-11-25 13:07:03,403 : Machine : Setting machine_var 'audits_switches_sw_fix_target_right_2' to: 9, (prior: 9, change: 0)
+2018-11-25 13:07:03,409 : Machine : Setting machine_var 'audits_switches_sw_star_2' to: 283, (prior: 283, change: 0)
+2018-11-25 13:07:03,414 : Machine : Setting machine_var 'audits_switches_sw_fix_target_center' to: 60, (prior: 60, change: 0)
+2018-11-25 13:07:03,419 : Machine : Setting machine_var 'audits_switches_sw_drop_target_a' to: 308, (prior: 308, change: 0)
+2018-11-25 13:07:03,425 : Machine : Setting machine_var 'audits_switches_sw_coin_3_right' to: 0, (prior: 0, change: 0)
+2018-11-25 13:07:03,430 : Machine : Setting machine_var 'audits_switches_sw_coin_1_left' to: 0, (prior: 0, change: 0)
+2018-11-25 13:07:03,436 : Machine : Setting machine_var 'audits_shots_lit_left_lane_ro_3_shot' to: 9, (prior: 9, change: 0)
+2018-11-25 13:07:03,438 : Machine : Setting machine_var 'audits_shots_shot_spinner' to: 1440, (prior: 1440, change: 0)
+2018-11-25 13:07:03,445 : Machine : Setting machine_var 'audits_shots_lit_left_lane_ro_5_shot' to: 37, (prior: 37, change: 0)
+2018-11-25 13:07:03,450 : Machine : Setting machine_var 'audits_shots_lit_left_lane_ro_4_shot' to: 29, (prior: 29, change: 0)
+2018-11-25 13:07:03,456 : Machine : Setting machine_var 'audits_shots_shot_drop_target_d' to: 105, (prior: 105, change: 0)
+2018-11-25 13:07:03,461 : Machine : Setting machine_var 'audits_shots_shot_drop_target_a' to: 301, (prior: 301, change: 0)
+2018-11-25 13:07:03,467 : Machine : Setting machine_var 'audits_shots_saucer_shot' to: 118, (prior: 118, change: 0)
+2018-11-25 13:07:03,473 : Machine : Setting machine_var 'audits_shots_star_4_shot' to: 8, (prior: 8, change: 0)
+2018-11-25 13:07:03,478 : Machine : Setting machine_var 'audits_shots_lit_star_5_shot' to: 361, (prior: 361, change: 0)
+2018-11-25 13:07:03,482 : Machine : Setting machine_var 'audits_shots_shot_drop_target_e' to: 77, (prior: 77, change: 0)
+2018-11-25 13:07:03,487 : Machine : Setting machine_var 'audits_shots_lit_left_lane_ro_2_shot' to: 8, (prior: 8, change: 0)
+2018-11-25 13:07:03,493 : Machine : Setting machine_var 'audits_shots_shot_drop_target_b' to: 835, (prior: 835, change: 0)
+2018-11-25 13:07:03,497 : Machine : Setting machine_var 'audits_shots_shot_top_ro_1' to: 2478, (prior: 2478, change: 0)
+2018-11-25 13:07:03,502 : Machine : Setting machine_var 'audits_shots_lit_star_2_shot' to: 119, (prior: 119, change: 0)
+2018-11-25 13:07:03,507 : Machine : Setting machine_var 'audits_shots_shot_drop_target_c' to: 70, (prior: 70, change: 0)
+2018-11-25 13:07:03,512 : Machine : Setting machine_var 'audits_shots_star_5_shot' to: 6, (prior: 6, change: 0)
+2018-11-25 13:07:03,517 : Machine : Setting machine_var 'audits_shots_lit_star_1_shot' to: 2459, (prior: 2459, change: 0)
+2018-11-25 13:07:03,522 : Machine : Setting machine_var 'audits_shots_shot_top_ro_3' to: 151, (prior: 151, change: 0)
+2018-11-25 13:07:03,525 : Machine : Setting machine_var 'audits_shots_star_3_shot' to: 4, (prior: 4, change: 0)
+2018-11-25 13:07:03,532 : Machine : Setting machine_var 'audits_shots_shot_top_ro_5' to: 378, (prior: 378, change: 0)
+2018-11-25 13:07:03,536 : Machine : Setting machine_var 'audits_shots_left_lane_1_shot' to: 1, (prior: 1, change: 0)
+2018-11-25 13:07:03,541 : Machine : Setting machine_var 'audits_shots_shot_top_ro_4' to: 423, (prior: 423, change: 0)
+2018-11-25 13:07:03,547 : Machine : Setting machine_var 'audits_shots_shot_fix_target_center' to: 29, (prior: 29, change: 0)
+2018-11-25 13:07:03,553 : Machine : Setting machine_var 'audits_shots_star_2_shot' to: 16, (prior: 16, change: 0)
+2018-11-25 13:07:03,558 : Machine : Setting machine_var 'audits_shots_lit_left_lane_ro_1_shot' to: 232, (prior: 232, change: 0)
+2018-11-25 13:07:03,563 : Machine : Setting machine_var 'audits_shots_lit_star_3_shot' to: 128, (prior: 128, change: 0)
+2018-11-25 13:07:03,568 : Machine : Setting machine_var 'audits_shots_star_1_shot' to: 13, (prior: 13, change: 0)
+2018-11-25 13:07:03,571 : Machine : Setting machine_var 'audits_shots_shot_top_ro_2' to: 163, (prior: 163, change: 0)
+2018-11-25 13:07:03,577 : Machine : Setting machine_var 'audits_shots_lit_star_4_shot' to: 366, (prior: 366, change: 0)
+2018-11-25 13:07:03,590 : Machine : Clearing boot hold init. Holds remaining: set()
+2018-11-25 13:07:03,606 : Machine : Resetting...
+2018-11-25 13:07:04,332 : DeviceManager : _control_event_handler: mode: None, callback: <bound method DropTarget.reset of <drop_target.d>>,
+2018-11-25 13:07:04,334 : DeviceManager : _control_event_handler: mode: None, callback: <bound method DropTarget.reset of <drop_target.e>>,
+2018-11-25 13:07:04,335 : DeviceManager : _control_event_handler: mode: None, callback: <bound method DropTarget.reset of <drop_target.a>>,
+2018-11-25 13:07:04,336 : DeviceManager : _control_event_handler: mode: None, callback: <bound method DropTarget.reset of <drop_target.c>>,
+2018-11-25 13:07:04,337 : DeviceManager : _control_event_handler: mode: None, callback: <bound method DropTarget.reset of <drop_target.b>>,
+2018-11-25 13:07:04,340 : Machine : Reset Complete
+2018-11-25 13:07:04,366 : Mode.attract : Started. Priority: 10
+2018-11-25 13:07:04,442 : SwitchController : Registering switch handler: sw_credit_button, <bound method Attract.start_button_pressed of <Mode.attract>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:04,443 : SwitchController : Registering switch handler: sw_credit_button, <bound method Attract.start_button_released of <Mode.attract>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 13:07:04,489 : Machine : Starting the main run loop.
+2018-11-25 13:07:05,431 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5141092WD:0\r\n'
+2018-11-25 13:07:10,442 : RASPPINBALL : PARSING:b'TCK:1737\r\nDBG:T:5146093WD:0\r\n'
+2018-11-25 13:07:15,455 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5151094WD:0\r\n'
+2018-11-25 13:07:20,451 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5156096WD:0\r\n'
+2018-11-25 13:07:25,460 : RASPPINBALL : PARSING:b'TCK:1737\r\nDBG:T:'
+2018-11-25 13:07:25,481 : RASPPINBALL : PARSING:b'5161097WD:0\r\n'
+2018-11-25 13:07:30,451 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:'
+2018-11-25 13:07:30,460 : RASPPINBALL : PARSING:b'5166098WD:0\r\n'
+2018-11-25 13:07:35,464 : RASPPINBALL : PARSING:b'TCK:1737\r\nDBG:T:5171099WD:0\r\n'
+2018-11-25 13:07:40,477 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5176100WD:0\r\n'
+2018-11-25 13:07:45,471 : RASPPINBALL : PARSING:b'TCK:1736'
+2018-11-25 13:07:45,476 : RASPPINBALL : PARSING:b'\r\nDBG:T:5181101WD:0\r\n'
+2018-11-25 13:07:50,482 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5186102WD:0\r\n'
+2018-11-25 13:07:55,495 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5191103WD:0\r\n'
+2018-11-25 13:08:00,501 : RASPPINBALL : PARSING:b'TCK:1737\r\nDBG:T:'
+2018-11-25 13:08:00,513 : RASPPINBALL : PARSING:b'5196104WD:0\r\n'
+2018-11-25 13:08:05,501 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:'
+2018-11-25 13:08:05,511 : RASPPINBALL : PARSING:b'5201105WD:0\r\n'
+2018-11-25 13:08:10,512 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5206106WD:0\r\n'
+2018-11-25 13:08:15,533 : RASPPINBALL : PARSING:b'TCK:1736\r\nDBG:T:5211107WD:0\r\n'
+2018-11-25 13:08:20,557 : RASPPINBALL : PARSING:b'TCK:1737\r\nDBG:T:5216108WD:0\r\n'
+                                                                                                                                                                                                                                                                                                                                                                          
