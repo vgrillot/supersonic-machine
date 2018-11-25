@@ -1,25 +1,13 @@
 #show_version=4
 
-- duration: 3s
+- duration: 15s
   slides:
     supersonic_img_slide:
       widgets:
       - type: image
         image: Supersonic_logo_dmd32
 
-- duration: 3s
-  slides:
-    awesome_slide:
-      widgets:
-      - type: text
-        text: SuperSonic !
-        #font_size: 30
-      transition:
-         type: push
-         duration: 1s
-         direction: left
-
-- duration: 3s
+- duration: 15s
   slides:
     press_start:
       widgets:
@@ -45,16 +33,3 @@
          type: move_in
          duration: 1s
          direction: right
-
-- duration: 3
-  slides:
-    mission_pinball:
-      widgets:
-      - type: Text
-        text: MISSION PINBALL
-        color: red
-        style: tall_title
-      transition:
-         type: move_in
-         duration: 1s
-         direction: top
