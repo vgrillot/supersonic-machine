@@ -235,10 +235,3 @@ logic_blocks:
             events_when_complete: multiplier_5x_complete
 
 
-show_player:
-    ball_drain:
-      end_ball_show:
-        priority: 999
-        speed: 1
-        loops: 0
-
