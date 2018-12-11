@@ -1,4 +1,4 @@
-# config_version=4
+#config_version=5
 # duplicate from NBX (The Nightmare Before Christmas Pinball)
 
 window:
@@ -77,14 +77,18 @@ slides:
       allow_stretch: true
 
     # the fake dmd
-    - type: color_dmd     # RTFM: source_display = dmd, a color_dmd render automatically to the "dmd" logical display
+    - type: display     # RTFM: source_display = dmd, a color_dmd render automatically to the "dmd" logical display
       width: 1024
       height: 256
-      gain: 1.15
+      effects:
+        - type: dmd
+          dots_x: 128
+          dots_y: 32
+          dot_color: ff00aa
+          gain: 2
       bg_color: 020202ff
       blur: 0.1
       pixel_size: 0.85
-      dot_filter: True
       dark_color: 050505ff
       anchor_y: bottom
       anchor_x: center

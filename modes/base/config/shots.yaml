@@ -1,10 +1,10 @@
-#config_version=4
+#config_version=5
 
 shots:
     shot_fix_target_center:
         switch: sw_fix_target_center
         show_tokens:
-            led: ld_not_used_1
+            light: ld_not_used_1
         profile: profile_just_lit
 
     shot_drop_target_e:
@@ -21,23 +21,23 @@ shots:
     shot_top_ro_5:
         switch: sw_top_ro_5
         show_tokens:
-            led: ld_top_lane_5
+            light: ld_top_lane_5
     shot_top_ro_4:
         switch: sw_top_ro_4
         show_tokens:
-            led: ld_top_lane_4
+            light: ld_top_lane_4
     shot_top_ro_3:
         switch: sw_top_ro_3
         show_tokens:
-            led: ld_top_lane_3
+            light: ld_top_lane_3
     shot_top_ro_2:
         switch: sw_top_ro_2
         show_tokens:
-            led: ld_top_lane_2
+            light: ld_top_lane_2
     shot_top_ro_1:
         switch: sw_top_ro_1
         show_tokens:
-            led: ld_top_lane_1
+            light: ld_top_lane_1
 
     shot_spinner:
         switch: sw_spinner

@@ -1,4 +1,4 @@
-#config_version=4
+#config_version=5
 
 #!!181124:VG:Added logging.yaml
 
@@ -9,7 +9,7 @@ config:
     - hardware.yaml
     - keyboard.yaml
     - rasppinball.yaml
-    - shots.yaml
+#    - shots.yaml
     - display.yaml
     - logging.yaml
 
