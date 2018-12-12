@@ -4,6 +4,7 @@ coils:
     co_outhole_kicker:
         number: 42
         default_pulse_ms: 30
+        allow_enable: true
 
 # TODO:
 #    co_knocker:
@@ -12,27 +13,34 @@ coils:
     co_saucer:
         number: 26
         default_pulse_ms: 30
+        allow_enable: true
 
     co_left_bumper:
         number: 46
         default_pulse_ms: 50
+        allow_enable: true
     co_right_bumper:
         number: 30
         default_pulse_ms: 50
+        allow_enable: true
     co_bottom_bumper:
         number: 32
         default_pulse_ms: 50
+        allow_enable: true
 
     co_left_slingshot:
         number: 44
         default_pulse_ms: 50
+        allow_enable: true
     co_right_slingshot:
         number: 28
         default_pulse_ms: 50
+        allow_enable: true
 
     co_drop_targer_reset:
         number: 36
-        default_pulse_ms: 30
+        default_pulse_ms: 50
+        allow_enable: true
 
     co_lower_right_gate:
         number: 34
@@ -46,7 +54,9 @@ coils:
 
     co_left_flipper_main:
         number: 40
+        allow_enable: true
     co_right_flipper_main:
         number: 38
+        allow_enable: true
 
         
