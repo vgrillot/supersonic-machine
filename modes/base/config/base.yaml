@@ -184,7 +184,7 @@ shot_groups:
         disable_rotation_events: end_ball
 
 
-logic_blocks:
+counters:
     enable_top_ro_mode_2:
         count_events: top_ro_default_lit_complete
         starting_count: 0
