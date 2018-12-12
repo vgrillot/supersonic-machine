@@ -1,57 +1,57 @@
 #show_version=5
 
 - duration: 3s
-  leds:
+  lights:
       ld_right_outlane: off
       ld_left_outlane: off
 
 - duration: 0.1
-  leds:
+  lights:
       ld_right_outlane: on
       ld_left_outlane: off
 
 - duration: 0.1
-  leds:
-      ld_right_outlane: off
-      ld_left_outlane: on
-
-- duration: 0.1
-  leds:
-      ld_right_outlane: on
-      ld_left_outlane: off
-
-- duration: 0.1
-  leds:
+  lights:
       ld_right_outlane: off
       ld_left_outlane: on
 
 - duration: 0.1
-  leds:
+  lights:
       ld_right_outlane: on
       ld_left_outlane: off
 
 - duration: 0.1
-  leds:
+  lights:
       ld_right_outlane: off
       ld_left_outlane: on
 
 - duration: 0.1
-  leds:
+  lights:
       ld_right_outlane: on
       ld_left_outlane: off
 
 - duration: 0.1
-  leds:
+  lights:
       ld_right_outlane: off
       ld_left_outlane: on
 
 - duration: 0.1
-  leds:
+  lights:
       ld_right_outlane: on
       ld_left_outlane: off
 
 - duration: 0.1
-  leds:
+  lights:
+      ld_right_outlane: off
+      ld_left_outlane: on
+
+- duration: 0.1
+  lights:
+      ld_right_outlane: on
+      ld_left_outlane: off
+
+- duration: 0.1
+  lights:
       ld_right_outlane: off
       ld_left_outlane: on
 

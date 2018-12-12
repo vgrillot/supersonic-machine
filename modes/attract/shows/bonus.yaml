@@ -1,37 +1,37 @@
 #show_version=5
 
 - duration: 2
-  leds:
+  lights:
       ld_bonus_5x: off
       ld_bonus_3x: off
       ld_bonus_2x: off
 
 - duration: 0.5
-  leds:
+  lights:
       ld_bonus_5x: on
       ld_bonus_3x: off
       ld_bonus_2x: off
 
 - duration: 0.5
-  leds:
+  lights:
       ld_bonus_5x: on
       ld_bonus_3x: on
       ld_bonus_2x: off
 
 - duration: 0.5
-  leds:
+  lights:
       ld_bonus_5x: on
       ld_bonus_3x: on
       ld_bonus_2x: on
 
 - duration: 0.5
-  leds:
+  lights:
       ld_bonus_5x: off
       ld_bonus_3x: on
       ld_bonus_2x: on
 
 - duration: 0.5
-  leds:
+  lights:
       ld_bonus_5x: off
       ld_bonus_3x: off
       ld_bonus_2x: on
