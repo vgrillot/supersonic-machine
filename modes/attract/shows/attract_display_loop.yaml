@@ -5,7 +5,7 @@
     supersonic_img_slide:
       widgets:
       - type: image
-        image: Supersonic_logo_dmd32
+        image: supersonic_logo_dmd32
 
 - duration: 15s
   slides:
