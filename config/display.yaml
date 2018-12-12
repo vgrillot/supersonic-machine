@@ -71,10 +71,10 @@ slides:
       anchor_x: center
       x: center
       y: center-30
-      width: 1400
-      height: 800
+#      width: 1400->deprecated
+#      height: 800->deprecated
       z: 0
-      allow_stretch: true
+#      allow_stretch: true ->deprecated
 
     # the fake dmd
     - type: display     # RTFM: source_display = dmd, a color_dmd render automatically to the "dmd" logical display
@@ -86,16 +86,16 @@ slides:
           dots_y: 32
           dot_color: ff00aa
           gain: 2
-      bg_color: 020202ff
-      blur: 0.1
-      pixel_size: 0.85
-      dark_color: 050505ff
+#      bg_color: 020202ff
+#      blur: 0.1 ->deprecated
+#      pixel_size: 0.85 ->deprecated
+#      dark_color: 050505ff ->deprecated
       anchor_y: bottom
       anchor_x: center
       y: 10
       x: center
       z: 10
-    # dmd coutour
+
     - type: rectangle
       width: 1026
       height: 258
@@ -104,6 +104,8 @@ slides:
       y: 9
       x: center
       z: 9
+
+
     # score lcd
     - type: text
       #text: (score) # OK for one player only, display current player's score
