@@ -160,8 +160,8 @@ variable_player:
 
     ball_started:
         bonus_score:
-            score: 999  #NOK
-            action: set #NOK
+            int: 0
+            action: set
 
 
 shots:
