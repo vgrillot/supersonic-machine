@@ -108,7 +108,6 @@ slides:
         - type: color_dmd
           gain: 1.2
           background_color: 000000
-          pixel_size: .5
 
 
 
