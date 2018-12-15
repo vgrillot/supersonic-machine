@@ -22,6 +22,7 @@ slide_player:
             color: yellow
             anchor_y: top
             y: top
+
           - type: text
             #text: (player|bonus_score) X(player|bonus_multiplier) #NOK
             text: (bonus_score) X(bonus_multiplier)
@@ -31,6 +32,7 @@ slide_player:
             color: orange
             anchor_y: bottom
             y: bottom
+
           - type: text
             text: PLAYER (number)
             x: 10
@@ -38,6 +40,7 @@ slide_player:
             font_size: 5
             anchor_x: left
             anchor_y: bottom
+
           - type: text
             text: BALL (ball)
             font_size: 5

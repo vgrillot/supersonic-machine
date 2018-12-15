@@ -1,13 +1,13 @@
 #show_version=5
 
-- duration: 15s
+- duration: 3s
   slides:
     supersonic_img_slide:
       widgets:
       - type: image
         image: supersonic_logo_dmd32
 
-- duration: 15s
+- duration: 3s
   slides:
     press_start:
       widgets:
