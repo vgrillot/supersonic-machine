@@ -7,7 +7,7 @@ config:
     - hardware.yaml
     - keyboard.yaml
     - rasppinball.yaml
-    - shots.yaml
+#    - shots.yaml
     - display.yaml
     - sounds.yaml
 
