@@ -5,6 +5,7 @@ show_player:
     mode_attract_started:
         attract_display_loop:
             speed: 1
+            loops: -1
         left_ramp: 
             speed: 2
             loops: -1
