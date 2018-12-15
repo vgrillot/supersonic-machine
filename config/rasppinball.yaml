@@ -1,4 +1,4 @@
-#config_version=4
+#config_version=5
 
 hardware:
     platform: rasppinball
@@ -9,11 +9,11 @@ hardware:
 #    servers:
 #        ip: None
 
-rasppinball:
-    debug: false
+#rasppinball:
+#    debug: false
 #    #rasp_strip_leds:      #   LED strip configuration:
 #    #    strip_0:
-    count: 64         #   Number of LED pixels.
+#    count: 64         #   Number of LED pixels.
 #    pin: 18           #   GPIO pin connected to the pixels (must support PWM!).
 #    freq: 800000      #   LED signal frequency in hertz (usually 800khz)
 #    dma:  1           #   DMA channel to use for generating signal (try 5)

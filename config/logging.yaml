@@ -1,0 +1,64 @@
+#config_version=5
+
+#!!181124:VG:Created from http://docs.missionpinball.org/en/latest/config/logging.html
+
+logging:
+    console:
+         asset_manager: none
+         ball_controller: none
+         ball_search: none
+         bcp: none
+         bcp_client: none
+         bcp_interface: none
+         bcp_server: none
+         clock: none
+         config_players: none  # todo
+         data_manager: none  # todo subclasses
+         delay_manager: none
+         device_manager: full
+         event_manager: none
+         file_manager: none  # todo
+         logic_blocks: none
+         machine_controller: full
+         mode_controller: basic
+         placeholder_manager: none
+         platforms: full  # todo
+         players: none  # todo
+         plugins: none  # todo
+         score_reel_controller: none
+         scriptlets: none  # todo
+         service_controller: basic
+         settings_controller: none
+         show_controller: none
+         switch_controller: full
+         timers: none
+
+    file:
+         asset_manager: none
+         ball_controller: none
+         ball_search: none
+         bcp: none
+         bcp_client: none
+         bcp_interface: none
+         bcp_server: none
+         clock: none
+         config_players: none  # todo
+         data_manager: none  # todo subclasses
+         delay_manager: none
+         device_manager: full
+         event_manager: none
+         file_manager: none  # todo
+         logic_blocks: none
+         machine_controller: full
+         mode_controller: basic
+         placeholder_manager: none
+         platforms: full  # todo
+         players: none  # todo
+         plugins: none  # todo
+         score_reel_controller: none
+         scriptlets: none  # todo
+         service_controller: basic
+         settings_controller: none
+         show_controller: none
+         switch_controller: full
+         timers: none

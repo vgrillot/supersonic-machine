@@ -1,4 +1,4 @@
-#config_version=4
+#config_version=5
 
 config:
     - switchs.yaml
@@ -6,7 +6,7 @@ config:
     - coils.yaml
     - hardware.yaml
     - keyboard.yaml
-    #- rasppinball.yaml
+    - rasppinball.yaml
     - shots.yaml
     - display.yaml
     - sounds.yaml
