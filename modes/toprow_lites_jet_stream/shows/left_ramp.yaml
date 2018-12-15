@@ -1,7 +1,7 @@
 #show_version=4
 
 - duration: 0.2
-  leds:
+  lights:
       ld_left_lane_1: on
       ld_left_lane_2: on
       ld_left_lane_3: on
@@ -9,7 +9,7 @@
       ld_left_lane_5: on
 
 - duration: 1.0
-  leds:
+  lights:
       ld_left_lane_1: off
       ld_left_lane_2: off
       ld_left_lane_3: off

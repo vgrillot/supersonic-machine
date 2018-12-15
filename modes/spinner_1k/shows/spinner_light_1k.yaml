@@ -1,50 +1,50 @@
-#show_version=4
+#show_version=5
 
 #
 # Spinner bonus is enabled, lit or blink the spinner led
 #
 
 - duration: 1
-  leds:
+  lights:
       ld_spinner_1k: green
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: white
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: off
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: white
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: off
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: white
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: off
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: white
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: off
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: white
 
 - duration: 0.1
-  leds:
+  lights:
       ld_spinner_1k: off
 

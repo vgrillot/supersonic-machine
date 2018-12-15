@@ -1,31 +1,31 @@
-#show_version=4
+#show_version=5
 
 - duration: 1
-  leds:
+  lights:
       ld_left_bumper: off
       ld_right_bumper: off
       ld_bottom_bumper: red
 
 - duration: 1
-  leds:
+  lights:
       ld_left_bumper: off
       ld_right_bumper: green
       ld_bottom_bumper: off
 
 - duration: 1
-  leds:
+  lights:
       ld_left_bumper: blue
       ld_right_bumper: off
       ld_bottom_bumper: off
 
 - duration: 0.5
-  leds:
+  lights:
       ld_left_bumper: off
       ld_right_bumper: off
       ld_bottom_bumper: off
 
 - duration: 0.5
-  leds:
+  lights:
       ld_left_bumper: blue
       ld_right_bumper: green
       ld_bottom_bumper: red
@@ -33,13 +33,13 @@
 
 
 - duration: 0.5
-  leds:
+  lights:
       ld_left_bumper: off
       ld_right_bumper: off
       ld_bottom_bumper: off
 
 - duration: 0.5
-  leds:
+  lights:
       ld_left_bumper: blue
       ld_right_bumper: green
       ld_bottom_bumper: red
@@ -47,20 +47,20 @@
 
 
 - duration: 0.5
-  leds:
+  lights:
       ld_left_bumper: off
       ld_right_bumper: off
       ld_bottom_bumper: off
 
 - duration: 0.5
-  leds:
+  lights:
       ld_left_bumper: blue
       ld_right_bumper: green
       ld_bottom_bumper: red
 
 
 - duration: 0.5
-  leds:
+  lights:
       ld_left_bumper: off
       ld_right_bumper: off
       ld_bottom_bumper: off

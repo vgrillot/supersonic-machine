@@ -1,4 +1,4 @@
-#show_version=4
+#show_version=5
 
 #
 # light the 3X multiplier bonus
@@ -8,7 +8,7 @@
 
 
 - duration: 1
-  leds:
+  lights:
     ld_bonus_2x: white
     ld_bonus_3x: white
     ld_saucer_2x: white

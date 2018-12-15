@@ -1,7 +1,7 @@
-#show_version=4
+#show_version=5
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: off
       ld_bonus_2k: off
       ld_bonus_3k: off
@@ -15,7 +15,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: off
       ld_bonus_3k: off
@@ -29,7 +29,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: off
@@ -43,7 +43,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -57,7 +57,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -71,7 +71,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -85,7 +85,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -99,7 +99,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -113,7 +113,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -127,7 +127,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -141,7 +141,7 @@
       ld_bonus_20k: off
 
 - duration: 1
-  leds:
+  lights:
       ld_bonus_1k: red
       ld_bonus_2k: red
       ld_bonus_3k: red
@@ -156,23 +156,23 @@
 
 
 - duration: 0.25
-  leds:
+  lights:
       ld_bonus_20k: red
 
 - duration: 0.25
-  leds:
+  lights:
       ld_bonus_20k: off
 
 - duration: 0.25
-  leds:
+  lights:
       ld_bonus_20k: red
 
 - duration: 0.25
-  leds:
+  lights:
       ld_bonus_20k: off
 
 - duration: 0.25
-  leds:
+  lights:
       ld_bonus_20k: red
 
 
