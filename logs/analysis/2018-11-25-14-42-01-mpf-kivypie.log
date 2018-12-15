@@ -1,0 +1,135 @@
+2018-11-25 14:42:01,082 : Machine : Mission Pinball Framework Core Engine v0.33.46
+2018-11-25 14:42:01,084 : Machine : Command line arguments: {'configfile': ['config'], 'syslog_address': None, 'logfile': 'logs/2018-11-25-14-42-01-mpf-kivypie.log', 'loglevel': 11, 'create_config_cache': True, 'pause': False, 'mpfconfigfile': '/home/sysop/pinball/mpf/mpf/mpfconfig.yaml', 'consoleloglevel': 20, 'bcp': True, 'force_assets_load': False, 'mc_file_name': None, 'no_load_cache': False, 'force_platform': None}
+2018-11-25 14:42:01,085 : Machine : MPF path: /home/sysop/pinball/mpf/mpf
+2018-11-25 14:42:01,085 : Machine : Machine path: /home/sysop/pinball/machines/supersonic
+2018-11-25 14:42:01,086 : Machine : Platform: linux
+2018-11-25 14:42:01,086 : Machine : Python executable location: /usr/bin/python3
+2018-11-25 14:42:01,087 : Machine : Python version: 3.4.2 (32-bit)
+2018-11-25 14:42:04,188 : Machine : Loading cached config: /tmp/b483c2bb19bc8f7f9bf445a6d20fd2dcconfig
+2018-11-25 14:42:04,275 : RASPPINBALL : Configuring raspPinball hardware.
+2018-11-25 14:42:04,276 : Machine : Setting default platform to 'rasppinball'
+2018-11-25 14:42:04,277 : Machine : Loading core modules...
+2018-11-25 14:42:04,277 : Machine : Loading 'mpf.core.events.EventManager' core module
+2018-11-25 14:42:04,356 : Machine : Loading 'mpf.core.mode_controller.ModeController' core module
+2018-11-25 14:42:04,469 : Machine : Loading 'mpf.core.config_processor.ConfigProcessor' core module
+2018-11-25 14:42:04,471 : Machine : Loading 'mpf.core.shot_profile_manager.ShotProfileManager' core module
+2018-11-25 14:42:04,492 : Machine : Loading 'mpf.core.device_manager.DeviceManager' core module
+2018-11-25 14:42:04,493 : DeviceManager : Loading the DeviceManager
+2018-11-25 14:42:04,499 : Machine : Loading 'mpf.core.switch_controller.SwitchController' core module
+2018-11-25 14:42:04,516 : SwitchController : Loading the SwitchController
+2018-11-25 14:42:04,521 : Machine : Loading 'mpf.core.ball_controller.BallController' core module
+2018-11-25 14:42:04,532 : Machine : Loading 'mpf.core.assets.AsyncioSyncAssetManager' core module
+2018-11-25 14:42:04,566 : Machine : Loading 'mpf.core.show_controller.ShowController' core module
+2018-11-25 14:42:04,579 : Machine : Loading 'mpf.core.bcp.bcp.Bcp' core module
+2018-11-25 14:42:04,614 : Machine : Loading 'mpf.core.logic_blocks.LogicBlocks' core module
+2018-11-25 14:42:04,624 : Machine : Loading 'mpf.core.service_controller.ServiceController' core module
+2018-11-25 14:42:04,634 : Machine : Loading 'mpf.core.settings_controller.SettingsController' core module
+2018-11-25 14:42:04,645 : Machine : Loading 'mpf.core.placeholder_manager.PlaceholderManager' core module
+2018-11-25 14:42:04,654 : Machine : Loading 'mpf.core.extra_balls.ExtraBallController' core module
+2018-11-25 14:42:04,666 : RASPPINBALL : Initialize raspPinball hardware.
+2018-11-25 14:42:04,668 : RASPPINBALL : Connecting to /dev/ttyAMA0 at 115200bps
+2018-11-25 14:42:04,747 : Machine : Registering Plugin Config Players
+2018-11-25 14:42:04,749 : Machine : Registering sound_player = mpfmc.config_players.plugins.sound_player:register_with_mpf
+2018-11-25 14:42:04,777 : Machine : Registering widget_player = mpfmc.config_players.plugins.widget_player:register_with_mpf
+2018-11-25 14:42:04,797 : Machine : Registering slide_player = mpfmc.config_players.plugins.slide_player:register_with_mpf
+2018-11-25 14:42:04,817 : Machine : Registering track_player = mpfmc.config_players.plugins.track_player:register_with_mpf
+2018-11-25 14:42:04,853 : Machine : Setting machine_var 'player1_score' to: 43900, (prior: 43900, change: 0)
+2018-11-25 14:42:04,854 : Machine : Setting machine_var 'mpf_version' to: MPF v0.33.46, (prior: MPF v0.33.46, change: False)
+2018-11-25 14:42:04,855 : Machine : Setting machine_var 'mpf_extended_version' to: MPF v0.33.46, Config version:4, Show version: 4, BCP version:1.1, (prior: MPF v0.33.46, Config version:4, Show version: 4, BCP version:1.1, change: False)
+2018-11-25 14:42:04,855 : Machine : Setting machine_var 'python_version' to: 3.4.2, (prior: 3.4.2, change: False)
+2018-11-25 14:42:04,863 : Machine : Setting machine_var 'platform' to: Linux-4.9.24-v7+-armv7l-with-debian-8.0, (prior: Linux-4.9.24-v7+-armv7l-with-debian-8.0, change: False)
+2018-11-25 14:42:04,864 : Machine : Setting machine_var 'platform_system' to: Linux, (prior: Linux, change: False)
+2018-11-25 14:42:04,865 : Machine : Setting machine_var 'platform_release' to: 4.9.24-v7+, (prior: 4.9.24-v7+, change: False)
+2018-11-25 14:42:04,866 : Machine : Setting machine_var 'platform_version' to: #993 SMP Wed Apr 26 18:01:23 BST 2017, (prior: #993 SMP Wed Apr 26 18:01:23 BST 2017, change: False)
+2018-11-25 14:42:04,866 : Machine : Setting machine_var 'platform_machine' to: armv7l, (prior: armv7l, change: False)
+2018-11-25 14:42:04,868 : Machine : Shutting down...
+2018-11-25 14:42:04,871 : asyncio : Exception in callback PeriodicTask._run()
+handle: <TimerHandle when=3349.108435007 PeriodicTask._run()>
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/asyncio/events.py", line 120, in _run
+    self._callback(*self._args)
+  File "/home/sysop/pinball/mpf/mpf/core/clock.py", line 37, in _run
+    self._callback(None)
+  File "/home/sysop/pinball/mpf/mpf/platforms/rasppinball/rasppinball.py", line 132, in tick
+    self.communicator.resent_frames()
+  File "/home/sysop/pinball/mpf/mpf/platforms/rasppinball/serial.py", line 105, in resent_frames
+    self.__send_frame(k, f['msg'])
+  File "/home/sysop/pinball/mpf/mpf/platforms/rasppinball/serial.py", line 76, in __send_frame
+    self.log.info('SEND:%s' % s.trim())
+AttributeError: 'str' object has no attribute 'trim'
+2018-11-25 14:42:04,886 : DeviceManager : Loading devices...
+2018-11-25 14:42:05,377 : ball_device.bd_trough : Platform Driver: None
+2018-11-25 14:42:05,380 : ball_device.bd_trough : Configuring device with settings: '{'hold_coil': None, 'ball_missing_target': <playfield.playfield>, 'exit_count_delay': 500, 'entrance_switch_full_timeout': 0, 'file_log': 'full', 'confirm_eject_event': None, 'entrance_switch': None, 'eject_coil': <coil.co_outhole_kicker>, 'ball_search_order': 200, 'tags': ['trough', 'home', 'drain', 'ball_add_live'], 'hold_coil_release_time': 1000, 'entrance_events': {}, 'eject_events': {}, 'label': '%', 'ball_missing_timeouts': [], 'confirm_eject_type': 'target', 'hold_events': {}, 'request_ball_events': [], 'entrance_count_delay': 300, 'mechanical_eject': False, 'eject_coil_jam_pulse': None, 'eject_all_events': {}, 'eject_coil_retry_pulse': None, 'retries_before_increasing_pulse': 4, 'hold_switches': [], 'max_eject_attempts': 0, 'captures_from': <playfield.playfield>, 'eject_timeouts': [], 'auto_fire_on_unexpected_ball': True, 'confirm_eject_switch': None, 'player_controlled_eject_event': None, 'ball_switches': [<switch.sw_outhole>], 'ball_capacity': None, 'console_log': 'full', 'eject_targets': [<playfield.playfield>], 'jam_switch': None, 'debug': True, 'target_on_unexpected_ball': None}'
+2018-11-25 14:42:05,446 : RASPDriver : Driver Settings for 36
+2018-11-25 14:42:05,447 : RASPDriver : Driver Settings for 28
+2018-11-25 14:42:05,447 : RASPDriver : Driver Settings for 34
+2018-11-25 14:42:05,448 : RASPDriver : Driver Settings for 26
+2018-11-25 14:42:05,449 : RASPDriver : Driver Settings for 32
+2018-11-25 14:42:05,449 : RASPDriver : Driver Settings for 40
+2018-11-25 14:42:05,450 : RASPDriver : Driver Settings for 30
+2018-11-25 14:42:05,450 : RASPDriver : Driver Settings for 46
+2018-11-25 14:42:05,451 : RASPDriver : Driver Settings for 42
+2018-11-25 14:42:05,453 : RASPDriver : Driver Settings for 38
+2018-11-25 14:42:05,454 : RASPDriver : Driver Settings for 44
+2018-11-25 14:42:05,454 : RASPSwitch : Switch settings for 31
+2018-11-25 14:42:05,455 : RASPSwitch : Switch settings for 18
+2018-11-25 14:42:05,456 : RASPSwitch : Switch settings for 11
+2018-11-25 14:42:05,457 : RASPSwitch : Switch settings for 182
+2018-11-25 14:42:05,457 : RASPSwitch : Switch settings for 2
+2018-11-25 14:42:05,459 : RASPSwitch : Switch settings for 30
+2018-11-25 14:42:05,460 : RASPSwitch : Switch settings for 20
+2018-11-25 14:42:05,460 : RASPSwitch : Switch settings for 19
+2018-11-25 14:42:05,461 : RASPSwitch : Switch settings for 24
+2018-11-25 14:42:05,462 : RASPSwitch : Switch settings for 12
+2018-11-25 14:42:05,462 : RASPSwitch : Switch settings for 40
+2018-11-25 14:42:05,463 : RASPSwitch : Switch settings for 39
+2018-11-25 14:42:05,465 : RASPSwitch : Switch settings for 15
+2018-11-25 14:42:05,466 : RASPSwitch : Switch settings for 36
+2018-11-25 14:42:05,467 : RASPSwitch : Switch settings for 14
+2018-11-25 14:42:05,467 : RASPSwitch : Switch settings for 33
+2018-11-25 14:42:05,468 : RASPSwitch : Switch settings for 1
+2018-11-25 14:42:05,468 : RASPSwitch : Switch settings for 38
+2018-11-25 14:42:05,469 : RASPSwitch : Switch settings for 103
+2018-11-25 14:42:05,471 : RASPSwitch : Switch settings for 23
+2018-11-25 14:42:05,472 : RASPSwitch : Switch settings for 32
+2018-11-25 14:42:05,472 : RASPSwitch : Switch settings for 192
+2018-11-25 14:42:05,473 : RASPSwitch : Switch settings for 17
+2018-11-25 14:42:05,474 : RASPSwitch : Switch settings for 202
+2018-11-25 14:42:05,474 : RASPSwitch : Switch settings for 22
+2018-11-25 14:42:05,475 : RASPSwitch : Switch settings for 27
+2018-11-25 14:42:05,477 : RASPSwitch : Switch settings for 3
+2018-11-25 14:42:05,478 : RASPSwitch : Switch settings for 5
+2018-11-25 14:42:05,478 : RASPSwitch : Switch settings for 13
+2018-11-25 14:42:05,479 : RASPSwitch : Switch settings for 35
+2018-11-25 14:42:05,480 : RASPSwitch : Switch settings for 10
+2018-11-25 14:42:05,480 : RASPSwitch : Switch settings for 102
+2018-11-25 14:42:05,481 : RASPSwitch : Switch settings for 7
+2018-11-25 14:42:05,483 : RASPSwitch : Switch settings for 34
+2018-11-25 14:42:05,483 : RASPSwitch : Switch settings for 29
+2018-11-25 14:42:05,484 : RASPSwitch : Switch settings for 16
+2018-11-25 14:42:05,485 : RASPSwitch : Switch settings for 4
+2018-11-25 14:42:05,486 : RASPSwitch : Switch settings for 8
+2018-11-25 14:42:05,486 : RASPSwitch : Switch settings for 26
+2018-11-25 14:42:05,487 : RASPSwitch : Switch settings for 21
+2018-11-25 14:42:05,489 : RASPSwitch : Switch settings for 37
+2018-11-25 14:42:05,490 : RASPSwitch : Switch settings for 101
+2018-11-25 14:42:05,490 : RASPSwitch : Switch settings for 9
+2018-11-25 14:42:05,491 : RASPSwitch : Switch settings for 28
+2018-11-25 14:42:05,492 : RASPSwitch : Switch settings for 222
+2018-11-25 14:42:05,585 : SwitchController : Registering switch handler: bt_left_flipper, <bound method ComboSwitch._switch_1_went_active of <combo_switch.both_flippers>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 14:42:05,586 : SwitchController : Registering switch handler: bt_left_flipper, <bound method ComboSwitch._switch_1_went_inactive of <combo_switch.both_flippers>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 14:42:05,588 : SwitchController : Registering switch handler: bt_right_flipper, <bound method ComboSwitch._switch_2_went_active of <combo_switch.both_flippers>>, state: 1, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 14:42:05,588 : SwitchController : Registering switch handler: bt_right_flipper, <bound method ComboSwitch._switch_2_went_inactive of <combo_switch.both_flippers>>, state: 0, ms: 0, info: False, cb_kwargs: {}
+2018-11-25 14:42:05,590 : SwitchController : Registering switch handler: bt_left_flipper, <bound method TimedSwitch._activate of <timed_switch.flipper_cradle>>, state: 1, ms: 3000, info: True, cb_kwargs: {}
+2018-11-25 14:42:05,590 : SwitchController : Registering switch handler: bt_left_flipper, <bound method TimedSwitch._deactivate of <timed_switch.flipper_cradle>>, state: 0, ms: 0, info: True, cb_kwargs: {}
+2018-11-25 14:42:05,591 : SwitchController : Registering switch handler: bt_right_flipper, <bound method TimedSwitch._activate of <timed_switch.flipper_cradle>>, state: 1, ms: 3000, info: True, cb_kwargs: {}
+2018-11-25 14:42:05,593 : SwitchController : Registering switch handler: bt_right_flipper, <bound method TimedSwitch._deactivate of <timed_switch.flipper_cradle>>, state: 0, ms: 0, info: True, cb_kwargs: {}
+2018-11-25 14:42:05,600 : root : Event loop stopped before Future completed.
+Traceback (most recent call last):
+  File "/home/sysop/pinball/mpf/mpf/commands/game.py", line 181, in __init__
+    MachineController(mpf_path, machine_path, vars(args)).run()
+  File "/home/sysop/pinball/mpf/mpf/core/machine.py", line 134, in __init__
+    self.clock.loop.run_until_complete(self._run_init_phases())
+  File "/usr/lib/python3.4/asyncio/base_events.py", line 274, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
