@@ -1,12 +1,15 @@
-#config_version=4
+#config_version=5
 #
 #!!170501:VG:adjust scoring
 #
 
+config:
+    - shots.yaml
+
 mode:
     start_events: ball_starting
     priority: 100
-    code: base.base
+#    code: base.Base
 
 slide_player:
     mode_base_started:
@@ -19,6 +22,7 @@ slide_player:
             color: yellow
             anchor_y: top
             y: top
+
           - type: text
             #text: (player|bonus_score) X(player|bonus_multiplier) #NOK
             text: (bonus_score) X(bonus_multiplier)
@@ -28,6 +32,7 @@ slide_player:
             color: orange
             anchor_y: bottom
             y: bottom
+
           - type: text
             text: PLAYER (number)
             x: 10
@@ -35,6 +40,7 @@ slide_player:
             font_size: 5
             anchor_x: left
             anchor_y: bottom
+
           - type: text
             text: BALL (ball)
             font_size: 5
@@ -296,8 +302,8 @@ scoring:
 
     ball_started:
         bonus_score:
-            score: 999  #NOK
-            action: set #NOK
+            int: 0
+            action: set
 
 
 shots:
@@ -317,61 +323,60 @@ shot_groups:
             top_ro_default_lit_complete: 1s
             ball_starting: 0s
         enable_rotation_events: ball_started
-        disable_rotation_events: ball_ending
+        disable_rotation_events: end_ball
 
 
-logic_blocks:
-    counters:
-        enable_top_ro_mode_2:
-            count_events: top_ro_default_lit_complete
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            events_when_complete: enable_top_ro_mode_2_complete
-            persist_state: true
-        enable_top_ro_mode_3:
-            #count_events: top_ro_default_lit_complete{current_player.enable_top_ro_mode_2_count==1}
-            count_events: top_ro_default_lit_complete
-            starting_count: 0
-            count_complete_value: 2
-            direction: up
-            events_when_complete: enable_top_ro_mode_3_complete
-            persist_state: true
+counters:
+    enable_top_ro_mode_2:
+        count_events: top_ro_default_lit_complete
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        events_when_complete: enable_top_ro_mode_2_complete
+        persist_state: true
+    enable_top_ro_mode_3:
+        #count_events: top_ro_default_lit_complete{current_player.enable_top_ro_mode_2_count==1}
+        count_events: top_ro_default_lit_complete
+        starting_count: 0
+        count_complete_value: 2
+        direction: up
+        events_when_complete: enable_top_ro_mode_3_complete
+        persist_state: true
 
-        enable_dropbank_lit_extraball:
-            count_events: drop_target_bank_left_drops_down
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            events_when_complete: lit_extraball
+    enable_dropbank_lit_extraball:
+        count_events: drop_target_bank_left_drops_down
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        events_when_complete: lit_extraball
 
-        enable_dropbank_mode_special:
-            count_events: drop_target_bank_left_drops_down
-            starting_count: 0
-            count_complete_value: 2
-            direction: up
-            events_when_complete: win_extraball, lit_special
+    enable_dropbank_mode_special:
+        count_events: drop_target_bank_left_drops_down
+        starting_count: 0
+        count_complete_value: 2
+        direction: up
+        events_when_complete: win_extraball, lit_special
 
-        multiplier_2x:
-            count_events: saucer_shot_hit
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            events_when_complete: multiplier_2x_complete
+    multiplier_2x:
+        count_events: saucer_shot_hit
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        events_when_complete: multiplier_2x_complete
 
-        multiplier_3x:
-            count_events: saucer_shot_hit
-            starting_count: 0
-            count_complete_value: 2
-            direction: up
-            events_when_complete: multiplier_3x_complete
+    multiplier_3x:
+        count_events: saucer_shot_hit
+        starting_count: 0
+        count_complete_value: 2
+        direction: up
+        events_when_complete: multiplier_3x_complete
 
-        multiplier_5x:
-            count_events: saucer_shot_hit
-            starting_count: 0
-            count_complete_value: 3
-            direction: up
-            events_when_complete: multiplier_5x_complete
+    multiplier_5x:
+        count_events: saucer_shot_hit
+        starting_count: 0
+        count_complete_value: 3
+        direction: up
+        events_when_complete: multiplier_5x_complete
 
 
 show_player:

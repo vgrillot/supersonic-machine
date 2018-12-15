@@ -1,4 +1,4 @@
-#config_version=4
+#config_version=5
 
 switches:
     #   drop target, e=bottom, a=top
@@ -148,25 +148,20 @@ switches:
     sw_right_slingshot:
         label: sw_right_slingshot
         number: 31
-        tags: playfield_active
     sw_left_slingshot:
         label: sw_left_slingshot
         number: 32
-        tags: playfield_active
 
     # BUMPERS
     sw_bottom_bumper:
         label: sw_bottom_bumper
         number: 33
-        tags: playfield_active
     sw_right_bumper:
         label: sw_right_bumper
         number: 39
-        tags: playfield_active
     sw_left_bumper:
         label: sw_left_bumper
         number: 40
-        tags: playfield_active
 
     ### LEFT LANE, 5 is bottom, 1 is top
     sw_left_lane_ro_button_5:

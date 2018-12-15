@@ -1,7 +1,7 @@
-#show_version=4
+#show_version=5
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: red
       ld_top_lane_5: off
       ld_top_lane_2: off
@@ -11,7 +11,7 @@
       ld_top_lane_3k_right: off
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: off
       ld_top_lane_5: red
       ld_top_lane_2: off
@@ -21,7 +21,7 @@
       ld_top_lane_3k_right: red
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: off
       ld_top_lane_5: off
       ld_top_lane_2: red
@@ -31,7 +31,7 @@
       ld_top_lane_3k_right: off
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: off
       ld_top_lane_5: off
       ld_top_lane_2: off
@@ -41,7 +41,7 @@
       ld_top_lane_3k_right: blue
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: off
       ld_top_lane_5: off
       ld_top_lane_2: off
@@ -51,7 +51,7 @@
       ld_top_lane_3k_right: white
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: off
       ld_top_lane_5: off
       ld_top_lane_2: off
@@ -61,7 +61,7 @@
       ld_top_lane_3k_right: off
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: off
       ld_top_lane_5: off
       ld_top_lane_2: red
@@ -71,7 +71,7 @@
       ld_top_lane_3k_right: blue
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_top_lane_3: off
       ld_top_lane_5: red
       ld_top_lane_2: off

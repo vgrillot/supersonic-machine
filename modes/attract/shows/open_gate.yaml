@@ -1,22 +1,22 @@
-#show_version=4
+#show_version=5
 
 - duration: 2
-  leds:
+  lights:
       ld_opens_gate_wl: orange
       ld_opens_gate_wl_tail: red
 
 - duration: 0.1
-  leds:
+  lights:
       ld_opens_gate_wl: yellow
       ld_opens_gate_wl_tail: yellow
 
 - duration: 0.1
-  leds:
+  lights:
       ld_opens_gate_wl: white
       ld_opens_gate_wl_tail: blue
 
 - duration: 0.1
-  leds:
+  lights:
       ld_opens_gate_wl: yellow
       ld_opens_gate_wl_tail: yellow
 

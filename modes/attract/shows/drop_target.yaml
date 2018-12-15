@@ -1,13 +1,13 @@
-#show_version=4
+#show_version=5
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_drop_target_x_ball: white
       ld_drop_target_special: white
       ld_side_target_3k: white
 
 - duration: 0.2 
-  leds:
+  lights:
       ld_drop_target_x_ball: off
       ld_drop_target_special: off
       ld_side_target_3k: off

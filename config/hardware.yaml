@@ -1,4 +1,4 @@
-#config_version=4
+#config_version=5
 
 flippers:
     left_flipper:
@@ -9,12 +9,16 @@ flippers:
         main_coil: co_right_flipper_main
         activation_switch: bt_right_flipper
 
+playfields:
+    playfield:
+        default_source_device: bd_trough
+        tags: default
 
 ball_devices:
     bd_trough:
         ball_switches: sw_outhole
         eject_coil: co_outhole_kicker
-        tags: trough, home, drain, ball_add_live
+        tags: trough, home, drain
         entrance_count_delay: 300ms #??
         #exit_delay_count: 300ms
         debug: yes
@@ -44,15 +48,48 @@ autofire_coils:
         switch: sw_bottom_bumper
 
 
-#diverters:
-#    ball_return_diverter:
-#        enable_events: mode_ball_return_started
-#        disable_events: mode_ball_return_stopped
-#        activation_coil: co_lower_right_gate
-#        activation_switches: sw_right_outlane
-#        activation_time: 3s
-#        type: hold
-
-
 virtual_platform_start_active_switches:
     -  sw_outhole  # put a ball ready to go at the beginning
+
+
+drop_targets:
+    e:
+        switch: sw_drop_target_e
+    d:
+        switch: sw_drop_target_d
+    c:
+        switch: sw_drop_target_c
+    b:
+        switch: sw_drop_target_b
+    a:
+        switch: sw_drop_target_a
+
+
+drop_target_banks:
+    left_drops:
+        drop_targets: a, b, c, d, e
+        reset_coils: co_drop_targer_reset
+        reset_events:
+            ball_starting: 0s
+            drop_target_bank_left_drops_down: 1s
+            reset_left_drops: 0s
+
+
+
+shot_profiles:
+    profile_fix_target_center:
+        states:
+          - name: unlit
+            show: off
+          - name: flashing
+            show: flash
+          - name: lit
+            show: on
+        loop: yes
+    profile_just_lit:
+        states:
+          - name: unlit
+            show: off
+          - name: lit
+            show: on
+        loop: no

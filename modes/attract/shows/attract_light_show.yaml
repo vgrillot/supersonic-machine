@@ -1,7 +1,7 @@
-#show_version=4
+#show_version=5
 
 - duration: 1
-  leds:
+  lights:
       ld_star_1: blue
       ld_star_2: off
       ld_star_3: off
@@ -9,7 +9,7 @@
       ld_star_5: off
 
 - duration: 1
-  leds:
+  lights:
       ld_star_1: off
       ld_star_2: blue
       ld_star_3: off
@@ -17,7 +17,7 @@
       ld_star_5: off
 
 - duration: 1
-  leds:
+  lights:
       ld_star_1: off
       ld_star_2: off
       ld_star_3: blue
@@ -25,7 +25,7 @@
       ld_star_5: off
 
 - duration: 1
-  leds:
+  lights:
       ld_star_1: off
       ld_star_2: off
       ld_star_3: off
@@ -33,7 +33,7 @@
       ld_star_5: blue
 
 - duration: 1
-  leds:
+  lights:
       ld_star_1: off
       ld_star_2: off
       ld_star_3: off

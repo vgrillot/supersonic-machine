@@ -1,37 +1,38 @@
-#config_version=4
+#config_version=5
 
 
 show_player:
     mode_attract_started:
         attract_display_loop:
             speed: 1
+            loops: -1
         left_ramp: 
             speed: 2
-            loop: -1
+            loops: -1
         top_row:
             speed: 2
-            loop: -1
+            loops: -1
         drop_target:
             speed: 2
-            loop: -1
+            loops: -1
         saucer:
             speed: 2
-            loop: -1
+            loops: -1
         bonus:
             speed: 2
-            loop: -1
+            loops: -1
         gate_open:
             speed: 10
-            loop: -1
+            loops: -1
         open_gate:
             speed: 10
-            loop: -1
+            loops: -1
         center_arrows:
             speed: 10
-            loop: -1
+            loops: -1
         special:
             speed: 2
-            loop: -1          
+            loops: -1          
 
     mode_attract_stopped:
         attract_display_loop:
