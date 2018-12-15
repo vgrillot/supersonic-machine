@@ -189,7 +189,7 @@ sound_player:
             action: play
 
 
-scoring:
+variable_player:
     shot_spinner_hit:
         score: 100
 
@@ -377,6 +377,7 @@ counters:
         count_complete_value: 3
         direction: up
         events_when_complete: multiplier_5x_complete
+
 
 
 show_player:
