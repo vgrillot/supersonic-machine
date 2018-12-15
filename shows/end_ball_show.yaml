@@ -1,4 +1,4 @@
-lights
+#show_version=5
 
 #
 # end_ball_show.yaml
@@ -11,85 +11,85 @@ lights
 
 
 - duration: 0.3
-  leds:
+  lights:
     led: blue
 
 - duration: 0.1
-  leds:
+  lights:
     y_1: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_2: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_3: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_4: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_5: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_6: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_7: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_8: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_9: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_10: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_11: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_12: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_13: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_14: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_15: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_16: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_17: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_18: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_19: off
 
 - duration: 0.1
-  leds:
+  lights:
     y_20: off

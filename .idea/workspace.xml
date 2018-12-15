@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/modes/base/config/base.yaml" line="274" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/modes/bonus/config/bonus.yaml" line="22" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72bd5f5c-ab30-4aa4-b280-bf393030cb84" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/logging.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-12-05-21-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-13-03-45-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-13-04-52-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-13-06-39-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-13-20-38-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-13-41-53-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-13-44-34-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-13-48-03-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-14-01-49-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-14-07-14-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-14-40-42-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-14-42-01-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-14-42-47-mpf-kivypie.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/analysis/2018-11-25-14-44-14-mpf-kivypie.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/supersonic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/supersonic.iml" afterDir="false" />
+    <list default="true" id="72bd5f5c-ab30-4aa4-b280-bf393030cb84" name="Default" comment="merge for V5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/display.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/display.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/rasppinball.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/rasppinball.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/shots.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sounds.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/audits.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/audits.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/machine_vars.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/machine_vars.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/analysis/2017-05-14-13-40-34-mpf-kivypie.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/analysis/2017-05-14-14-00-43-mpf-kivypie.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/analysis/2017-06-18-14-47-53-mpf-kivypie.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/analysis/2017-06-18-14-47-54-mc-kivypie.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/analysis/2017-07-22-10-34-51-mpf-kivypie.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/analysis/2017-07-22-10-34-52-mc-kivypie.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modes/base/config/base.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/modes/base/config/base.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modes/bonus/config/bonus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/modes/bonus/config/bonus.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modes/spinner_1k/config/spinner_1k.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/modes/spinner_1k/config/spinner_1k.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,38 +28,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.yaml">
+        <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/shows/left_ramp.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modes/base/config/base.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/card_rules.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="89" column="37" lean-forward="true" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/sounds.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/2018-12-15-19-26-36-mpf-TOMATE.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modes/base/config/base.yaml">
+        <entry file="file://$PROJECT_DIR$/modes/bonus/config/bonus.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="390" lean-forward="true" selection-start-line="390" selection-end-line="390" />
+            <state relative-caret-position="544">
+              <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modes/base/config/shots.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/display.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/logging.yaml">
+        <entry file="file://$PROJECT_DIR$/modes/spinner_1k/config/spinner_1k.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="578">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/2018-12-15-19-28-18-mpf-TOMATE.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="74" column="147" selection-start-line="74" selection-start-column="132" selection-end-line="74" selection-end-column="147" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/2018-12-15-19-29-44-mpf-TOMATE.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="71" column="147" selection-start-line="71" selection-start-column="132" selection-end-line="71" selection-end-column="147" />
             </state>
           </provider>
         </entry>
@@ -105,7 +130,19 @@
       <find>multi</find>
       <find>backglass_display_blank</find>
       <find>pixel_size</find>
+      <find>=4</find>
+      <find>#show_version=5</find>
+      <find>#show_version=4</find>
+      <find>leds</find>
+      <find>version=</find>
+      <find>version=4</find>
+      <find>variable</find>
+      <find>scoring</find>
+      <find>variable_player</find>
     </findStrings>
+    <replaceStrings>
+      <replace>lights</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,26 +153,42 @@
         <option value="$PROJECT_DIR$/modes/spinner_1k/CONFIG/spinner_1k.yaml" />
         <option value="$PROJECT_DIR$/logs/2017-04-26-22-19-58-mpf-PRESTOH0042.log" />
         <option value="$PROJECT_DIR$/logs/2017-04-26-22-36-40-mpf-PRESTOH0042.log" />
-        <option value="$PROJECT_DIR$/modes/toprow_lites_jet_stream/shows/left_ramp.yaml" />
         <option value="$PROJECT_DIR$/config/hardware.yaml" />
         <option value="$PROJECT_DIR$/config/shots.yaml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml" />
-        <option value="$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml" />
         <option value="$PROJECT_DIR$/modes/multiplier/shows/get_3x_multiplier .yaml" />
-        <option value="$PROJECT_DIR$/modes/multiplier/shows/get_2x_multiplier.yaml" />
-        <option value="$PROJECT_DIR$/modes/multiplier/shows/lit_5x_multiplier.yaml" />
-        <option value="$PROJECT_DIR$/modes/multiplier/shows/lit_3x_multiplier.yaml" />
-        <option value="$PROJECT_DIR$/modes/multiplier/shows/lit_2x_multiplier.yaml" />
-        <option value="$PROJECT_DIR$/modes/multiplier/shows/get_3x_multiplier.yaml" />
-        <option value="$PROJECT_DIR$/modes/multiplier/shows/get_5x_multiplier.yaml" />
-        <option value="$PROJECT_DIR$/modes/multiplier/config/multiplier.yaml" />
         <option value="$PROJECT_DIR$/logs/2017-05-03-22-53-37-mpf-TOMATE.log" />
         <option value="$PROJECT_DIR$/modes/base/code/base.py" />
         <option value="$PROJECT_DIR$/logs/2017-05-03-23-41-57-mpf-TOMATE.log" />
         <option value="$PROJECT_DIR$/config/display.yaml" />
-        <option value="$PROJECT_DIR$/config/config.yaml" />
         <option value="$PROJECT_DIR$/modes/base/config/base.yaml" />
+        <option value="$PROJECT_DIR$/config/config.yaml" />
+        <option value="$PROJECT_DIR$/modes/multiplier/shows/get_3x_multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/multiplier/shows/get_2x_multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/multiplier/shows/get_5x_multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/multiplier/shows/lit_3x_multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/multiplier/shows/lit_5x_multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/multiplier/shows/lit_2x_multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/base/shows/bumpers.yaml" />
+        <option value="$PROJECT_DIR$/modes/base/shows/bonus_ramp.yaml" />
+        <option value="$PROJECT_DIR$/shows/stars_circle_color.yaml" />
+        <option value="$PROJECT_DIR$/shows/stars_circle.yaml" />
+        <option value="$PROJECT_DIR$/modes/bonus/shows/bonus_multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/bonus/shows/bonus_total.yaml" />
+        <option value="$PROJECT_DIR$/modes/bonus/shows/bonus_display.yaml" />
+        <option value="$PROJECT_DIR$/modes/bonus/shows/bonus_subtotal.yaml" />
+        <option value="$PROJECT_DIR$/modes/open_gate/shows/open_gate_arrow.yaml" />
+        <option value="$PROJECT_DIR$/modes/spinner_1k/shows/spinner_light_1k.yaml" />
+        <option value="$PROJECT_DIR$/modes/ball_return/shows/return_gate_open.yaml" />
+        <option value="$PROJECT_DIR$/modes/multiplier/config/multiplier.yaml" />
+        <option value="$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml" />
+        <option value="$PROJECT_DIR$/modes/ball_return/config/ball_return.yaml" />
+        <option value="$PROJECT_DIR$/modes/open_gate/config/open_gate.yaml" />
+        <option value="$PROJECT_DIR$/modes/toprow_lites_jet_stream/shows/left_ramp.yaml" />
+        <option value="$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml" />
+        <option value="$PROJECT_DIR$/config/sounds.yaml" />
+        <option value="$PROJECT_DIR$/modes/spinner_1k/config/spinner_1k.yaml" />
+        <option value="$PROJECT_DIR$/modes/bonus/config/bonus.yaml" />
       </list>
     </option>
   </component>
@@ -257,12 +310,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493205478045</updated>
-      <workItem from="1544896824748" duration="728000" />
+      <workItem from="1544896824748" duration="1868000" />
     </task>
+    <task id="LOCAL-00001" summary="merge for V5">
+      <created>1544897590065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544897590065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="merge for V5">
+      <created>1544897679679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544897679679</updated>
+    </task>
+    <task id="LOCAL-00003" summary="merge for V5">
+      <created>1544897780612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544897780612</updated>
+    </task>
+    <task id="LOCAL-00004" summary="merge for V5">
+      <created>1544897832768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544897832768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="udpate lights for V5">
+      <created>1544898233661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544898233661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="udpate lights for V5">
+      <created>1544898261478</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544898261478</updated>
+    </task>
+    <task id="LOCAL-00007" summary="migrate to V5">
+      <created>1544898394097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544898394097</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="728000" />
+    <option name="totallyTimeSpent" value="1868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2414" height="1456" extended-state="0" />
@@ -323,48 +426,13 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge for V5" />
+    <MESSAGE value="udpate lights for V5" />
+    <MESSAGE value="migrate to V5" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrate to V5" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/2017-04-26-22-19-58-mpf-PRESTOH0042.log" />
-    <entry file="file://$PROJECT_DIR$/logs/2017-04-26-22-36-40-mpf-PRESTOH0042.log" />
-    <entry file="file://$PROJECT_DIR$/logs/2017-04-26-22-58-26-mpf-PRESTOH0042.log" />
-    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/shows/attract_light_show.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/attract/shows/attract_light_show.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/shows/left_ramp.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/spinner_1k/config/spinner_1k.yaml" />
-    <entry file="file://$PROJECT_DIR$/config/hardware.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4160">
-            <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/switchs.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="171" column="28" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shows/stars_circle_color.yaml" />
-    <entry file="file://$PROJECT_DIR$/shows/stars_circle.yaml" />
     <entry file="file://$PROJECT_DIR$/modes/attract/config/attract.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -373,17 +441,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/get_3x_multiplier .yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/lit_3x_multiplier.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/lit_5x_multiplier.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/get_2x_multiplier.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/get_3x_multiplier.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/get_5x_multiplier.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/lit_2x_multiplier.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml" />
     <entry file="file://$PROJECT_DIR$/logs/2017-05-03-22-53-37-mpf-TOMATE.log" />
     <entry file="file://$PROJECT_DIR$/logs/2017-05-03-22-57-58-mpf-TOMATE.log" />
-    <entry file="file://$PROJECT_DIR$/modes/multiplier/config/multiplier.yaml" />
-    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml" />
     <entry file="file://$PROJECT_DIR$/logs/2017-05-03-23-02-05-mpf-TOMATE.log" />
     <entry file="file://$PROJECT_DIR$/logs/2017-05-03-23-12-14-mpf-TOMATE.log" />
     <entry file="file://$PROJECT_DIR$/logs/2017-05-03-23-16-42-mpf-TOMATE.log" />
@@ -406,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/display.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -431,12 +483,240 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modes/base/config/shots.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/get_3x_multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/get_2x_multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/get_5x_multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/lit_3x_multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/lit_5x_multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/multiplier/shows/lit_2x_multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/base/shows/bumpers.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/base/shows/bonus_ramp.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shows/stars_circle_color.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shows/stars_circle.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/bonus/shows/bonus_multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/bonus/shows/bonus_total.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/bonus/shows/bonus_display.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/bonus/shows/bonus_subtotal.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/open_gate/shows/open_gate_arrow.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/spinner_1k/shows/spinner_light_1k.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/ball_return/shows/return_gate_open.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/attract/shows/attract_display_loop.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/multiplier/config/multiplier.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_center/config/toprow_lites_center.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/ball_return/config/ball_return.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/open_gate/config/open_gate.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/shows/left_ramp.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/toprow_lites_jet_stream/config/toprow_lites_jet_stream.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="89" column="37" lean-forward="true" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/sounds.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="72" column="24" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2018-12-15-19-26-36-mpf-TOMATE.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modes/base/config/base.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="390" lean-forward="true" selection-start-line="390" selection-end-line="390" />
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/card_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/spinner_1k/config/spinner_1k.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2018-12-15-19-28-18-mpf-TOMATE.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="74" column="147" selection-start-line="74" selection-start-column="132" selection-end-line="74" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2018-12-15-19-29-44-mpf-TOMATE.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="71" column="147" selection-start-line="71" selection-start-column="132" selection-end-line="71" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modes/bonus/config/bonus.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
         </state>
       </provider>
     </entry>

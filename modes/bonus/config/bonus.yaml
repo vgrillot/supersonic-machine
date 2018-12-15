@@ -20,17 +20,17 @@ mode_settings:
           player_score_entry: bonus_score # score ok
           reset_player_score_entry: True
 
-scoring:
+variable_player:
     bonus_start:
         bonus_subtotal:
-            score: 0
+            int: 0
             action: set
     bonus_subtotal:
         bonus_subtotal: bonus_score
     bonus_multiplier:
         bonus_subtotal:
            #score: bonus_score * multiplier #NOK
-           score: bonus_score * current_player.bonus_multiplier #NOK, always 0
+           int: bonus_score * current_player.bonus_multiplier #TODO:to be validated
            action: set
 
 

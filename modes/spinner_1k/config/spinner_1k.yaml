@@ -19,7 +19,7 @@ mode:
     priority: 200
 
 
-scoring:
+variable_player:
     shot_spinner_hit:
       score: 1000|block
 
