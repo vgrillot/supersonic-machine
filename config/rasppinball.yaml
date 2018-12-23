@@ -10,8 +10,8 @@ hardware:
 
 rasppinball:
     debug: false
-#    serial_port: COM6
-#    serial_baud: 115200
+    serial_port: COM6
+    serial_baud: 115200
 #    #rasp_strip_leds:      #   LED strip configuration:
 #    #    strip_0:
 #    count: 64         #   Number of LED pixels.
