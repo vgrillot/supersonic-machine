@@ -2,15 +2,16 @@
 
 hardware:
     platform: rasppinball_platform
-    #debug: true
-    #driverboards: rasp
+#    debug: True : not valid
 
 #bcp:
 #    servers:
 #        ip: None
 
-#rasppinball:
-#    debug: false
+rasppinball:
+    debug: false
+#    serial_port: COM6
+#    serial_baud: 115200
 #    #rasp_strip_leds:      #   LED strip configuration:
 #    #    strip_0:
 #    count: 64         #   Number of LED pixels.
