@@ -9,7 +9,7 @@ hardware:
 #        ip: None
 
 rasppinball:
-    debug: false
+    debug: true
     serial_port: COM6
     serial_baud: 115200
 #    #rasp_strip_leds:      #   LED strip configuration:
