@@ -69,46 +69,45 @@ event_player:
 
 
 
-logic_blocks:
-    counters:
-        star_1_state:
-            count_events: sw_top_ro_1_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+counters:
+    star_1_state:
+        count_events: sw_top_ro_1_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        star_2_state:
-            count_events: sw_top_ro_2_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    star_2_state:
+        count_events: sw_top_ro_2_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        star_3_state:
-            count_events: sw_top_ro_3_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    star_3_state:
+        count_events: sw_top_ro_3_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        star_4_state:
-            count_events: sw_top_ro_4_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    star_4_state:
+        count_events: sw_top_ro_4_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        star_5_state:
-            count_events: sw_top_ro_5_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    star_5_state:
+        count_events: sw_top_ro_5_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
 

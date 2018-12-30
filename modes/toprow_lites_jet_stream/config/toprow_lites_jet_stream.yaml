@@ -47,44 +47,43 @@ event_player:
     sw_left_lane_ro_button_5_active{current_player.left_lane_ro_5_state_count==1}: increase_bonus
 
 
-logic_blocks:
-    counters:
-        left_lane_ro_1_state:
-            count_events: sw_top_ro_1_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+counters:
+    left_lane_ro_1_state:
+        count_events: sw_top_ro_1_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        left_lane_ro_2_state:
-            count_events: sw_top_ro_2_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    left_lane_ro_2_state:
+        count_events: sw_top_ro_2_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        left_lane_ro_3_state:
-            count_events: sw_top_ro_3_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    left_lane_ro_3_state:
+        count_events: sw_top_ro_3_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        left_lane_ro_4_state:
-            count_events: sw_top_ro_4_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    left_lane_ro_4_state:
+        count_events: sw_top_ro_4_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
 
-        left_lane_ro_5_state:
-            count_events: sw_top_ro_5_active
-            starting_count: 0
-            count_complete_value: 1
-            direction: up
-            reset_on_complete: false
-            disable_on_complete: true
+    left_lane_ro_5_state:
+        count_events: sw_top_ro_5_active
+        starting_count: 0
+        count_complete_value: 1
+        direction: up
+        reset_on_complete: false
+        disable_on_complete: true
