@@ -10,6 +10,7 @@ config:
 #    - shots.yaml
     - display.yaml
     - sounds.yaml
+#    - logging.yaml
 
 #bcp:
 #    servers:

@@ -15,18 +15,18 @@ logging:
          config_players: none  # todo
          data_manager: none  # todo subclasses
          delay_manager: none
-         device_manager: full
+         device_manager: basic
          event_manager: none
          file_manager: none  # todo
          machine_controller: full
-         mode_controller: basic
+         mode_controller: none
          placeholder_manager: none
          platforms: full  # todo
          players: none  # todo
          plugins: none  # todo
          score_reel_controller: none
          scriptlets: none  # todo
-         service_controller: basic
+         service_controller: none
          settings_controller: none
          show_controller: none
          switch_controller: full
