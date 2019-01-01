@@ -17,7 +17,7 @@ mode:
 # Show list:
 #  - get_2x_multiplier
 #  - lit_2x_get3x_multiplier
-#  - lit_3x_get5x_multiplier
+#  - lit_3x_get5x_mul²tiplier
 #  - lit_5x_multiplier
 #
 
@@ -30,28 +30,28 @@ show_player:
   multiplier_2x_complete:
     get_2x_multiplier:
       action: stop
-    lit_2X_multiplier:
+    lit_2x_multiplier:
       speed: 1
     get_3x_multiplier:
       speed: 1
 
 
   multiplier_3x_complete:
-    lit_2X_multiplier:
+    lit_2x_multiplier:
       action: stop
     get_3x_multiplier:
       action: stop
-    lit_3X_multiplier:
+    lit_3x_multiplier:
       speed: 1
     get_5x_multiplier:
       speed: 1
 
   multiplier_5x_complete:
-    lit_3X_multiplier:
+    lit_3x_multiplier:
       action: stop
     get_5x_multiplier:
       action: stop
-    lit_5X_multiplier:
+    lit_5x_multiplier:
       speed: 1
 
 
@@ -62,9 +62,9 @@ show_player:
       action: stop
     get_5x_multiplier:
       action: stop
-    lit_2X_multiplier:
+    lit_2x_multiplier:
       action: stop
-    lit_3X_multiplier:
+    lit_3x_multiplier:
       action: stop
-    lit_5X_multiplier:
+    lit_5x_multiplier:
       action: stop
