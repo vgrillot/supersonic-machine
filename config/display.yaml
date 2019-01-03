@@ -73,105 +73,81 @@ slides:
 
 
   backglass_slide:
-    # the backglass
-    - type: image
-      image: backglass
-      anchor_y: center
-      anchor_x: center
-      x: center
-      y: center-30
-      z: 0
+    widgets:
+      # the backglass
+      - type: image
+        image: backglass
+        anchor_y: center
+        anchor_x: center
+        x: center
+        y: center-30
+        z: 0
 
-    - type: rectangle
-      anchor_y: center
-      anchor_x: center
-      x: 0
-      y: 0
-      width: 1280
-      height: 768
-      z: 5
-      color: yellow
+      - type: rectangle
+        anchor_y: top
+        anchor_x: right
+        y : top-25
+        x : right-25
+        width: 250
+        height: 25
+        z: 5
+        color: yellow
 
-    - type: display     # RTFM: source_display = dmd, a color_dmd render automatically to the "dmd" logical display
-      source_display: dmd
-      width: 1024
-      height: 256
-      anchor_y: bottom
-      anchor_x: center
-      y: 10
-      x: center
-      z: 10
-      effects:
-#        - type: color_dmd
-#          dot_color: ff5500
-#          background_color: 220000
-        - type: color_dmd
-          gain: 1.2
-          background_color: 000000
+      - type: display     # RTFM: source_display = dmd, a color_dmd render automatically to the "dmd" logical display
+        source_display: dmd
+        width: 1024
+        height: 256
+        anchor_y: bottom
+        anchor_x: center
+        y: 10
+        x: center
+        z: 10
+        effects:
+  #        - type: color_dmd
+  #          dot_color: ff5500
+  #          background_color: 220000
+          - type: color_dmd
+            gain: 1.2
+            background_color: 000000
 
+      # score lcd
+      - type: text
+        #text: (score) # OK for one player only, display current player's score
+        #text: (player1_score) # NOK  : (player1_score) doens't work
+        text: (player1|score)
+        number_grouping: true
+        min_digits: 2
+        y: 545
+        x: 420
+        anchor_y: bottom
+        anchor_x: right
+        style: lcd
+        z: 5
 
+      - type: text
+        #text: (player2_score) # NO
+        text: (player2|score) # OK, but empty instead of zero when only 1 player
+        number_grouping: true
+        min_digits: 2
+        anchor_x: right
+        anchor_y: bottom
+        y: 545
+        x: 1100
+        style: lcd
+        z: 5
 
-#
-#    # the fake dmd
-#    - type: display     # RTFM: source_display = dmd, a color_dmd render automatically to the "dmd" logical display
-##      source_display: dmd_display
-#      width: 1024
-#      height: 256
-##      effects:
-##        - type: dmd
-##          dot_filter: true
-##          blur: 0.1
-##          dots_x: 128
-##          dots_y: 32
-##          dot_color: ff00aa
-##          gain: 1.2
-##          background_color: 020202ff
-#      anchor_y: bottom
-#      anchor_x: center
-#      y: 10
-#      x: center
-#      z: 10
-#
-##    - type: rectangle
-##      width: 1026
-##      height: 258
-##      anchor_y: bottom
-##      anchor_x: center
-##      y: 9
-##      x: center
-##      z: 9
-#
-#  dmd_slide:
-#    - type: text
-#      text: DMD SLIDE
-#
-
+      - type: text
+        anchor_y: top
+        anchor_x: right
+        y : top-25
+        x : right-25
+        z: 10
+        text: recv=(machine|rasppinball_recv)
+        color: black
+        style: text_default
 
 
-#    # score lcd
-#    - type: text
-#      #text: (score) # OK for one player only, display current player's score
-#      #text: (player1_score) # NOK  : (player1_score) doens't work
-#      text: (player1|score)
-#      number_grouping: true
-#      min_digits: 2
-#      y: 545
-#      x: 420
-#      anchor_y: bottom
-#      anchor_x: right
-#      style: lcd
-#      z: 5
-#    - type: text
-#      #text: (player2_score) # NO
-#      text: (player2|score) # OK, but empty instead of zero when only 1 player
-#      number_grouping: true
-#      min_digits: 2
-#      anchor_x: right
-#      anchor_y: bottom
-#      y: 545
-#      x: 1100
-#      style: lcd
-#      z: 5
+
 
 
 
