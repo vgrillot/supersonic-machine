@@ -1,0 +1,210 @@
+2019-01-04 14:00:18,262 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.0-dev.0
+2019-01-04 14:00:18,267 : INFO : Machine : Command line arguments: {'force_assets_load': False, 'syslog_address': None, 'no_load_cache': False, 'create_config_cache': True, 'text_ui': False, 'mpfconfigfile': '/home/pinball/mpf/mpf-dev/mpf/mpfconfig.yaml', 'mc_file_name': None, 'logfile': 'logs/2019-01-04-14-00-18-mpf-kivypie.log', 'jsonlogging': False, 'bcp': True, 'production': False, 'no_sound': False, 'loglevel': 15, 'configfile': ['config.yaml'], 'pause': False, 'force_platform': None, 'consoleloglevel': 20}
+2019-01-04 14:00:18,268 : INFO : Machine : MPF path: /home/pinball/mpf/mpf-dev/mpf
+2019-01-04 14:00:18,269 : INFO : Machine : Machine path: /home/pinball/machines/supersonic-machine
+2019-01-04 14:00:18,270 : INFO : Machine : Platform: linux
+2019-01-04 14:00:18,270 : INFO : Machine : Python executable location: /usr/bin/python3
+2019-01-04 14:00:18,271 : INFO : Machine : Python version: 3.4.2 (32-bit)
+2019-01-04 14:00:18,273 : INFO : Machine : Machine config file #1: config.yaml
+2019-01-04 14:00:18,282 : INFO : ConfigProcessor : Loading config from cache: /tmp/80c6751e6e3a27295ff650d0040eba16.mpf_cache
+2019-01-04 14:00:18,310 : INFO : Machine : Initialise MPF.
+2019-01-04 14:00:18,558 : INFO : RASPPINBALL : Configuring raspPinball hardware.
+2019-01-04 14:00:18,969 : INFO : RASPPINBALL : Initialize raspPinball hardware.
+2019-01-04 14:00:18,972 : INFO : RASPPINBALL : Connecting to /dev/ttyAMA0 at 115200bps
+2019-01-04 14:00:19,460 : INFO : ConfigProcessor : Loading config from cache: /tmp/e552f9aa61bc054ec529a975f2dd077f.mpf_cache
+2019-01-04 14:00:19,494 : INFO : ConfigProcessor : Loading config from cache: /tmp/2ce1a85a6d8192ba4f22ae0535cb5277.mpf_cache
+2019-01-04 14:00:19,523 : INFO : ConfigProcessor : Loading config from cache: /tmp/91ce8b0428ebe993aa3dfc3a2f46e3fd.mpf_cache
+2019-01-04 14:00:19,540 : INFO : ConfigProcessor : Loading config from cache: /tmp/d594f6c467bf2a706baa4ea631083837.mpf_cache
+2019-01-04 14:00:19,568 : INFO : ConfigProcessor : Loading config from cache: /tmp/83927266b7284de11c0a3f97a689fa7c.mpf_cache
+2019-01-04 14:00:19,586 : INFO : ConfigProcessor : Loading config from cache: /tmp/0bc24d18d260d1ea0f0b37d32f9a2321.mpf_cache
+2019-01-04 14:00:19,608 : INFO : ConfigProcessor : Loading config from cache: /tmp/c38727cc4f28cb44913e4983e5589db8.mpf_cache
+2019-01-04 14:00:19,627 : INFO : ConfigProcessor : Loading config from cache: /tmp/f2d3ab9016a43f4a635c63e152e8f926.mpf_cache
+2019-01-04 14:00:19,655 : INFO : ConfigProcessor : Loading config from cache: /tmp/869554baf248f546528495954f7a5f99.mpf_cache
+2019-01-04 14:00:19,674 : INFO : ConfigProcessor : Loading config from cache: /tmp/868fa2f229ce877b53e2106e55b898fd.mpf_cache
+2019-01-04 14:00:20,416 : INFO : RASPDriver : Driver Settings for 36
+2019-01-04 14:00:20,417 : INFO : RASPDriver : Driver Settings for 30
+2019-01-04 14:00:20,418 : INFO : RASPDriver : Driver Settings for 46
+2019-01-04 14:00:20,418 : INFO : RASPDriver : Driver Settings for 38
+2019-01-04 14:00:20,419 : INFO : RASPDriver : Driver Settings for 42
+2019-01-04 14:00:20,420 : INFO : RASPDriver : Driver Settings for 32
+2019-01-04 14:00:20,421 : INFO : RASPDriver : Driver Settings for 34
+2019-01-04 14:00:20,421 : INFO : RASPDriver : Driver Settings for 26
+2019-01-04 14:00:20,428 : INFO : RASPDriver : Driver Settings for 40
+2019-01-04 14:00:20,429 : INFO : RASPDriver : Driver Settings for 28
+2019-01-04 14:00:20,430 : INFO : RASPDriver : Driver Settings for 44
+2019-01-04 14:00:20,431 : INFO : RASPSwitch : Switch settings for 40
+2019-01-04 14:00:20,438 : INFO : RASPSwitch : Switch settings for 32
+2019-01-04 14:00:20,439 : INFO : RASPSwitch : Switch settings for 30
+2019-01-04 14:00:20,441 : INFO : RASPSwitch : Switch settings for 31
+2019-01-04 14:00:20,442 : INFO : RASPSwitch : Switch settings for 4
+2019-01-04 14:00:20,448 : INFO : RASPSwitch : Switch settings for 103
+2019-01-04 14:00:20,449 : INFO : RASPSwitch : Switch settings for 29
+2019-01-04 14:00:20,450 : INFO : RASPSwitch : Switch settings for 8
+2019-01-04 14:00:20,452 : INFO : RASPSwitch : Switch settings for 9
+2019-01-04 14:00:20,453 : INFO : RASPSwitch : Switch settings for 3
+2019-01-04 14:00:20,461 : INFO : RASPSwitch : Switch settings for 192
+2019-01-04 14:00:20,462 : INFO : RASPSwitch : Switch settings for 17
+2019-01-04 14:00:20,463 : INFO : RASPSwitch : Switch settings for 11
+2019-01-04 14:00:20,464 : INFO : RASPSwitch : Switch settings for 2
+2019-01-04 14:00:20,465 : INFO : RASPSwitch : Switch settings for 38
+2019-01-04 14:00:20,467 : INFO : RASPSwitch : Switch settings for 182
+2019-01-04 14:00:20,469 : INFO : RASPSwitch : Switch settings for 12
+2019-01-04 14:00:20,470 : INFO : RASPSwitch : Switch settings for 37
+2019-01-04 14:00:20,473 : INFO : RASPSwitch : Switch settings for 21
+2019-01-04 14:00:20,475 : INFO : RASPSwitch : Switch settings for 13
+2019-01-04 14:00:20,476 : INFO : RASPSwitch : Switch settings for 16
+2019-01-04 14:00:20,478 : INFO : RASPSwitch : Switch settings for 5
+2019-01-04 14:00:20,481 : INFO : RASPSwitch : Switch settings for 22
+2019-01-04 14:00:20,482 : INFO : RASPSwitch : Switch settings for 19
+2019-01-04 14:00:20,483 : INFO : RASPSwitch : Switch settings for 20
+2019-01-04 14:00:20,484 : INFO : RASPSwitch : Switch settings for 18
+2019-01-04 14:00:20,490 : INFO : RASPSwitch : Switch settings for 35
+2019-01-04 14:00:20,492 : INFO : RASPSwitch : Switch settings for 26
+2019-01-04 14:00:20,494 : INFO : RASPSwitch : Switch settings for 23
+2019-01-04 14:00:20,498 : INFO : RASPSwitch : Switch settings for 102
+2019-01-04 14:00:20,500 : INFO : RASPSwitch : Switch settings for 15
+2019-01-04 14:00:20,501 : INFO : RASPSwitch : Switch settings for 7
+2019-01-04 14:00:20,502 : INFO : RASPSwitch : Switch settings for 10
+2019-01-04 14:00:20,504 : INFO : RASPSwitch : Switch settings for 24
+2019-01-04 14:00:20,509 : INFO : RASPSwitch : Switch settings for 222
+2019-01-04 14:00:20,510 : INFO : RASPSwitch : Switch settings for 39
+2019-01-04 14:00:20,511 : INFO : RASPSwitch : Switch settings for 101
+2019-01-04 14:00:20,512 : INFO : RASPSwitch : Switch settings for 34
+2019-01-04 14:00:20,515 : INFO : RASPSwitch : Switch settings for 36
+2019-01-04 14:00:20,516 : INFO : RASPSwitch : Switch settings for 27
+2019-01-04 14:00:20,517 : INFO : RASPSwitch : Switch settings for 33
+2019-01-04 14:00:20,518 : INFO : RASPSwitch : Switch settings for 28
+2019-01-04 14:00:20,527 : INFO : RASPSwitch : Switch settings for 202
+2019-01-04 14:00:20,528 : INFO : RASPSwitch : Switch settings for 1
+2019-01-04 14:00:20,530 : INFO : RASPSwitch : Switch settings for 14
+2019-01-04 14:00:27,733 : INFO : ConfigProcessor : Loading config from cache: /tmp/7c1923b2b8cadc4831b9090fed4048fe.mpf_cache
+2019-01-04 14:00:27,858 : INFO : ConfigProcessor : Loading config from cache: /tmp/3ebe2bb089eb7c98352ab617dedc706d.mpf_cache
+2019-01-04 14:00:27,889 : INFO : ConfigProcessor : Loading config from cache: /tmp/5b0bf99159a690110752f78aebc0728a.mpf_cache
+2019-01-04 14:00:27,923 : INFO : ConfigProcessor : Loading config from cache: /tmp/058ac757039c2358116c5b49dccc07c1.mpf_cache
+2019-01-04 14:00:27,955 : INFO : ConfigProcessor : Loading config from cache: /tmp/af852f4daed9f7b0cc058f1d4e3fde81.mpf_cache
+2019-01-04 14:00:27,977 : INFO : ConfigProcessor : Loading config from cache: /tmp/fa7fc6c41f4b93c777370d3630af1e8e.mpf_cache
+2019-01-04 14:00:27,988 : INFO : ConfigProcessor : Loading config from cache: /tmp/4d7128ba52594e3fdc665f57d53b01d2.mpf_cache
+2019-01-04 14:00:28,092 : INFO : ConfigProcessor : Loading config from cache: /tmp/25bf9f628a15dd7b6c20769221bd8fc7.mpf_cache
+2019-01-04 14:00:28,106 : INFO : ConfigProcessor : Loading config from cache: /tmp/3fd14528a92923d7b5d76d04de9f0d09.mpf_cache
+2019-01-04 14:00:28,114 : INFO : ConfigProcessor : Loading config from cache: /tmp/e1208f6da59cab768d803325eb270d5d.mpf_cache
+2019-01-04 14:00:28,148 : INFO : ConfigProcessor : Loading config from cache: /tmp/97ee012e0942d51d699f3b5ead32f9ad.mpf_cache
+2019-01-04 14:00:28,206 : INFO : ConfigProcessor : Loading config from cache: /tmp/313b36ea05d54ba12c3b60b315bec15e.mpf_cache
+2019-01-04 14:00:28,230 : INFO : ConfigProcessor : Loading config from cache: /tmp/222edcf163e67cb1b66e5eb6406d0b0a.mpf_cache
+2019-01-04 14:00:28,264 : INFO : ConfigProcessor : Loading config from cache: /tmp/8067fd29c1a9637af28703500a6e7abc.mpf_cache
+2019-01-04 14:00:28,295 : INFO : ConfigProcessor : Loading config from cache: /tmp/1cfe5ba67b9cee8efb9247b2fcc77b2a.mpf_cache
+2019-01-04 14:00:28,319 : INFO : ConfigProcessor : Loading config from cache: /tmp/435527a0bd03f626387f28ffcdcba2b1.mpf_cache
+2019-01-04 14:00:28,333 : INFO : ConfigProcessor : Loading config from cache: /tmp/9b6ea33d7f5e852bd914bc06581ea2b6.mpf_cache
+2019-01-04 14:00:28,405 : INFO : ConfigProcessor : Loading config from cache: /tmp/bc23a0a96cd0079fc4fa7a5276fc4137.mpf_cache
+2019-01-04 14:00:28,455 : INFO : ConfigProcessor : Loading config from cache: /tmp/24772c992ae357152b7379c2a286431a.mpf_cache
+2019-01-04 14:00:28,480 : INFO : ConfigProcessor : Loading config from cache: /tmp/dfee38202964aec2f615d884e0ecdbe1.mpf_cache
+2019-01-04 14:00:28,491 : INFO : ConfigProcessor : Loading config from cache: /tmp/67d4d86763006794c3b5595abdc1bd71.mpf_cache
+2019-01-04 14:00:28,517 : INFO : ConfigProcessor : Loading config from cache: /tmp/55c4d816180e896a560566b9fe7c9e8a.mpf_cache
+2019-01-04 14:00:28,535 : INFO : ConfigProcessor : Loading config from cache: /tmp/d69e031b26afbc600013dd0a8396a1c0.mpf_cache
+2019-01-04 14:00:28,564 : INFO : ConfigProcessor : Loading config from cache: /tmp/c6827d586bda9cbc2a6f6129c71b4750.mpf_cache
+2019-01-04 14:00:28,622 : INFO : ConfigProcessor : Loading config from cache: /tmp/5148ba94841db2c55353481a70bc58dc.mpf_cache
+2019-01-04 14:00:28,666 : INFO : ConfigProcessor : Loading config from cache: /tmp/6f50efa838278da32c5294fe594f8f8a.mpf_cache
+2019-01-04 14:00:28,713 : INFO : ConfigProcessor : Loading config from cache: /tmp/9f84a995e9538117414adae93e7b0d4a.mpf_cache
+2019-01-04 14:00:28,749 : INFO : ConfigProcessor : Loading config from cache: /tmp/2c38766dadc2ad730a2d01093c941012.mpf_cache
+2019-01-04 14:00:28,804 : INFO : ConfigProcessor : Loading config from cache: /tmp/45863915a0ae30375345521ca5972cdf.mpf_cache
+2019-01-04 14:00:28,826 : INFO : ConfigProcessor : Loading config from cache: /tmp/cb2fb7e0f59dab01ce39c04e54435430.mpf_cache
+2019-01-04 14:00:29,055 : INFO : RASPPINBALL : SEND:!1:MI
+2019-01-04 14:00:29,072 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_e
+2019-01-04 14:00:29,082 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_3_right
+2019-01-04 14:00:29,098 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_spinner
+2019-01-04 14:00:29,107 : ERROR : RASPPINBALL : SWU:switch not found (25)
+2019-01-04 14:00:29,114 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_bottom_bumper
+2019-01-04 14:00:29,124 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_d
+2019-01-04 14:00:29,133 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_1_left
+2019-01-04 14:00:29,145 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_5
+2019-01-04 14:00:29,153 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_5
+2019-01-04 14:00:29,162 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_5
+2019-01-04 14:00:29,170 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_c
+2019-01-04 14:00:29,180 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_coin_2_middle
+2019-01-04 14:00:29,189 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_4
+2019-01-04 14:00:29,198 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_4
+2019-01-04 14:00:29,208 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_4
+2019-01-04 14:00:29,217 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_b
+2019-01-04 14:00:29,225 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_button
+2019-01-04 14:00:29,233 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_3
+2019-01-04 14:00:29,241 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_3
+2019-01-04 14:00:29,251 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_3
+2019-01-04 14:00:29,261 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_a
+2019-01-04 14:00:29,269 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_drop_target_rebound
+2019-01-04 14:00:29,282 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_2
+2019-01-04 14:00:29,291 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_2
+2019-01-04 14:00:29,299 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_2
+2019-01-04 14:00:29,310 : ERROR : RASPPINBALL : SWU:switch not found (6)
+2019-01-04 14:00:29,317 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_outlane
+2019-01-04 14:00:29,326 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_top_ro_1
+2019-01-04 14:00:29,336 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_star_1
+2019-01-04 14:00:29,346 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_lane_ro_button_1
+2019-01-04 14:00:29,354 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_tilt
+2019-01-04 14:00:29,363 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_outlane
+2019-01-04 14:00:29,372 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_feed_lane
+2019-01-04 14:00:29,380 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_slingshot
+2019-01-04 14:00:29,390 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_right_bumper
+2019-01-04 14:00:29,400 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_outhole
+2019-01-04 14:00:29,414 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_slam_2
+2019-01-04 14:00:29,422 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_saucer
+2019-01-04 14:00:29,431 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_slingshot
+2019-01-04 14:00:29,438 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_left_bumper
+2019-01-04 14:00:29,446 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_left_flipper
+2019-01-04 14:00:29,454 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: bt_right_flipper
+2019-01-04 14:00:29,463 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: sw_credit_button
+2019-01-04 14:00:29,472 : ERROR : RASPPINBALL : SWU:switch not found (104)
+2019-01-04 14:00:29,479 : INFO : RASPPINBALL : ACK frame done 1 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606829.0549133, 'msg': 'MI', 'ack': True}'
+2019-01-04 14:00:29,937 : INFO : Mode.attract : Started. Priority: 10
+2019-01-04 14:00:29,993 : INFO : Machine : Starting the main run loop.
+2019-01-04 14:00:44,312 : INFO : SwitchController : <<<<<<< 'sw_credit_button' active >>>>>>>
+2019-01-04 14:00:44,478 : INFO : SwitchController : <<<<<<< 'sw_credit_button' inactive >>>>>>>
+2019-01-04 14:00:44,487 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-01-04 14:00:52,213 : INFO : SwitchController : <<<<<<< 'sw_outhole' active >>>>>>>
+2019-01-04 14:00:56,362 : INFO : SwitchController : <<<<<<< 'sw_credit_button' active >>>>>>>
+2019-01-04 14:00:56,612 : INFO : SwitchController : <<<<<<< 'sw_credit_button' inactive >>>>>>>
+2019-01-04 14:00:56,639 : INFO : Mode.attract : Stopped.
+2019-01-04 14:00:56,654 : INFO : Mode.game : Started. Priority: 20
+2019-01-04 14:00:56,682 : INFO : Mode.game : Player added successfully. Total players: 1
+2019-01-04 14:00:57,345 : INFO : drop_target_bank.left_drops : All targets are already up. Will not reset bank.
+2019-01-04 14:00:57,365 : INFO : Mode.base : Started. Priority: 100
+2019-01-04 14:00:57,495 : INFO : RASPPINBALL : set_pulse_on_hit_rule(coil=30 sw=39)
+2019-01-04 14:00:57,499 : INFO : RASPPINBALL : set_pulse_on_hit_rule(coil=46 sw=40)
+2019-01-04 14:00:57,506 : INFO : RASPPINBALL : set_pulse_on_hit_rule(coil=28 sw=31)
+2019-01-04 14:00:57,510 : INFO : RASPPINBALL : set_pulse_on_hit_rule(coil=44 sw=32)
+2019-01-04 14:00:57,516 : INFO : RASPPINBALL : set_pulse_on_hit_rule(coil=32 sw=33)
+2019-01-04 14:00:57,519 : INFO : RASPPINBALL : set_pulse_on_hit_and_enable_and_release_rule(coil=40 sw=101)
+2019-01-04 14:00:57,523 : INFO : RASPPINBALL : set_pulse_on_hit_and_enable_and_release_rule(coil=38 sw=102)
+2019-01-04 14:00:57,533 : INFO : Mode.open_gate : Started. Priority: 200
+2019-01-04 14:00:57,542 : INFO : Mode.multiplier : Started. Priority: 200
+2019-01-04 14:00:57,563 : INFO : RASPPINBALL : SEND:!2:RA:1:30:39:0:50
+2019-01-04 14:00:57,572 : INFO : Mode.toprow_lites_center : Started. Priority: 200
+2019-01-04 14:00:57,576 : INFO : RASPPINBALL : SEND:!3:RA:1:46:40:0:50
+2019-01-04 14:00:57,583 : INFO : RASPPINBALL : SEND:!4:RA:1:28:31:0:50
+2019-01-04 14:00:57,594 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=0,t=1,coil=30,sw=39)
+2019-01-04 14:00:57,602 : INFO : RASPPINBALL : ACK frame done 2 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.5626762, 'msg': 'RA:1:30:39:0:50', 'ack': True}'
+2019-01-04 14:00:57,612 : INFO : RASPPINBALL : SEND:!5:RA:1:44:32:0:50
+2019-01-04 14:00:57,623 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=1,t=1,coil=46,sw=40)
+2019-01-04 14:00:57,631 : INFO : RASPPINBALL : ACK frame done 3 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.5763888, 'msg': 'RA:1:46:40:0:50', 'ack': True}'
+2019-01-04 14:00:57,650 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=0,t=1,coil=28,sw=31)
+2019-01-04 14:00:57,661 : INFO : RASPPINBALL : ACK frame done 4 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.5830486, 'msg': 'RA:1:28:31:0:50', 'ack': True}'
+2019-01-04 14:00:57,678 : INFO : RASPPINBALL : SEND:!6:RA:1:32:33:0:50
+2019-01-04 14:00:57,684 : INFO : RASPPINBALL : SEND:!7:RA:3:40:101:0:50
+2019-01-04 14:00:57,695 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=1,t=1,coil=44,sw=32)
+2019-01-04 14:00:57,703 : INFO : RASPPINBALL : ACK frame done 5 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.6122391, 'msg': 'RA:1:44:32:0:50', 'ack': True}'
+2019-01-04 14:00:57,718 : INFO : RASPPINBALL : SEND:!8:RA:3:38:102:0:50
+2019-01-04 14:00:57,728 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=0,t=1,coil=32,sw=33)
+2019-01-04 14:00:57,736 : INFO : RASPPINBALL : ACK frame done 6 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.6783004, 'msg': 'RA:1:32:33:0:50', 'ack': True}'
+2019-01-04 14:00:57,755 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=1,t=3,coil=40,sw=101)
+2019-01-04 14:00:57,764 : INFO : RASPPINBALL : ACK frame done 7 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.684558, 'msg': 'RA:3:40:101:0:50', 'ack': True}'
+2019-01-04 14:00:57,792 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=0,t=3,coil=38,sw=102)
+2019-01-04 14:00:57,800 : INFO : RASPPINBALL : ACK frame done 8 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.718495, 'msg': 'RA:3:38:102:0:50', 'ack': True}'
+2019-01-04 14:00:57,817 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2019-01-04 14:00:57,831 : INFO : coil.co_outhole_kicker : Pulsing Driver for 30ms (1.0 pulse_power)
+2019-01-04 14:00:57,833 : INFO : RASPDriver : RASPDriver.Pulse(42, 30 ms)
+2019-01-04 14:00:57,838 : INFO : RASPPINBALL : SEND:!9:DP:42:30
+2019-01-04 14:00:57,861 : INFO : RASPPINBALL : RECV:INF:HwRules::addHwRule(id=1,t=6,coil=42,sw=0)
+2019-01-04 14:00:57,872 : INFO : RASPPINBALL : ACK frame done 9 : '{'retry': 1, 'wait_for_ack': False, 'time': 1546606857.8384144, 'msg': 'DP:42:30', 'ack': True}'
+2019-01-04 14:00:57,901 : INFO : SwitchController : <<<<<<< 'sw_outhole' inactive >>>>>>>
+2019-01-04 14:01:00,384 : INFO : SwitchController : <<<<<<< 'bt_right_flipper' active >>>>>>>
+2019-01-04 14:01:01,051 : INFO : SwitchController : <<<<<<< 'bt_right_flipper' inactive >>>>>>>
+2019-01-04 14:01:01,879 : INFO : SwitchController : <<<<<<< 'bt_left_flipper' active >>>>>>>
+2019-01-04 14:01:02,791 : INFO : SwitchController : <<<<<<< 'bt_left_flipper' inactive >>>>>>>
