@@ -4,8 +4,12 @@ hardware:
     platform: opp
 #    debug: True : not valid
 
+opp:
+    ports: /dev/ttyACM0, /dev/ttyACM1
+
 #bcp:
 #    servers:
 #        ip: None
+
 
 
