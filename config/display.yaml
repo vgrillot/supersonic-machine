@@ -108,7 +108,7 @@ slides:
   #          background_color: 220000
           - type: color_dmd
             gain: 1.2
-            background_color: 000000
+            background_color: "000000"
 
       # score lcd
       - type: text
