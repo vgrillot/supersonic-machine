@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 shots:
     shot_fix_target_center:

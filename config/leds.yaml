@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 
 # consider there is 2 test leds in the led ruban in first positions
 # every led count must be inc by 2.
