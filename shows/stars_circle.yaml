@@ -8,7 +8,7 @@
       ld_star_4: off
       ld_star_5: off
 
-- time: +1
+- time: "+1"
   lights:
       ld_star_1: off
       ld_star_2: green
@@ -16,7 +16,7 @@
       ld_star_4: off
       ld_star_5: off
 
-- time: +1
+- time: "+1"
   lights:
       ld_star_1: off
       ld_star_2: off
@@ -24,7 +24,7 @@
       ld_star_4: off
       ld_star_5: off
 
-- time: +1
+- time: "+1"
   lights:
       ld_star_1: off
       ld_star_2: off
@@ -32,7 +32,7 @@
       ld_star_4: off
       ld_star_5: green
 
-- time: +1
+- time: "+1"
   lights:
       ld_star_1: off
       ld_star_2: off
