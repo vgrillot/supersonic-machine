@@ -227,7 +227,7 @@ variable_player:
     sw_feed_lane_active:
         score: 300
 
-    sw_fix_target_center:
+    sw_fix_target_center_active:
         score: 300
 
     sw_right_outlane_active:
