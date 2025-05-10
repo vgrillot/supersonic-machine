@@ -21,7 +21,7 @@
             - property: opacity
               value: 1
               duration: .5s
-              repeat: -1
+              repeat: False
         anchor_y: top
         y: top -2
       - type: Text
