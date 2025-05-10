@@ -30,7 +30,7 @@ sound_system:
     buffer: 2048
     channels: 1
     frequency: 44100
-    master_volume: 1.00
+#    master_volume: 1.00 *** deprecated : Use the 'master_volume' machine_var instead
     tracks:
         music:
             volume: 0.5
