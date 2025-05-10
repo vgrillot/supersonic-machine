@@ -8,7 +8,7 @@ config:
     - keyboard.yaml
     - opp.yaml
 #    - shots.yaml
-    - display.yaml
+#    - display.yaml
     - sounds.yaml
 #    - logging.yaml
 
@@ -38,11 +38,11 @@ player_vars:
 modes:
   - attract
   - base
-  - bonus
-  - spinner_1k
-  - open_gate
-  - ball_return
-  - toprow_lites_center
-  - toprow_lites_jet_stream
-  - multiplier
+#  - bonus
+#  - spinner_1k
+#  - open_gate
+#  - ball_return
+#  - toprow_lites_center
+#  - toprow_lites_jet_stream
+#  - multiplier
 
