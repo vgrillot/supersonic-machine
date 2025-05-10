@@ -1,3 +1,4 @@
 player1_score:
-  expire: !!null 'null'
+  expire: null
+  expire_secs: null
   value: 360
